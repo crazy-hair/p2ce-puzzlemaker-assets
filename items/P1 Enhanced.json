@@ -1656,6 +1656,55 @@
 	},
 	{
 		"type": "entity",
+		"name": "P1 Doorstate Sign",
+		"model": "crazy/doorstate.obj",
+		"mat": "crazy/laser_catcher_mod.png",
+		"instance": "puzzlemakermaps/puzzlemakerinstances/doorstate",
+		"bound1": [
+			-0.300,
+			-0.30,
+			0.000
+		],
+		"bound2": [
+			0.300,
+			0.30,
+			0.050
+		],
+		"editorTransform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				90.000,
+				0
+			]
+		},
+		"transform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			]
+		},
+		"inputs": [
+			{
+				"name": "Toggle",
+				"trueInput": "instance:relay_doorstate;FireUser1",
+				"falseInput": "instance:relay_doorstate;FireUser2"
+			}
+		],
+		"snapMode": "mini-corner"
+	},
+	{
+		"type": "entity",
 		"name": "64x Observation Room",
 		"model": "crazy/obroom_64x_full.obj",
 		"mat": "crazy/obroom_64x_full.png",

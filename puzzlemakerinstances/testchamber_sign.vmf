@@ -1,0 +1,444 @@
+versioninfo
+{
+	"editorextension" "strata"
+	"editorversion" "400"
+	"editorbuild" "10903"
+	"mapversion" "21"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "1"
+	"nGridSpacing" "8"
+	"bShow3DGrid" "0"
+	"nInstanceVisibility" "2"
+	views
+	{
+		v0
+		{
+			"3d" "1"
+			"position" "(71.7629 45.0117 -80.1255)"
+			"angle" "[5.60001 -174.399 0]"
+		}
+		v1
+		{
+			"3d" "0"
+			"position" "(62836.2 -340.42 73088)"
+			"zoom" "0.013522"
+		}
+		v2
+		{
+			"3d" "0"
+			"position" "(65536 1.19962 -89.0067)"
+			"zoom" "5.54653"
+		}
+		v3
+		{
+			"3d" "0"
+			"position" "(865.935 -65536 -0.961323)"
+			"zoom" "0.895795"
+		}
+	}
+}
+world
+{
+	"id" "1"
+	"mapversion" "21"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxprojectedtextures" "8"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+	group
+	{
+		"id" "30"
+		editor
+		{
+			"color" "235 204 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "339"
+	"classname" "logic_auto"
+	"angles" "0 0 0"
+	"spawnflags" "1"
+	"targetname" "logic_auto_autostart"
+	connections
+	{
+		"OnMapSpawn" "autostartTest0-1"
+		"OnMapSpawn" "disable_auto_wakeTest0-1"
+	}
+	"origin" "16.125 -16 -80"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "343"
+	"classname" "logic_branch"
+	"angles" "0 0 0"
+	"initialvalue" "$autoStart"
+	"spawnflags" "0"
+	"targetname" "autostart"
+	connections
+	{
+		"OnTrue" "trigger_sign_onDisable0-1"
+		"OnTrue" "logic_relay_turnoffDisable0-1"
+	}
+	"origin" "16.125 16 -80"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "376"
+	"classname" "logic_auto"
+	"angles" "0 0 0"
+	"spawnflags" "1"
+	"targetname" "logic_auto_turnoff"
+	connections
+	{
+		"OnMapSpawn" "logic_relay_turnoffTrigger0.01-1"
+	}
+	"origin" "16.125 -16 -48"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "494"
+	"classname" "logic_branch"
+	"angles" "0 0 0"
+	"initialvalue" "$disableAutoWake"
+	"spawnflags" "0"
+	"targetname" "disable_auto_wake"
+	connections
+	{
+		"OnTrue" "trigger_sign_onDisable0-1"
+	}
+	"origin" "16.125 32 -80"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "2"
+	"classname" "prop_testchamber_sign"
+	"angles" "0 0 0"
+	"disableflashlight" "1"
+	"enabled" "1"
+	"mod_config_sign_id" "0"
+	"separator" "0"
+	"sign_current" "$levelNumber"
+	"sign_dirt" "-1"
+	"sign_icon0name" "$icon0"
+	"sign_icon1name" "$icon1"
+	"sign_icon2name" "$icon2"
+	"sign_icon3name" "$icon3"
+	"sign_icon4name" "$icon4"
+	"sign_icon5name" "$icon5"
+	"sign_icon6name" "$icon6"
+	"sign_icon7name" "$icon7"
+	"sign_icon8name" "$icon8"
+	"sign_icon9name" "$icon9"
+	"sign_levelname" "$levelName"
+	"sign_startup_sequence" "Normal Flicker"
+	"sign_total" "$totalLevelNumber"
+	"spawnflags" "$signSpawnFlags"
+	"targetname" "sign_panel"
+	"use_mod_config" "0"
+	"origin" "3.5 -48 -104"
+	editor
+	{
+		"color" "235 204 0"
+		"groupid" "30"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -44572]"
+	}
+}
+entity
+{
+	"id" "4"
+	"classname" "prop_dynamic"
+	"AllowSilentDissolve" "1"
+	"angles" "0 0 0"
+	"animateeveryframe" "1"
+	"disableflashlight" "0"
+	"disableshadows" "1"
+	"fadescale" "1"
+	"glowcolor" "255 255 255"
+	"glowdist" "1024"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/p1pbr/props_animsigns/signage_frame.mdl"
+	"modelscale" "1"
+	"physdamagescale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "2.125 0 -8"
+	editor
+	{
+		"color" "235 204 0"
+		"groupid" "30"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 41000]"
+	}
+}
+entity
+{
+	"id" "110"
+	"classname" "func_instance_parms"
+	"parm1" "$levelNumber string"
+	"parm10" "$icon8 string"
+	"parm11" "$icon9 string"
+	"parm12" "$levelName string"
+	"parm13" "$totalLevelNumber string"
+	"parm14" "$signSpawnFlags string"
+	"parm15" "$autoStart string"
+	"parm16" "$icon6Fix string"
+	"parm2" "$icon0 string"
+	"parm3" "$icon1 string"
+	"parm4" "$icon2 string"
+	"parm5" "$icon3 string"
+	"parm6" "$icon4 string"
+	"parm7" "$icon5 string"
+	"parm8" "$icon6 string"
+	"parm9" "$icon7 string"
+	"origin" "16.125 -7.62939e-06 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "123"
+	"classname" "func_instance_io_proxy"
+	"targetname" "proxy"
+	connections
+	{
+		"OnProxyRelay" "sign_panelTurnOff0-1"
+		"OnProxyRelay" "sign_panelTurnOn0-1"
+	}
+	"origin" "16.125 -7.62939e-06 -24"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "134"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"startdisabled" "0"
+	"targetname" "logic_relay_turnoff"
+	connections
+	{
+		"OnTrigger" "sign_panelTurnOff0-1"
+	}
+	"origin" "16.125 16 -48"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "149"
+	"classname" "trigger_once"
+	"origin" "128.13 -0 0"
+	"solid" "6"
+	"spawnflags" "4097"
+	"StartDisabled" "0"
+	"targetname" "trigger_sign_on"
+	connections
+	{
+		"OnTrigger" "sign_panelTurnOn0-1"
+	}
+	solid
+	{
+		"id" "147"
+		side
+		{
+			"id" "1"
+			"plane" "(0.125008 -128 128) (0.124992 128 128) (256.125 128 128)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0.125008 -128 128"
+				"point" "1 0.124992 128 128"
+				"point" "2 256.125 128 128"
+				"point" "3 256.125 -128 128"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[1 0 0 -0.499969] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2"
+			"plane" "(256.125 -128 -128) (256.125 128 -128) (0.124992 128 -128)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 256.125 -128 -128"
+				"point" "1 256.125 128 -128"
+				"point" "2 0.124992 128 -128"
+				"point" "3 0.125008 -128 -128"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[1 0 0 -0.499969] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3"
+			"plane" "(0.125008 -128 128) (256.125 -128 128) (256.125 -128 -128)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0.125008 -128 128"
+				"point" "1 256.125 -128 128"
+				"point" "2 256.125 -128 -128"
+				"point" "3 0.125008 -128 -128"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 0.499969] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(0.124992 128 -128) (256.125 128 -128) (256.125 128 128)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0.124992 128 -128"
+				"point" "1 256.125 128 -128"
+				"point" "2 256.125 128 128"
+				"point" "3 0.124992 128 128"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 0.499969] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(0.124992 128 128) (0.125008 -128 128) (0.125008 -128 -128)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0.124992 128 128"
+				"point" "1 0.125008 -128 128"
+				"point" "2 0.125008 -128 -128"
+				"point" "3 0.124992 128 -128"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(256.125 128 -128) (256.125 -128 -128) (256.125 -128 128)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 256.125 128 -128"
+				"point" "1 256.125 -128 -128"
+				"point" "2 256.125 -128 128"
+				"point" "3 256.125 128 128"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

@@ -2368,6 +2368,90 @@
 		],
 		"snapMode": "corner"
 	},
+	{
+		"type": "entity",
+		"name": "Protruding Metal Block 32x",
+		"model": "crazy/metal_block_32.obj",
+		"mat": "crazy/laser_catcher_mod.png",
+		"instance": "puzzlemakermaps/puzzlemakerinstances/protruding_metal_block_32",
+		"bound1": [
+			-0.25,
+			-0.25,
+			0.000
+		],
+		"bound2": [
+			0.25,
+			0.25,
+			0.125
+		],
+		"editorTransform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				90.000,
+				0
+			]
+		},
+		"transform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			]
+		},
+		"snapMode": "mini-center"
+	},
+	{
+		"type": "entity",
+		"name": "Protruding Metal Block 64x",
+		"model": "crazy/metal_block_64.obj",
+		"mat": "crazy/laser_catcher_mod.png",
+		"instance": "puzzlemakermaps/puzzlemakerinstances/protruding_metal_block_64",
+		"bound1": [
+			-0.5,
+			-0.5,
+			0.000
+		],
+		"bound2": [
+			0.5,
+			0.5,
+			0.125
+		],
+		"editorTransform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				90.000,
+				0
+			]
+		},
+		"transform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			]
+		},
+		"snapMode": "center"
+	},
   {
     "type": "volume",
     "name": "Concrete Wall",
@@ -2389,7 +2473,7 @@
     "type": "volume",
     "name": "Small Metal Blocks",
 		"editorTexture": {
-			"filename": "blackVoxel.png",
+			"filename": "blackMiniVoxel.png",
 			"size": 0.5,
 			"alignment": "none"
 		},

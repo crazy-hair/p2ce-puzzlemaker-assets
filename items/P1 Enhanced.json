@@ -1,0 +1,1677 @@
+[
+	{
+		"type": "entity",
+		"name": "P1 Energy Ball Launcher",
+		"model": "crazy/launcher.obj",
+		"mat": "crazy/laser-catcher.png",
+		"instance": "launcher",
+		"bound1": [
+			-0.55,
+			-0.55,
+			0
+		],
+		"bound2": [
+			0.55,
+			0.55,
+			0.7
+		],
+		"snapMode": "mini-corner",
+		"editorTransform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				90,
+				0
+			]
+		},
+		"transform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			]
+		},
+		"keyvalues": [
+			{
+				"name": "Start Enabled",
+				"kv": "start_enabled",
+				"type": "bool",
+				"defaultValue": true
+			},
+			{
+				"name": "Ball Speed",
+				"kv": "ball_speed",
+				"type": "int",
+				"defaultValue": 200
+			},
+			{
+				"name": "Ball Lifetime",
+				"kv": "ball_life_time",
+				"type": "int",
+				"defaultValue": 12
+			},
+			{
+				"name": "Portal Lifetime Refresh Time",
+				"kv": "portal_passthrough_refresh_time",
+				"type": "int",
+				"defaultValue": 6
+			},
+			{
+				"name": "Damage",
+				"kv": "damage",
+				"type": "int",
+				"defaultValue": 1500
+			}
+		],
+		"inputs": [
+			{
+				"name": "Disable",
+				"trueInput": "instance:ball_launcher_disable;Trigger",
+				"falseInput": "instance:ball_launcher_enable;Trigger"
+			}
+		],
+		"outputs": [
+			{
+				"name": "On Ball Launched",
+				"trueOutput": "instance:ball_launcher;OnPostSpawnBall",
+				"falseOutput": "none"
+			}
+		]
+	},
+	{
+		"type": "entity",
+		"name": "P1 Energy Ball Catcher",
+		"model": "crazy/catcher.obj",
+		"mat": "crazy/laser-catcher.png",
+		"instance": "catcher",
+		"bound1": [
+			-0.5,
+			-0.4,
+			-0.5
+		],
+		"bound2": [
+			0.5,
+			0.5,
+			0.5
+		],
+		"snapMode": "mini-corner",
+		"deleteIntersectingVoxels": true,
+		"editorTransform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				90,
+				0
+			]
+		},
+		"transform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			]
+		},
+		"keyvalues": [
+			{
+				"name": "Spotlight Outer Angle",
+				"kv": "spotlight_outer_angle",
+				"type": "float",
+				"defaultValue": 5
+			},
+			{
+				"name": "Spotlight Inner Angle",
+				"kv": "spotlight_inner_angle",
+				"type": "float",
+				"defaultValue": 1
+			},
+			{
+		  "name": "Frame Material",
+				"kv": "material",
+				"type": "drop-string",
+				"defaultValue": 3,
+				"options": {
+					"Concrete Wall": "puzzlemakermaps/puzzlemakerinstances/cat_c_w.vmf",
+					"Concrete Floor": "puzzlemakermaps/puzzlemakerinstances/cat_c_f.vmf",
+					"Concrete Ceiling": "puzzlemakermaps/puzzlemakerinstances/cat_c_ceil.vmf",
+					"Metal Wall": "puzzlemakermaps/puzzlemakerinstances/cat_m.vmf",
+					"Metal Floor": "puzzlemakermaps/puzzlemakerinstances/cat_m_f.vmf"
+				}
+			},
+			{
+				"name": "Spotlight Brightness",
+				"kv": "spotlight_rt_brightness",
+				"type": "string",
+				"defaultValue": "255 255 255 2000"
+			},
+			{
+				"name": "Hard Radius Override",
+				"kv": "hard_radius_override",
+				"type": "int",
+				"defaultValue": 1000
+			}
+		],
+		"outputs": [
+			{
+				"name": "On Ball Caught",
+				"trueOutput": "instance:ball_trap;OnTrigger",
+				"falseOutput": "none"
+			}
+		]
+	},
+	{
+		"type": "entity",
+		"name": "P1 Door",
+		"model": "crazy/p1_door.obj",
+		"mat": "crazy/laser_catcher_mod.png",
+		"instance": "p1_door",
+		"bound1": [
+			0,
+			-1,
+			0
+		],
+		"bound2": [
+			0.5,
+			1,
+			2
+		],
+		"editorTransform": {
+			"position": [
+				0.5,
+				0,
+				0
+			],
+			"rotation": [
+				90,
+				0,
+				180
+			]
+		},
+		"transform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				-90,
+				-90
+			]
+		},
+		"snapMode": "mini-corner",
+		"keyvalues": [
+			{
+				"name": "Start Open",
+				"kv": "startOpen",
+				"type": "bool",
+				"defaultValue": false
+			},
+			{
+		  "name": "Door Frame Material",
+				"kv": "doorFrameInstance",
+				"type": "drop-string",
+				"defaultValue": 1,
+				"options": {
+					"Concrete": "puzzlemakermaps/puzzlemakerinstances/p1_door_frame_conk.vmf",
+					"Metal": "puzzlemakermaps/puzzlemakerinstances/p1_door_frame_metal.vmf",
+					"Both": "puzzlemakermaps/puzzlemakerinstances/p1_door_frame_both.vmf"
+				}
+			}
+		],
+		"inputs": [
+			{
+				"name": "Open",
+				"trueInput": "instance:door;Open",
+				"falseInput": "instance:door;Close"
+			},
+			{
+				"name": "Lock",
+				"trueInput": "instance:door;Lock",
+				"falseInput": "instance:door;Unlock"
+			}
+		]
+	},
+	{
+		"type": "entity",
+		"name": "P1 Floor Button",
+		"model": "crazy/p1_button.obj",
+		"mat": "crazy/laser_catcher_mod.png",
+		"instance": "p1_button",
+		"bound1": [
+			-1,
+			-1,
+			0
+		],
+		"bound2": [
+			1,
+			1,
+			0.3
+		],
+		"editorTransform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				90,
+				0,
+				0
+			]
+		},
+		"transform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				-90,
+				-90
+			]
+		},
+		"keyvalues": [],
+		"inputs": [],
+		"snapMode": "corner",
+		"outputs": [
+			{
+				"name": "On Button Pressed",
+				"trueOutput": "instance:button;OnPressed",
+				"falseOutput": "instance:button;OnUnPressed"
+			}
+		]
+	},
+	{
+		"type": "entity",
+		"name": "P1 Pedestal Button",
+		"model": "crazy/p1_ped_button.obj",
+		"mat": "crazy/laser_catcher_mod.png",
+		"instance": "p1_ped_button",
+		"snapMode": "mini-corner",
+		"bound1": [
+			0.15,
+			-0.1,
+			0
+		],
+		"bound2": [
+			0.35,
+			0.1,
+			0.85
+		],
+		"editorTransform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				90,
+				0,
+				0
+			]
+		},
+		"transform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				-90,
+				-90
+			]
+		},
+		"keyvalues": [
+			{
+				"name": "Hold Time",
+				"kv": "delay",
+				"type": "float",
+				"defaultValue": 1.0
+			},
+			{
+				"name": "Timer",
+				"kv": "istimer",
+				"type": "bool",
+				"defaultValue": false
+			},
+			{
+				"name": "Prevent Fast Reset",
+				"kv": "preventfastreset",
+				"type": "bool",
+				"defaultValue": false
+			},
+			{
+				"name": "Button Type",
+				"kv": "button_type",
+				"type": "drop-int",
+				"defaultValue": 0,
+				"options": {
+					"Standard Button": 0,
+					"Skull Button": 1
+				}
+			}
+		],
+		"outputs": [
+			{
+				"name": "On Button Pressed",
+				"trueOutput": "instance:button;OnPressed",
+				"falseOutput": "instance:button;OnButtonReset"
+			}
+		]
+	},
+	{
+		"type": "entity",
+		"name": "P1 Cube Dropper",
+		"model": "crazy/p1_dropper_full.obj",
+		"mat": "crazy/dropper_full.png",
+		"instance": "p1_dropper",
+		"deleteIntersectingVoxels": true,
+		"genMissingVoxels": false,
+		"transparent": false,
+		"bound1": [
+			-0.8,
+			-0.8,
+			-1
+		],
+		"bound2": [
+			0.8,
+			0.8,
+			1.65
+		],
+		"editorTransform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				-90,
+				0,
+				0
+			]
+		},
+		"transform": {
+			"position": [
+				-8,
+				0,
+				0
+			],
+			"rotation": [
+				90,
+				-180,
+				0
+			]
+		},
+		"keyvalues": [
+			{
+				"kv": "Don't Auto-Respawn",
+				"type": "bool",
+				"defaultValue": true
+			},
+			{
+		  "name": "Don't Initialy Drop",
+				"kv": "dontdropinital",
+				"type": "bool",
+				"defaultValue": true
+			},
+			{
+		  "name": "Cube Type",
+				"kv": "cubeType",
+				"type": "drop-string",
+				"defaultValue": 0,
+				"options": {
+					"Weighted Storage Cube": "models/p1pbr/props/cubes/metal_box_standard.mdl",
+					"Weighted Companion Cube": "models/p1pbr/props/cubes/metal_box_companion.mdl",
+					"Skull Cube": "models/p1pbr/props/cubes/metal_box_skull.mdl"
+				}
+			},
+      {
+		  "name": "Light Color",
+        "kv": "brightness",
+        "type": "string",
+        "defaultValue": "218 77 24 1000"
+      },
+      {
+		  "name": "Shadowmap Size",
+        "kv": "shadow_size",
+        "type": "drop-int",
+    	  "defaultValue": 3,
+				"options": {
+					"32x": 0,
+					"64x": 1,
+					"128x": 2,
+					"256x": 3,
+					"512x": 4,
+					"1k": 5,
+					"2k": 6,
+					"4k": 7
+				}
+      },
+      {
+		  "name": "Fifty Percent Falloff",
+        "kv": "fifty_percent_falloff",
+        "type": "int",
+        "defaultValue": 0
+      },
+      {
+		  "name": "Zero Percent Falloff",
+        "kv": "zero_percent_falloff",
+        "type": "int",
+        "defaultValue": 0
+      }
+		],
+		"inputs": [
+			{
+				"name": "Drop Box",
+				"trueInput": "instance:drop;Trigger",
+				"falseInput": "none"
+			}
+		]
+	},
+	{
+		"type": "entity",
+		"name": "P1 Cube",
+		"model": "crazy/p1_cube.obj",
+		"mat": "crazy/laser_catcher_mod.png",
+		"entity": "prop_weighted_cube",
+		"transform": {
+			"position": [
+				18,
+				0,
+				0
+			]
+		},
+		"bound1": [
+			-0.325,
+			-0.325,
+			0
+		],
+		"bound2": [
+			0.325,
+			0.325,
+			0.65
+		],
+		"editorTransform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				90,
+				0,
+				0
+			]
+		},
+		"keyvalues": [
+			{
+				"name": "Cube Type",
+				"kv": "model",
+				"type": "drop-string",
+				"defaultValue": 0,
+				"options": {
+					"Weighted Storage Cube": "models/p1pbr/props/cubes/metal_box_standard.mdl",
+					"Weighted Companion Cube": "models/p1pbr/props/cubes/metal_box_companion.mdl",
+					"Skull Cube": "models/p1pbr/props/cubes/metal_box_skull.mdl"
+				}
+			}
+		],
+		"statickvs": {
+			"newskins": "2"
+		}
+	},
+	{
+		"type": "entity",
+		"name": "128x P1 Fizzler",
+		"model": "crazy/fizzler_1x.obj",
+		"mat": "crazy/laser_catcher_mod.png",
+		"instance": "p1_fizzler_1x1",
+		"bound1": [
+			-0.2,
+			-1,
+			0
+		],
+		"bound2": [
+			0.2,
+			1,
+			2
+		],
+		"editorTransform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				90,
+				0,
+				0
+			]
+		},
+		"transform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				90,
+				90
+			]
+		},
+		"keyvalues": [
+			{
+				"name": "Start Enabled",
+				"kv": "startEnabled",
+				"type": "bool",
+				"defaultValue": true
+			}
+		],
+		"inputs": [
+			{
+				"name": "Disable",
+				"trueInput": "instance:relay_fizzler_toggle;FireUser1",
+				"falseInput": "instance:relay_fizzler_toggle;FireUser2"
+			}
+		],
+		"snapMode": "mini-corner"
+	},
+	{
+		"type": "entity",
+		"name": "P1 Autoportal",
+		"model": "crazy/autoportal.obj",
+		"mat": "crazy/laser_catcher_mod.png",
+		"instance": "p1_autoportal",
+		"bound1": [
+			-0.650,
+			-0.950,
+			0
+		],
+		"bound2": [
+			0.650,
+			1,
+			0.150
+		],
+		"editorTransform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				90,
+				0
+			]
+		},
+		"transform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			]
+		},
+		"keyvalues": [
+			{
+				"name": "Portal Color",
+				"kv": "portalColor",
+				"type": "drop-int",
+				"defaultValue": 0,
+				"options": {
+					"Blue": 0,
+					"Orange": 1
+				}
+			},
+			{
+				"name": "Start Open",
+				"kv": "startOpen",
+				"type": "bool",
+				"defaultValue": true
+			}
+		],
+		"inputs": [
+			{
+				"name": "Open",
+				"trueInput": "instance:relay_autoportal_open;Trigger",
+				"falseInput": "none"
+			},
+			{
+				"name": "Close",
+				"trueInput": "instance:autoportal;SetActivatedState",
+				"falseInput": "none"
+			}
+		],
+		"snapMode": "mini-corner"
+	},
+	{
+		"type": "entity",
+		"name": "P1 Piston Platform",
+		"model": "crazy/piston_panel.obj",
+		"mat": "crazy/laser_catcher_mod.png",
+		"instance": "piston",
+		"bound1": [
+			-0.8,
+			-0.8,
+			-9.9
+		],
+		"bound2": [
+			0.8,
+			0.8,
+			0
+		],
+		"editorTransform": {
+			"position": [
+				0,
+				0,
+				-0.1
+			],
+			"rotation": [
+				0,
+				90,
+				0
+			]
+		},
+		"transform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			]
+		},
+		"snapMode": "mini-corner",
+		"keyvalues": [
+			{
+		  "name": "Material",
+				"kv": "material",
+				"type": "drop-string",
+				"defaultValue": 0,
+				"options": {
+					"Concrete Wall": "puzzlemakermaps/puzzlemakerinstances/piston_crete_wall.vmf",
+					"Concrete Floor": "puzzlemakermaps/puzzlemakerinstances/piston_crete_floor.vmf",
+					"Concrete Floor Button": "puzzlemakermaps/puzzlemakerinstances/piston_crete_floor_butt.vmf",
+					"Concrete Ceiling": "puzzlemakermaps/puzzlemakerinstances/piston_crete_ceil.vmf"
+				}
+			}
+		]
+	},
+	{
+		"type": "entity",
+		"name": "P1 Piston Pit",
+		"model": "crazy/piston_pit_full.obj",
+		"mat": "crazy/piston_pit_full.png",
+		"instance": "piston_pit",
+		"deleteIntersectingVoxels": true,
+		"genMissingVoxels": false,
+		"bound1": [
+			-1,
+			-1,
+			-4
+		],
+		"bound2": [
+			1,
+			1,
+			0
+		],
+		"editorTransform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				90,
+				0,
+				0
+			]
+		},
+		"transform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				90,
+				90
+			]
+		},
+		"snapMode": "corner"
+	},
+	{
+		"type": "entity",
+		"name": "P1 Victory Lift",
+		"model": "crazy/victory_lift.obj",
+		"mat": "crazy/laser_catcher_mod.png",
+		"instance": "victory_lift",
+		"bound1": [
+			-0.8,
+			-0.8,
+			-9.7
+		],
+		"bound2": [
+			0.8,
+			0.8,
+			0
+		],
+		"editorTransform": {
+			"position": [
+				0,
+				0,
+				-2
+			],
+			"rotation": [
+				90,
+				0,
+				90
+			]
+		},
+		"transform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				90,
+				0,
+				0
+			]
+		},
+		"keyvalues": [
+			{
+				"name": "Start Enabled",
+				"kv": "startEnabled",
+				"type": "bool",
+				"defaultValue": false
+			},
+			{
+				"name": "Speed",
+				"kv": "speed",
+				"type": "int",
+				"defaultValue": 20
+			},
+			{
+				"name": "Lip",
+				"kv": "lip",
+				"type": "int",
+				"defaultValue": 0
+			}
+		],
+		"inputs": [
+			{
+				"name": "Enable",
+				"trueInput": "instance:relay_lift_enable;Trigger",
+				"falseInput": "none"
+			},
+			{
+				"name": "Disable, Return to Bottom",
+				"trueInput": "instance:relay_lift_disable_bottom;Trigger",
+				"falseInput": "none"
+			},
+			{
+				"name": "Disable, Return to Top",
+				"trueInput": "instance:relay_lift_disable_top;Trigger",
+				"falseInput": "none"
+			}
+		],
+		"snapMode": "corner"
+	},
+	{
+		"type": "volume",
+		"name": "P1 Hazard Liquid",
+		"editorTexture": {
+			"filename": "crazy/hazard_liquid.png",
+			"size": 2,
+			"alignment": "none"
+		},
+		"textures": {
+			"top": "p1pbr/nature/hazard_liquid",
+			"bottom": "tools/toolsnodraw",
+			"left": "tools/toolsnodraw",
+			"right": "tools/toolsnodraw",
+			"front": "tools/toolsnodraw",
+			"back": "tools/toolsnodraw"
+		},
+		"bound1": [
+			0,
+			0,
+			0
+		],
+		"bound2": [
+			0.5,
+			0.5,
+			0.5
+		],
+		"minSize": [
+			0.5,
+			0.5,
+			0.5
+		],
+		"defaultSize": [
+			0.5,
+			0.5,
+			0.5
+		]
+	},
+	{
+		"type": "entity",
+		"name": "P1 Camera",
+		"model": "crazy/p1_camera.obj",
+		"mat": "crazy/laser_catcher_mod.png",
+		"entity": "npc_security_camera",
+		"bound1": [
+			-0.15,
+			-0.15,
+			0
+		],
+		"bound2": [
+			0.15,
+			0.5,
+			0.650
+		],
+		"snapMode": "mini-corner",
+		"editorTransform": {
+			"position": [
+				0,
+				0.25,
+				0
+			],
+			"rotation": [
+				0,
+				90,
+				0
+			]
+		},
+		"transform": {
+			"position": [
+				0,
+				0,
+				16
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			]
+		},
+		"outputs": [
+			{
+				"name": "On Detached From Wall",
+				"trueOutput": "OnDetach",
+				"falseOutput": "none"
+			}
+		],
+		"inputs": [
+			{
+				"name": "Detach",
+				"trueInput": "ragdoll",
+				"falseInput": "none"
+			}
+		],
+		"statickvs": {
+			"enableropes": "1",
+			"model": "models/p1pbr/props/security_camera.mdl",
+			"spawnflags": "32"
+		}
+	},
+	{
+		"type": "entity",
+		"name": "P1 Exit Sign",
+		"model": "crazy/exit_sign.obj",
+		"mat": "crazy/exit_sign.png",
+		"instance": "exit_sign",
+		"bound1": [
+			-0.600,
+			-0.550,
+			0.000
+		],
+		"bound2": [
+			0.600,
+			0.050,
+			0.050
+		],
+		"editorTransform": {
+			"position": [
+				0,
+				-0.250,
+				0
+			],
+			"rotation": [
+				0,
+				90.000,
+				0
+			]
+		},
+		"transform": {
+			"position": [
+				0,
+				0,
+				-16
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			]
+		},
+		"snapMode": "mini-corner"
+	},
+	{
+		"type": "entity",
+		"name": "64x Observation Room",
+		"model": "crazy/obroom_64x_full.obj",
+		"mat": "crazy/obroom_64x_full.png",
+		"instance": "obroom",
+		"deleteIntersectingVoxels": true,
+		"genMissingVoxels": false,
+		"bound1": [
+			-0.5,
+			-1,
+			-4
+		],
+		"bound2": [
+			0.5,
+			1,
+			0
+		],
+		"editorTransform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				90,
+				0
+			]
+		},
+		"transform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				-90,
+				0
+			]
+		},
+		"snapMode": "mini-corner"
+	},
+	{
+		"type": "entity",
+		"name": "128x Observation Room",
+		"model": "crazy/obroom_128x_full.obj",
+		"mat": "crazy/obroom_128x_full.png",
+		"instance": "obroom_128",
+		"deleteIntersectingVoxels": true,
+		"genMissingVoxels": false,
+		"bound1": [
+			-1,
+			-1,
+			-4
+		],
+		"bound2": [
+			1,
+			1,
+			0
+		],
+		"editorTransform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				90,
+				0
+			]
+		},
+		"transform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				-180,
+				0
+			]
+		},
+		"snapMode": "mini-corner"
+	},
+	{
+		"type": "entity",
+		"name": "128x Metal Recessed Light",
+		"model": "crazy/light_metal_128_full.obj",
+		"mat": "crazy/light_metal_128_full.png",
+		"instance": "128x128_metal",
+		"deleteIntersectingVoxels": true,
+		"genMissingVoxels": false,
+		"bound1": [
+			-1,
+			-1,
+			-4
+		],
+		"bound2": [
+			1,
+			1,
+			0
+		],
+		"editorTransform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				-90,
+				0,
+				0
+			]
+		},
+		"transform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				-90,
+				0,
+				0
+			]
+		},
+		"keyvalues": [
+			{
+				"name": "Light Color",
+				"kv": "spotlightBrightness",
+				"type": "string",
+				"defaultValue": "250 240 205 5000"
+			},
+			{
+				"name": "Shadowmap Size",
+				"kv": "shadowSize",
+				"type": "drop-int",
+				"defaultValue": 5,
+				"options": {
+					"32x": 0,
+					"64x": 1,
+					"128x": 2,
+					"256x": 3,
+					"512x": 4,
+					"1k": 5,
+					"2k": 6,
+					"4k": 7
+				}
+			},
+			{
+				"name": "Hard Radius Override",
+				"kv": "hardRadiusOverride",
+				"type": "int",
+				"defaultValue": 1500
+			}
+		],
+		"snapMode": "corner"
+	},
+	{
+		"type": "entity",
+		"name": "64x Metal Recessed Light",
+		"model": "crazy/light_metal_64_full.obj",
+		"mat": "crazy/light_metal_64_full.png",
+		"instance": "64x64_metal",
+		"deleteIntersectingVoxels": true,
+		"genMissingVoxels": false,
+		"bound1": [
+			-0.5,
+			-0.5,
+			-1
+		],
+		"bound2": [
+			0.5,
+			0.5,
+			0
+		],
+		"editorTransform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				-90,
+				0,
+				0
+			]
+		},
+		"transform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				90,
+				0,
+				180
+			]
+		},
+		"keyvalues": [
+			{
+				"name": "Light Color",
+				"kv": "spotlightBrightness",
+				"type": "string",
+				"defaultValue": "250 240 205 1250"
+			},
+			{
+				"name": "Shadowmap Size",
+				"kv": "shadowSize",
+				"type": "drop-int",
+				"defaultValue": 3,
+				"options": {
+					"32x": 0,
+					"64x": 1,
+					"128x": 2,
+					"256x": 3,
+					"512x": 4,
+					"1k": 5,
+					"2k": 6,
+					"4k": 7
+				}
+			},
+			{
+				"name": "Hard Radius Override",
+				"kv": "hardRadiusOverride",
+				"type": "int",
+				"defaultValue": 1500
+			}
+		],
+		"snapMode": "mini-corner"
+	},
+	{
+		"type": "entity",
+		"name": "32x Metal Recessed Light",
+		"model": "crazy/light_metal_32_full.obj",
+		"mat": "crazy/light_metal_32_full.png",
+		"instance": "32x32_metal",
+		"deleteIntersectingVoxels": true,
+		"genMissingVoxels": false,
+		"bound1": [
+			-0.5,
+			-0.5,
+			-1
+		],
+		"bound2": [
+			0,
+			0,
+			0
+		],
+		"editorTransform": {
+			"position": [
+				-0.25,
+				-0.25,
+				0
+			],
+			"rotation": [
+				-90,
+				0,
+				0
+			]
+		},
+		"transform": {
+			"position": [
+				0,
+				-16,
+				-16
+			],
+			"rotation": [
+				-90,
+				0,
+				0
+			]
+		},
+		"keyvalues": [
+			{
+				"name": "Light Color",
+				"kv": "spotlightBrightness",
+				"type": "string",
+				"defaultValue": "250 240 205 400"
+			},
+			{
+				"name": "Shadowmap Size",
+				"kv": "shadowSize",
+				"type": "drop-int",
+				"defaultValue": 2,
+				"options": {
+					"32x": 0,
+					"64x": 1,
+					"128x": 2,
+					"256x": 3,
+					"512x": 4,
+					"1k": 5,
+					"2k": 6,
+					"4k": 7
+				}
+			},
+			{
+				"name": "Hard Radius Override",
+				"kv": "hardRadiusOverride",
+				"type": "int",
+				"defaultValue": 1500
+			}
+		],
+		"snapMode": "mini-corner"
+	},
+	{
+		"type": "entity",
+		"name": "128x Concrete Recessed Light",
+		"model": "crazy/recessed_lighting_4.obj",
+		"mat": "crazy/laser_catcher_mod.png",
+		"instance": "recessed_lighting_4",
+		"deleteIntersectingVoxels": true,
+		"genMissingVoxels": true,
+		"snapMode": "mini-corner",
+		"editorTransform": {
+			"position": [
+				-0.2,
+				0,
+				0
+			],
+			"rotation": [
+				-90,
+				180,
+				0
+			]
+		},
+		"transform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				-90,
+				-90
+			]
+		},
+		"bound1": [
+			-0.5,
+			-1,
+			-0.25
+		],
+		"bound2": [
+			0,
+			1,
+			0.125
+		],
+		"keyvalues": [
+			{
+		  "name": "",
+				"kv": "material",
+				"type": "drop-string",
+				"defaultValue": 0,
+				"options": {
+					"Floor": "puzzlemakermaps/puzzlemakerinstances/recessed_lighting_4_floor.vmf",
+					"Ceiling": "puzzlemakermaps/puzzlemakerinstances/recessed_lighting_4_ceiling.vmf"
+				}
+			}
+		]
+	},
+	{
+		"type": "entity",
+		"name": "64x Concrete Recessed Light",
+		"model": "crazy/recessed_lighting_2.obj",
+		"mat": "crazy/laser_catcher_mod.png",
+		"instance": "recessed_lighting_2",
+		"deleteIntersectingVoxels": true,
+		"genMissingVoxels": true,
+		"snapMode": "mini-corner",
+		"editorTransform": {
+			"position": [
+				-0.2,
+				0,
+				0
+			],
+			"rotation": [
+				-90,
+				180,
+				0
+			]
+		},
+		"transform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				-90,
+				-90
+			]
+		},
+		"bound1": [
+			-0.5,
+			-0.5,
+			-0.25
+		],
+		"bound2": [
+			0,
+			0.5,
+			0.125
+		],
+		"keyvalues": [
+			{
+		  "name": "",
+				"kv": "material",
+				"type": "drop-string",
+				"defaultValue": 0,
+				"options": {
+					"Floor": "puzzlemakermaps/puzzlemakerinstances/recessed_lighting_2_floor.vmf",
+					"Ceiling": "puzzlemakermaps/puzzlemakerinstances/recessed_lighting_2_ceiling.vmf"
+				}
+			}
+		]
+	},
+	{
+		"type": "entity",
+		"name": "64x Concrete Recessed Light Corner",  
+		"model": "crazy/recessed_lighting_2_corner.obj",
+		"mat": "crazy/laser_catcher_mod.png",
+		"instance": "rec_light_corner",
+		"deleteIntersectingVoxels": true,
+		"genMissingVoxels": true,
+		"snapMode": "mini-corner",
+		"editorTransform": {
+			"position": [
+				0.05,
+				0.05,
+				0
+			],
+			"rotation": [
+				-90,
+				180,
+				0
+			]
+		},
+		"transform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				-90,
+				-90
+			]
+		},
+		"bound1": [
+			-0.5,
+			-0.5,
+			-0.25
+		],
+		"bound2": [
+			0.5,
+			0.5,
+			0.125
+		],
+		"keyvalues": [
+			{
+		  "name": "",
+				"kv": "material",
+				"type": "drop-string",
+				"defaultValue": 0,
+				"options": {
+					"Floor": "puzzlemakermaps/puzzlemakerinstances/recessed_lighting_corner_floor.vmf",
+					"Ceiling": "puzzlemakermaps/puzzlemakerinstances/recessed_lighting_corner_ceiling.vmf"
+				}
+			}
+		]
+	},
+	{
+		"type": "entity",
+		"name": "P1 Entry Elevator",
+		"model": "crazy/elevator_shaft_entry.obj",
+		"mat": "crazy/elevator_shaft.png",
+		"instance": "p1_elevator_start",
+		"deleteIntersectingVoxels": true,
+		"genMissingVoxels": false,
+		"bound1": [
+			-2.25,
+			-1,
+			-5.25
+		],
+		"bound2": [
+			2.25,
+			2,
+			0
+		],
+		"editorTransform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				90,
+				0
+			]
+		},
+		"transform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			]
+		},
+		"snapMode": "corner"
+	},
+	{
+		"type": "entity",
+		"name": "P1 Middle Elevator",
+		"model": "crazy/elevator_shaft_exit.obj",
+		"mat": "crazy/elevator_shaft.png",
+		"instance": "p1_elevator_mid_180",
+		"deleteIntersectingVoxels": true,
+		"genMissingVoxels": false,
+		"bound1": [
+			-2.25,
+			-1,
+			-5.25
+		],
+		"bound2": [
+			2.25,
+			11.5,
+			0
+		],
+		"editorTransform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				90,
+				0
+			]
+		},
+		"transform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			]
+		},
+		"snapMode": "corner"
+	},
+	{
+		"type": "entity",
+		"name": "P1 Exit Elevator",
+		"model": "crazy/elevator_shaft_exit.obj",
+		"mat": "crazy/elevator_shaft.png",
+		"instance": "p1_elevator_end",
+		"deleteIntersectingVoxels": true,
+		"genMissingVoxels": false,
+		"bound1": [
+			-2.25,
+			-1,
+			-5.25
+		],
+		"bound2": [
+			2.25,
+			2,
+			0
+		],
+		"editorTransform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				90,
+				0
+			]
+		},
+		"transform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			]
+		},
+		"keyvalues": [ 
+			{
+				"name": "Next Map",
+				"kv": "next_map",
+				"type": "string",
+				"defaultValue": ""
+			}
+		],
+		"snapMode": "corner"
+	},
+  {
+    "type": "volume",
+    "name": "Concrete Wall",
+    "editorTexture": "whiteVoxel.png",
+    "textures": {
+      "top": "p1pbr/concrete/concrete_modular_floor001a",
+      "bottom": "p1pbr/concrete/concrete_modular_ceiling001a",
+      "left": "p1pbr/concrete/concrete_modular_wall001a",
+      "right": "p1pbr/concrete/concrete_modular_wall001a",
+      "front": "p1pbr/concrete/concrete_modular_wall001a",
+      "back": "p1pbr/concrete/concrete_modular_wall001a"
+    },
+    "editorFit": false,
+    "minSize": [0.5, 0.5, 0.5],
+    "snapMode": "mini-corner",
+    "defaultSize": [1, 1, 1]
+  },
+	{
+    "type": "volume",
+    "name": "Small Metal Blocks",
+    "editorTexture": "blackVoxel.png",
+    "textures": {
+      "top": "p1pbr/metal/metalwall048b",
+      "bottom": "p1pbr/metal/metalwall048b",
+      "left": "p1pbr/metal/metalwall048b",
+      "right": "p1pbr/metal/metalwall048b",
+      "front": "p1pbr/metal/metalwall048b",
+      "back": "p1pbr/metal/metalwall048b"
+    },
+    "editorFit": false,
+    "minSize": [0.5, 0.5, 0.5],
+    "snapMode": "mini-corner",
+    "defaultSize": [0.5, 0.5, 0.5]
+  },
+  {
+    "type": "volume",
+    "name": "Medium Metal Blocks",
+    "editorTexture": "blackVoxel.png",
+    "textures": {
+      "top": "p1pbr/metal/metalwall048b_med",
+      "bottom": "p1pbr/metal/metalwall048b_med",
+      "left": "p1pbr/metal/metalwall048b_med",
+      "right": "p1pbr/metal/metalwall048b_med",
+      "front": "p1pbr/metal/metalwall048b_med",
+      "back": "p1pbr/metal/metalwall048b_med"
+    },
+    "editorFit": false,
+    "minSize": [0.5, 0.5, 0.5],
+    "snapMode": "mini-corner",
+    "defaultSize": [1, 1, 1]
+  },
+  {
+    "type": "volume",
+    "name": "Large Metal Blocks",
+    "editorTexture": "blackVoxel.png",
+    "textures": {
+      "top": "p1pbr/metal/metalwall048b_lrg",
+      "bottom": "p1pbr/metal/metalwall048b_lrg",
+      "left": "p1pbr/metal/metalwall048b_lrg",
+      "right": "p1pbr/metal/metalwall048b_lrg",
+      "front": "p1pbr/metal/metalwall048b_lrg",
+      "back": "p1pbr/metal/metalwall048b_lrg"
+    },
+    "editorFit": false,
+    "minSize": [0.5, 0.5, 0.5],
+    "snapMode": "mini-corner",
+    "defaultSize": [2, 2, 2]
+  }
+]

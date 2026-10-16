@@ -1,0 +1,249 @@
+versioninfo
+{
+	"editorextension" "strata"
+	"editorversion" "400"
+	"editorbuild" "10903"
+	"mapversion" "6"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "1"
+	"nGridSpacing" "8"
+	"bShow3DGrid" "0"
+	"nInstanceVisibility" "2"
+	views
+	{
+		v0
+		{
+			"3d" "1"
+			"position" "(63.3924 132.273 102.634)"
+			"angle" "[26.9199 -127.47 0]"
+		}
+		v1
+		{
+			"3d" "0"
+			"position" "(-6.40058 1.67949 65536)"
+			"zoom" "1.85752"
+		}
+		v2
+		{
+			"3d" "0"
+			"position" "(65536 -1.9483 11.9475)"
+			"zoom" "3.85176"
+		}
+		v3
+		{
+			"3d" "0"
+			"position" "(-37.1183 0 14.3848)"
+			"zoom" "23.8491"
+		}
+	}
+}
+world
+{
+	"id" "1"
+	"mapversion" "6"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxprojectedtextures" "8"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+	solid
+	{
+		"id" "145"
+		side
+		{
+			"id" "1"
+			"plane" "(-64 64 8) (64 64 8) (64 -64 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 64 8"
+				"point" "1 64 64 8"
+				"point" "2 64 -64 8"
+				"point" "3 -64 -64 8"
+			}
+			"material" "P1PBR/CONCRETE/CONCRETE_MODULAR_FLOOR001B_BUTTON"
+			"uaxis" "[1 0 0 256] 0.25"
+			"vaxis" "[0 -1 0 256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2"
+			"plane" "(-64 -64 2.38419e-07) (64 -64 2.38419e-07) (64 64 2.38419e-07)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 -64 2.38419e-07"
+				"point" "1 64 -64 2.38419e-07"
+				"point" "2 64 64 2.38419e-07"
+				"point" "3 -64 64 2.38419e-07"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3"
+			"plane" "(-64 64 8) (-64 -64 8) (-64 -64 2.38419e-07)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 64 8"
+				"point" "1 -64 -64 8"
+				"point" "2 -64 -64 2.38419e-07"
+				"point" "3 -64 64 2.38419e-07"
+			}
+			"material" "P1PBR/SIGNAGE/HAZARD_ORANGE_03B"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(64 64 2.38419e-07) (64 -64 2.38419e-07) (64 -64 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 64 2.38419e-07"
+				"point" "1 64 -64 2.38419e-07"
+				"point" "2 64 -64 8"
+				"point" "3 64 64 8"
+			}
+			"material" "P1PBR/SIGNAGE/HAZARD_ORANGE_03B"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(64 64 8) (-64 64 8) (-64 64 2.38419e-07)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 64 8"
+				"point" "1 -64 64 8"
+				"point" "2 -64 64 2.38419e-07"
+				"point" "3 64 64 2.38419e-07"
+			}
+			"material" "P1PBR/SIGNAGE/HAZARD_ORANGE_03B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(64 -64 2.38419e-07) (-64 -64 2.38419e-07) (-64 -64 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 -64 2.38419e-07"
+				"point" "1 -64 -64 2.38419e-07"
+				"point" "2 -64 -64 8"
+				"point" "3 64 -64 8"
+			}
+			"material" "P1PBR/SIGNAGE/HAZARD_ORANGE_03B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 192 157"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "2"
+	"classname" "prop_floor_button"
+	"AllowSilentDissolve" "1"
+	"angles" "0 180 0"
+	"body" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"drawinfastreflection" "0"
+	"effects" "0"
+	"fadescale" "1"
+	"glowcolor" "255 255 255"
+	"glowdist" "1024"
+	"model" "models/p1pbr/props/p1_floor_button.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"setbodygroup" "0"
+	"shadowcastdist" "0"
+	"shadowdepthnocache" "0"
+	"solid" "0"
+	"suppressanimsounds" "0"
+	"targetname" "button"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	connections
+	{
+		"OnPressed" "proxyProxyRelay0-1"
+		"OnUnPressed" "proxyProxyRelay0-1"
+	}
+	"origin" "0 0 8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "114"
+	"classname" "func_instance_io_proxy"
+	"targetname" "proxy"
+	"origin" "0 0 48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

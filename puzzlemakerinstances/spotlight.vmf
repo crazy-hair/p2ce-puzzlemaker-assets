@@ -1,0 +1,231 @@
+versioninfo
+{
+	"editorextension" "strata"
+	"editorversion" "400"
+	"editorbuild" "10903"
+	"mapversion" "14"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+	visgroup
+	{
+		"name" "Disabled"
+		"visgroupid" "9"
+		"color" "192 161 134"
+	}
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "1"
+	"nGridSpacing" "16"
+	"bShow3DGrid" "0"
+	"nInstanceVisibility" "2"
+	views
+	{
+		v0
+		{
+			"3d" "1"
+			"position" "(34.941 29.6672 -26.1464)"
+			"angle" "[-13.2 -147.224 0]"
+		}
+		v1
+		{
+			"3d" "0"
+			"position" "(256 -448 -192)"
+			"zoom" "0.25"
+		}
+		v2
+		{
+			"3d" "0"
+			"position" "(256 -448 -192)"
+			"zoom" "0.25"
+		}
+		v3
+		{
+			"3d" "0"
+			"position" "(256 -448 -192)"
+			"zoom" "0.25"
+		}
+	}
+}
+world
+{
+	"id" "1"
+	"mapversion" "14"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxprojectedtextures" "8"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+}
+entity
+{
+	"id" "2"
+	"classname" "light_rt_spot"
+	"_castentityshadow" "1"
+	"_cone" "$outerAngle"
+	"_constant_attn" "$constant"
+	"_directmode" "$directMode"
+	"_distance" "0"
+	"_exponent" "1"
+	"_fifty_percent_distance" "$fiftyPercent"
+	"_hard_radius_override" "$hardRadiusOverride"
+	"_hard_radius_threshold" "32"
+	"_hardfalloff" "0"
+	"_indirectmode" "$indirectMode"
+	"_initialshadowsize" "$shadowSize"
+	"_inner_cone" "$innerAngle"
+	"_light" "$brightness"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "$linear"
+	"_nocubemapsprite" "1"
+	"_quadratic_attn" "$quadratic"
+	"_removeaftercompile" "0"
+	"_shadoworiginoffset" "0 0 0"
+	"_specularmode" "$specMode"
+	"_volumetricmode" "$volumeMode"
+	"_zero_percent_distance" "$zeroPercent"
+	"angles" "0 0 0"
+	"fadetickinterval" "0.1"
+	"nearz" "$nearZ"
+	"pitch" "-90"
+	"slopescale" "1.0"
+	"spawnflags" "$lightSpawnflags"
+	"style" "0"
+	"textureframe" "0"
+	"volumetric_density" "$volumeDensity"
+	"volumetric_lightscale" "$volumeScale"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "14"
+	"classname" "func_instance_parms"
+	"parm1" "$outerAngle string 45"
+	"parm10" "$nearZ string 4"
+	"parm11" "$volumeDensity string 0"
+	"parm12" "$volumeScale string 1"
+	"parm13" "$spawnflags string 2"
+	"parm14" "$constant string"
+	"parm15" "$fiftyPercent string"
+	"parm16" "$linear string"
+	"parm17" "$quadratic string"
+	"parm18" "$zeroPercent string"
+	"parm19" "$lightSpawnflags string"
+	"parm2" "$directMode string 2"
+	"parm20" "$lightTarget string"
+	"parm3" "$hardRadiusOverride string 1500"
+	"parm4" "$indirectMode string 1"
+	"parm5" "$shadowSize string 3"
+	"parm6" "$innerAngle string 30"
+	"parm7" "$brightness string 255 255 255 1000"
+	"parm8" "$specMode string 1"
+	"parm9" "$volumeMode string 1"
+	"origin" "0 0 -16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "29"
+	"classname" "func_instance_io_proxy"
+	"targetname" "proxy"
+	"origin" "0 0 -32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+hidden
+{
+	entity
+	{
+		"id" "150"
+		"classname" "logic_auto"
+		"angles" "0 0 0"
+		"spawnflags" "1"
+		"origin" "16 0 -16"
+		editor
+		{
+			"color" "0 100 250"
+			"visgroupid" "9"
+			"visgroupshown" "0"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 1000]"
+		}
+	}
+}
+hidden
+{
+	entity
+	{
+		"id" "155"
+		"classname" "logic_branch"
+		"angles" "0 0 0"
+		"initialvalue" "0"
+		"targetname" "branch_shadow"
+		connections
+		{
+			"OnTrue" "light_rt_spot0-1"
+		}
+		"origin" "16 0 -32"
+		editor
+		{
+			"color" "0 100 250"
+			"visgroupid" "9"
+			"visgroupshown" "0"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 1500]"
+		}
+	}
+}
+hidden
+{
+	entity
+	{
+		"id" "162"
+		"classname" "logic_branch"
+		"angles" "0 0 0"
+		"initialvalue" "0"
+		"targetname" "branch_startoff"
+		"origin" "-16 0 -32"
+		editor
+		{
+			"color" "0 100 250"
+			"visgroupid" "9"
+			"visgroupshown" "0"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 1500]"
+		}
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

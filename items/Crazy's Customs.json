@@ -1,0 +1,453 @@
+[
+  {
+    "type": "entity",
+    "name": "Cubemap",
+    "model": "crazy/cubemap.obj",
+    "mat": "crazy/cubemap.png",
+    "entity": "env_cubemap",
+    "bound1": [
+      -0.15,
+      -0.15,
+      -0.15
+    ],
+    "bound2": [
+      0.15,
+      0.15,
+      0.15
+    ],
+    "editorTransform": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        90,
+        0,
+        0
+      ]
+    },
+    "transform": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        90,
+        0,
+        0
+      ]
+    },
+    "keyvalues": [
+      {
+		"name": "Cubemap Resolution",
+        "kv": "cubemapsize",
+        "type": "drop-int",
+        "defaultValue": 8,
+        "options": {
+          "1x": 1,
+          "2x": 2,
+          "4x": 3,
+          "8x": 4,
+          "16x": 5,
+          "32x": 6,
+          "64x": 7,
+          "128x": 8,
+          "256x": 9,
+          "512x": 10,
+          "1024x": 11,
+          "2048x": 12,
+          "4096x": 13
+        }
+      },
+      {
+		"name": "Parallax Bounds",
+        "kv": "parallaxobb",
+        "type": "item"
+      }
+    ]
+  },
+  {
+    "type": "volume",
+    "name": "Parallax Bounds",
+	"editorTexture": {
+		"filename": "crazy/parallax.png",
+		"size": 1,
+		"alignment": "none"
+	},
+    "entity": "parallax_obb",
+    "texture": "tools/tools_parallax",
+    "transparent": true,
+    "bound1": [
+      0,
+      0,
+      0
+    ],
+    "bound2": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "minSize": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "defaultSize": [
+      0.5,
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "type": "entity",
+    "name": "Real-Time Spotlight",
+    "model": "crazy/spotlight.obj",
+    "mat": "crazy/laser_catcher_mod.png",
+    "instance": "spotlight",
+    "bound1": [
+      -0.15,
+      -0.15,
+      -0.15
+    ],
+    "bound2": [
+      0.15,
+      0.15,
+      0.15
+    ],
+    "editorTransform": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ]
+    },
+    "transform": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -90,
+        0,
+        0
+      ]
+    },
+    "keyvalues": [
+      {
+		  "name": "Constant Falloff Ratio",
+        "kv": "constant",
+        "type": "float",
+        "defaultValue": 1
+      },
+      {
+		  "name": "Linear Falloff Ratio",
+        "kv": "linear",
+        "type": "float",
+        "defaultValue": 0
+      },
+      {
+		  "name": "Quadratic Falloff Ratio",
+        "kv": "quadratic",
+        "type": "float",
+        "defaultValue": 0
+      },
+      {
+		  "name": "Fifty Percent Falloff",
+        "kv": "fiftyPercent",
+        "type": "int",
+        "defaultValue": 0
+      },
+      {
+		  "name": "Zero Percent Falloff",
+        "kv": "zeroPercent",
+        "type": "int",
+        "defaultValue": 0
+      },
+      {
+		  "name": "Shadowmap Size",
+        "kv": "shadowSize",
+        "type": "drop-int",
+    	  "defaultValue": 3,
+				"options": {
+					"32x": 0,
+					"64x": 1,
+					"128x": 2,
+					"256x": 3,
+					"512x": 4,
+					"1k": 5,
+					"2k": 6,
+					"4k": 7
+				}
+      },
+      {
+		  "name": "Light Color",
+        "kv": "brightness",
+        "type": "string",
+        "defaultValue": "183 204 218 600"
+      },
+      {
+		  "name": "Outer Angle",
+        "kv": "outerAngle",
+        "type": "int",
+        "defaultValue": 45
+      },
+      {
+		  "name": "Inner Angle",
+        "kv": "innerAngle",
+        "type": "int",
+        "defaultValue": 30
+      },
+      {
+		  "name": "Direct Lighting Mode",
+        "kv": "directMode",
+        "type": "drop-int",
+        "defaultValue": 2,
+				"options": {
+					"None": 0,
+					"Baked": 1,
+					"Real-Time": 2
+				}
+      },
+      {
+		  "name": "Indirect Lighting",
+        "kv": "indirectMode",
+        "type": "bool",
+        "defaultValue": true
+      },
+      {
+		  "name": "Specular Mode",
+        "kv": "specMode",
+        "type": "drop-int",
+        "defaultValue": 1,
+				"options": {
+					"None": 0,
+					"Real-Time": 2
+				}
+      },
+      {
+		  "name": "Volumetric Mode",
+        "kv": "volumeMode",
+        "type": "drop-int",
+        "defaultValue": 0,
+				"options": {
+					"None": 0,
+					"Real-Time": 2
+				}
+      },
+      {
+		  "name": "Volumetric Density",
+        "kv": "volumeDensity",
+        "type": "float",
+        "defaultValue": 0
+      },
+	  {
+		  "name": "Shadow",
+        "kv": "lightSpawnflags",
+        "type": "drop-int",
+    	  "defaultValue": 0,
+				"options": {
+					"Unshadowed": 0,
+					"Shadowed": 2
+				}
+      },
+      {
+		  "name": "Near Clipping Plane",
+        "kv": "nearZ",
+        "type": "float",
+        "defaultValue": 4
+      },
+      {
+		  "name": "Hard Radius Override",
+        "kv": "hardRadiusOverride",
+        "type": "int",
+        "defaultValue": 1500
+      }
+    ]
+  },
+  {
+    "type": "entity",
+    "name": "Chell Start",
+    "model": "crazy/chell.obj",
+    "mat": "crazy/chell.png",
+    "entity": "info_player_start",
+    "bound1": [
+      -0.25,
+      -0.25,
+      0
+    ],
+    "bound2": [
+      0.25,
+      0.25,
+      1
+    ],
+    "editorTransform": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        90,
+        90
+      ]
+    },
+    "transform": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        90,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "type": "entity",
+    "name": "Portal Placement Helper",
+    "model": "crazy/placement_helper.obj",
+    "mat": "crazy/portal_grey.png",
+    "entity": "info_placement_helper",
+    "bound1": [
+      -0.5,
+      -0.85,
+      0
+    ],
+    "bound2": [
+      0.5,
+      0.85,
+      0.05
+    ],
+    "snapMode": "mini-corner",
+    "editorTransform": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ]
+    },
+    "transform": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    "keyvalues": [
+      {
+		"name": "Correction Radius",
+        "kv": "radius",
+        "type": "int",
+        "defaultValue": 16
+      },
+      {
+		"name": "Force Correction",
+        "kv": "force_placement",
+        "type": "bool",
+        "defaultValue": false
+      },
+      {
+		"name": "Snap To Helper Angles",
+        "kv": "snap_to_helper_angles",
+        "type": "bool",
+        "defaultValue": false
+      },
+      {
+		"name": "Start Disabled",
+        "kv": "startdisabled",
+        "type": "bool",
+        "defaultValue": false
+      }
+    ],
+    "inputs": [
+      {
+        "name": "Disable",
+        "trueInput": "Disable",
+        "falseInput": "Enable"
+      }
+    ]
+  },
+  {
+    "type": "entity",
+    "name": "P1 Game Rules",
+    "model": "crazy/axis_helper.obj",
+    "mat": "crazy/axis_helper.png",
+    "instance": "p1_gamerules",
+    "snapMode": "mini-corner",
+    "bound1": [
+      -0.15,
+      -0.15,
+      -0.15
+    ],
+    "bound2": [
+      0.15,
+      0.15,
+      0.15
+    ],
+    "editorTransform": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -90,
+        0,
+        180
+      ]
+    },
+    "transform": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        90,
+        0,
+        0
+      ]
+    },
+    "keyvalues": [
+      {
+		"name": "Enable Physics Damage",
+    	  "kv": "physDamage",
+    	  "type": "bool",
+    	  "defaultValue": false
+    	},
+      {
+		"name": "Enable Player Throwing",
+    	  "kv": "playerThrowing",
+    	  "type": "bool",
+    	  "defaultValue": false
+    	},
+      {
+		"name": "Enable Duck Jumping",
+    	  "kv": "duckJump",
+    	  "type": "bool",
+    	  "defaultValue": false
+    	}
+    ]
+  }
+]

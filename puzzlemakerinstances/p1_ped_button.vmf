@@ -1,0 +1,397 @@
+versioninfo
+{
+	"editorextension" "strata"
+	"editorversion" "400"
+	"editorbuild" "10903"
+	"mapversion" "15"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "1"
+	"nGridSpacing" "8"
+	"bShow3DGrid" "0"
+	"nInstanceVisibility" "2"
+	views
+	{
+		v0
+		{
+			"3d" "1"
+			"position" "(31.2984 -9.95485 69.154)"
+			"angle" "[39.5999 167.2 0]"
+		}
+		v1
+		{
+			"3d" "0"
+			"position" "(20.1523 18.7584 65536)"
+			"zoom" "6.65583"
+		}
+		v2
+		{
+			"3d" "0"
+			"position" "(65536 0 26.3636)"
+			"zoom" "0.25"
+		}
+		v3
+		{
+			"3d" "0"
+			"position" "(0 -65536 26.3636)"
+			"zoom" "7.987"
+		}
+	}
+}
+world
+{
+	"id" "1"
+	"mapversion" "15"
+	"classname" "worldspawn"
+	"skyname" "sky_black_nofog"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"maxblobcount" "250"
+	"maxprojectedtextures" "8"
+	solid
+	{
+		"id" "3"
+		side
+		{
+			"id" "7"
+			"plane" "(-32 32 8) (0 32 8) (0 -32 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -32 32 8"
+				"point" "1 0 32 8"
+				"point" "2 0 -32 8"
+				"point" "3 -32 -32 8"
+			}
+			"material" "P1PBR/CONCRETE/CONCRETE_MODULAR_FLOOR001A"
+			"uaxis" "[1 0 0 256] 0.25"
+			"vaxis" "[0 -1 0 256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8"
+			"plane" "(-32 -32 0) (0 -32 0) (0 32 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -32 -32 0"
+				"point" "1 0 -32 0"
+				"point" "2 0 32 0"
+				"point" "3 -32 32 0"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9"
+			"plane" "(-32 32 8) (-32 -32 8) (-32 -32 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -32 32 8"
+				"point" "1 -32 -32 8"
+				"point" "2 -32 -32 0"
+				"point" "3 -32 32 0"
+			}
+			"material" "P1PBR/SIGNAGE/HAZARD_ORANGE_03B"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "10"
+			"plane" "(0 32 0) (0 -32 0) (0 -32 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 32 0"
+				"point" "1 0 -32 0"
+				"point" "2 0 -32 8"
+				"point" "3 0 32 8"
+			}
+			"material" "P1PBR/SIGNAGE/HAZARD_ORANGE_03B"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11"
+			"plane" "(0 32 8) (-32 32 8) (-32 32 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 32 8"
+				"point" "1 -32 32 8"
+				"point" "2 -32 32 0"
+				"point" "3 0 32 0"
+			}
+			"material" "P1PBR/SIGNAGE/HAZARD_ORANGE_03B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12"
+			"plane" "(0 -32 0) (-32 -32 0) (-32 -32 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 -32 0"
+				"point" "1 -32 -32 0"
+				"point" "2 -32 -32 8"
+				"point" "3 0 -32 8"
+			}
+			"material" "P1PBR/SIGNAGE/HAZARD_ORANGE_03B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 192 157"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "9"
+	"classname" "prop_button"
+	"AllowSilentDissolve" "1"
+	"angles" "0 0 0"
+	"body" "0"
+	"comp_custom_model_type" "1"
+	"delay" "$delay"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"drawinfastreflection" "0"
+	"effects" "0"
+	"fadescale" "1"
+	"glowcolor" "255 255 255"
+	"glowdist" "1024"
+	"glowenabled" "0"
+	"glowstyle" "0"
+	"istimer" "$istimer"
+	"model" "models/p1pbr/props/p1_button.mdl"
+	"preventfastreset" "$preventfastreset"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"setbodygroup" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "1"
+	"targetname" "button"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	connections
+	{
+		"OnButtonReset" "proxyProxyRelay20-1"
+		"OnPressed" "proxyProxyRelay10-1"
+		"OnPressed" "relay_skin_standardTrigger0-1"
+		"OnButtonReset" "relay_skin_standard_offTrigger0-1"
+		"OnPressed" "relay_skin_skullTrigger0-1"
+		"OnButtonReset" "relay_skin_skull_offTrigger0-1"
+	}
+	"origin" "-16 0 8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "28"
+	"classname" "func_instance_parms"
+	"parm1" "$preventfastreset string"
+	"parm2" "$delay string"
+	"parm3" "$istimer string"
+	"parm4" "$button_type string"
+	"origin" "-16 -16 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "35"
+	"classname" "func_instance_io_proxy"
+	"targetname" "proxy"
+	"origin" "-16 16 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "111"
+	"classname" "logic_branch"
+	"angles" "0 0 0"
+	"initialvalue" "$button_type"
+	"targetname" "branch_skin"
+	connections
+	{
+		"OnTrue" "buttonSkin20-1"
+		"OnTrue" "relay_skin_skullEnable0-1"
+		"OnTrue" "relay_skin_standardDisable0-1"
+		"OnTrue" "relay_skin_standard_offDisable0-1"
+		"OnTrue" "relay_skin_skull_offEnable0-1"
+	}
+	"origin" "0 -8 16"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "116"
+	"classname" "logic_auto"
+	"angles" "0 0 0"
+	"spawnflags" "1"
+	connections
+	{
+		"OnMapSpawn" "branch_skinTest0-1"
+	}
+	"origin" "0 -24 16"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "121"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"startdisabled" "0"
+	"targetname" "relay_skin_standard"
+	connections
+	{
+		"OnTrigger" "buttonSkin10-1"
+	}
+	"origin" "0 8 16"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "130"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"startdisabled" "1"
+	"targetname" "relay_skin_skull"
+	connections
+	{
+		"OnTrigger" "buttonSkin30-1"
+	}
+	"origin" "0 24 16"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "391"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"startdisabled" "0"
+	"targetname" "relay_skin_standard_off"
+	connections
+	{
+		"OnTrigger" "buttonSkin00-1"
+	}
+	"origin" "0 8 32"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "397"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"startdisabled" "1"
+	"targetname" "relay_skin_skull_off"
+	connections
+	{
+		"OnTrigger" "buttonSkin20-1"
+	}
+	"origin" "0 24 32"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

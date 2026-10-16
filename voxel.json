@@ -1,0 +1,22 @@
+{
+	"blackEditor": "blackVoxel.png",
+	"whiteEditor": "whiteVoxel.png",
+	"blackMiniEditor": "blackMiniVoxel.png",
+	"whiteMiniEditor": "whiteMiniVoxel.png",
+	"nodraw": "TOOLS/TOOLSNODRAW",
+	"backstage": "p1pbr/concrete/concrete_modular_wall001a",
+
+	"blackFloor": "p1pbr/metal/metal_modular_floor001",
+	"blackWall": "p1pbr/metal/metalwall048b_med",
+	"blackCeiling": "p1pbr/metal/metalwall048b_med",
+	"whiteFloor": "p1pbr/concrete/concrete_modular_floor001a",
+	"whiteWall": "p1pbr/concrete/concrete_modular_wall001a",
+	"whiteCeiling": "p1pbr/concrete/concrete_modular_ceiling001a",
+
+	"blackFloorMini": "p1pbr/metal/metal_modular_floor001",
+	"blackWallMini": "p1pbr/metal/metalwall048b",
+	"blackCeilingMini": "p1pbr/metal/metalwall048b",
+	"whiteFloorMini": "p1pbr/concrete/concrete_modular_floor001a",
+	"whiteWallMini": "p1pbr/concrete/concrete_modular_wall001a",
+	"whiteCeilingMini": "p1pbr/concrete/concrete_modular_ceiling001a"
+}

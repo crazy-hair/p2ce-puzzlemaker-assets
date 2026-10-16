@@ -1,0 +1,183 @@
+versioninfo
+{
+	"editorextension" "strata"
+	"editorversion" "400"
+	"editorbuild" "10903"
+	"mapversion" "2"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "1"
+	"nGridSpacing" "8"
+	"bShow3DGrid" "0"
+	"nInstanceVisibility" "2"
+	views
+	{
+		v0
+		{
+			"3d" "1"
+			"position" "(-48.1803 1.70179 36.2782)"
+			"angle" "[23.5999 -2.80003 0]"
+		}
+		v1
+		{
+			"3d" "0"
+			"position" "(27.8311 -7.83875 65536)"
+			"zoom" "4.62211"
+		}
+		v2
+		{
+			"3d" "0"
+			"position" "(0 0 0)"
+			"zoom" "0.25"
+		}
+		v3
+		{
+			"3d" "0"
+			"position" "(4.86169 -65536 11.901)"
+			"zoom" "6.65583"
+		}
+	}
+}
+world
+{
+	"id" "1"
+	"mapversion" "2"
+	"classname" "worldspawn"
+	"skyname" "sky_black_nofog"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"maxblobcount" "250"
+	"maxprojectedtextures" "8"
+}
+entity
+{
+	"id" "2"
+	"classname" "logic_branch"
+	"angles" "0 0 0"
+	"initialvalue" "$playerThrowing"
+	"targetname" "branch_throwing"
+	connections
+	{
+		"OnTrue" "client_commandCommandplayer_throwenable 10-1"
+		"OnFalse" "client_commandCommandplayer_throwenable 00-1"
+	}
+	"origin" "0 0 8"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "7"
+	"classname" "logic_branch"
+	"angles" "0 0 0"
+	"initialvalue" "$physDamage"
+	"targetname" "branch_physics_damage"
+	connections
+	{
+		"OnTrue" "client_commandCommandplayer_physics_damage 10-1"
+		"OnFalse" "client_commandCommandplayer_physics_damage 00-1"
+	}
+	"origin" "0 16 8"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "13"
+	"classname" "logic_branch"
+	"angles" "0 0 0"
+	"initialvalue" "$duckJump"
+	"targetname" "branch_duck_jump"
+	connections
+	{
+		"OnTrue" "client_commandCommandmv_duckjump 10-1"
+		"OnFalse" "client_commandCommandmv_duckjump 00-1"
+	}
+	"origin" "0 -16 8"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "47"
+	"classname" "point_clientcommand"
+	"angles" "0 0 0"
+	"targetname" "client_command"
+	"origin" "0 0 24"
+	editor
+	{
+		"color" "200 0 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "94"
+	"classname" "logic_auto"
+	"angles" "0 0 0"
+	"spawnflags" "1"
+	connections
+	{
+		"OnMapSpawn" "branch_physics_damageTest0-1"
+		"OnMapSpawn" "branch_duck_jumpTest0-1"
+		"OnMapSpawn" "branch_throwingTest0-1"
+	}
+	"origin" "0 -16 24"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "157"
+	"classname" "func_instance_parms"
+	"parm1" "$playerThrowing string"
+	"parm2" "$physDamage string"
+	"parm3" "$duckJump string"
+	"origin" "0 16 24"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

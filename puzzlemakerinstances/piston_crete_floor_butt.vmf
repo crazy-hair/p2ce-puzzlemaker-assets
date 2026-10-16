@@ -1,0 +1,192 @@
+versioninfo
+{
+	"editorextension" "strata"
+	"editorversion" "400"
+	"editorbuild" "10903"
+	"mapversion" "5"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "1"
+	"nGridSpacing" "64"
+	"bShow3DGrid" "0"
+	"nInstanceVisibility" "2"
+	views
+	{
+		v0
+		{
+			"3d" "1"
+			"position" "(22.5972 -79.6545 124.75)"
+			"angle" "[58.4 124.8 0]"
+		}
+		v1
+		{
+			"3d" "0"
+			"position" "(0 0 0)"
+			"zoom" "0.25"
+		}
+		v2
+		{
+			"3d" "0"
+			"position" "(0 0 0)"
+			"zoom" "0.25"
+		}
+		v3
+		{
+			"3d" "0"
+			"position" "(0 0 0)"
+			"zoom" "0.25"
+		}
+	}
+}
+world
+{
+	"id" "1"
+	"mapversion" "5"
+	"classname" "worldspawn"
+	"skyname" "sky_black_nofog"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"maxblobcount" "250"
+	"maxprojectedtextures" "8"
+	solid
+	{
+		"id" "2"
+		side
+		{
+			"id" "1"
+			"plane" "(-8 -64 64) (-8 -64 -64) (-8 64 -64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -8 -64 64"
+				"point" "1 -8 -64 -64"
+				"point" "2 -8 64 -64"
+				"point" "3 -8 64 64"
+			}
+			"material" "P1PBR/METAL/METALWALL060A"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2"
+			"plane" "(0 64 64) (0 64 -64) (0 -64 -64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 64 64"
+				"point" "1 0 64 -64"
+				"point" "2 0 -64 -64"
+				"point" "3 0 -64 64"
+			}
+			"material" "P1PBR/CONCRETE/CONCRETE_MODULAR_FLOOR001B_BUTTON"
+			"uaxis" "[0 -1 0 -256] 0.25"
+			"vaxis" "[0 0 -1 -256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3"
+			"plane" "(0 -64 64) (0 -64 -64) (-8 -64 -64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 -64 64"
+				"point" "1 0 -64 -64"
+				"point" "2 -8 -64 -64"
+				"point" "3 -8 -64 64"
+			}
+			"material" "P1PBR/SIGNAGE/HAZARD_ORANGE_03B"
+			"uaxis" "[0 0 1 0] 0.25"
+			"vaxis" "[1 0 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(-8 64 64) (-8 64 -64) (0 64 -64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -8 64 64"
+				"point" "1 -8 64 -64"
+				"point" "2 0 64 -64"
+				"point" "3 0 64 64"
+			}
+			"material" "P1PBR/SIGNAGE/HAZARD_ORANGE_03B"
+			"uaxis" "[0 0 1 0] 0.25"
+			"vaxis" "[1 0 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(-8 64 -64) (-8 -64 -64) (0 -64 -64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -8 64 -64"
+				"point" "1 -8 -64 -64"
+				"point" "2 0 -64 -64"
+				"point" "3 0 64 -64"
+			}
+			"material" "P1PBR/SIGNAGE/HAZARD_ORANGE_03B"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[-1 0 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(-8 -64 64) (-8 64 64) (0 64 64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -8 -64 64"
+				"point" "1 -8 64 64"
+				"point" "2 0 64 64"
+				"point" "3 0 -64 64"
+			}
+			"material" "P1PBR/SIGNAGE/HAZARD_ORANGE_03B"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[1 0 0 0] 0.25"
+			"rotation" "90"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 212 181"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

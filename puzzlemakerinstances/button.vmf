@@ -1,0 +1,138 @@
+versioninfo
+{
+	"editorextension" "strata"
+	"editorversion" "400"
+	"editorbuild" "10773"
+	"mapversion" "4"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "1"
+	"nGridSpacing" "1"
+	"bShow3DGrid" "0"
+	"nInstanceVisibility" "2"
+	views
+	{
+		v0
+		{
+			"3d" "1"
+			"position" "(-187.384 -198.479 128.765)"
+			"angle" "[24.12 53.73 0]"
+		}
+		v1
+		{
+			"3d" "0"
+			"position" "(16.0458 -64.9834 65536)"
+			"zoom" "2.67483"
+		}
+		v2
+		{
+			"3d" "0"
+			"position" "(0 0 27)"
+			"zoom" "0.25"
+		}
+		v3
+		{
+			"3d" "0"
+			"position" "(-37.1183 -65536 14.3848)"
+			"zoom" "23.8491"
+		}
+	}
+}
+world
+{
+	"id" "1"
+	"mapversion" "4"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxprojectedtextures" "8"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+}
+entity
+{
+	"id" "119"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "instances/buttons/button_pieces/floor_button_base_intact_black.vmf"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2"
+	"classname" "prop_floor_button"
+	"AllowSilentDissolve" "1"
+	"angles" "0 0 0"
+	"body" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"drawinfastreflection" "0"
+	"effects" "0"
+	"fadescale" "1"
+	"model" "models/props/portal_button.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"setbodygroup" "0"
+	"shadowcastdist" "0"
+	"shadowdepthnocache" "0"
+	"solid" "0"
+	"suppressanimsounds" "0"
+	"targetname" "button"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	connections
+	{
+		"OnPressed" "proxyProxyRelay0-1"
+		"OnUnPressed" "proxyProxyRelay0-1"
+	}
+	"origin" "0 0 5"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "114"
+	"classname" "func_instance_io_proxy"
+	"targetname" "proxy"
+	"origin" "0 0 48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

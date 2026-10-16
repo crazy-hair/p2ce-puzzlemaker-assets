@@ -105,7 +105,7 @@
     "name": "Real-Time Spotlight",
     "model": "crazy/spotlight.obj",
     "mat": "crazy/laser_catcher_mod.png",
-    "instance": "spotlight",
+    "instance": "puzzlemakermaps/puzzlemakerinstances/spotlight",
     "bound1": [
       -0.15,
       -0.15,
@@ -388,12 +388,49 @@
       }
     ]
   },
+	{
+		"type": "entity",
+		"name": "P1 Color Correction",
+		"model": "crazy/axis_helper.obj",
+		"mat": "crazy/axis_helper.png",
+		"entity": "color_correction",
+    "bound1": [
+      -0.15,
+      -0.15,
+      -0.15
+    ],
+    "bound2": [
+      0.15,
+      0.15,
+      0.15
+    ],
+		"snapMode": "mini-corner",
+    "editorTransform": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -90,
+        0,
+        180
+      ]
+    },
+		"statickvs": {
+			"fadeInDuration": "2",
+			"fadeOoutDuration": "2",
+			"filename": "scripts/colorcorrection/cc_testchamber.raw",
+			"minfalloff": "-1",
+			"maxfalloff": "-1"
+		}
+	},
   {
     "type": "entity",
     "name": "P1 Game Rules",
     "model": "crazy/axis_helper.obj",
     "mat": "crazy/axis_helper.png",
-    "instance": "p1_gamerules",
+    "instance": "puzzlemakermaps/puzzlemakerinstances/p1_gamerules",
     "snapMode": "mini-corner",
     "bound1": [
       -0.15,

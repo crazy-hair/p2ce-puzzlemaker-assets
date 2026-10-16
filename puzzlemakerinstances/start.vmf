@@ -1,0 +1,82 @@
+versioninfo
+{
+	"editorextension" "strata"
+	"editorversion" "400"
+	"editorbuild" "10762"
+	"mapversion" "1"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "1"
+	"nGridSpacing" "64"
+	"bShow3DGrid" "0"
+	"nInstanceVisibility" "2"
+	views
+	{
+		v0
+		{
+			"3d" "1"
+			"position" "(-240 0 0)"
+			"angle" "[0 0 0]"
+		}
+		v1
+		{
+			"3d" "0"
+			"position" "(0 0 0)"
+			"zoom" "0.25"
+		}
+		v2
+		{
+			"3d" "0"
+			"position" "(0 0 0)"
+			"zoom" "0.25"
+		}
+		v3
+		{
+			"3d" "0"
+			"position" "(0 0 0)"
+			"zoom" "0.25"
+		}
+	}
+}
+world
+{
+	"id" "1"
+	"mapversion" "1"
+	"classname" "worldspawn"
+	"skyname" "sky_black_nofog"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"maxblobcount" "250"
+	"maxprojectedtextures" "8"
+}
+entity
+{
+	"id" "2"
+	"classname" "info_player_start"
+	"angles" "0 0 0"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "0 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

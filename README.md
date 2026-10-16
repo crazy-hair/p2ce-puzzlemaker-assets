@@ -6,7 +6,7 @@ Everything under the `P1 Enhanced` category requires my [Portal 1 PBR Pack](http
 
 Certain instances like the recessed lighting and piston pit require my `lights.rad` file. Unfortunately there's no way to have multiple lights.rad files installed at a time, so I would recommend throwing it in your custom folder only when you need to compile P1 Enhanced maps, and remove it when you're compiling stock P2 maps.
 
-Included is an example `.chamb` file that recreate's Portal 1's Testchamber 09:
+Included is an example `.chamb` file that recreates Portal 1's Testchamber 09:
 |Puzzlemaker|In-Game|
 |-|-|
 |![alt](screenshots/puzzlemaker_DCKFDqGhD3.png)|![alt text](screenshots/20261016021029_1_crop.jpg)|

@@ -388,6 +388,89 @@
       }
     ]
   },
+  {
+    "type": "entity",
+    "name": "Counter",
+    "model": "crazy/axis_helper.obj",
+    "mat": "crazy/axis_helper.png",
+    "entity": "math_counter",
+    "bound1": [
+      -0.15,
+      -0.15,
+      -0.15
+    ],
+    "bound2": [
+      0.15,
+      0.15,
+      0.15
+    ],
+    "snapMode": "mini-corner",
+    "editorTransform": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -90,
+        0,
+        180
+      ]
+    },
+    "transform": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    "keyvalues": [
+      {
+		"name": "Min Value",
+        "kv": "min",
+        "type": "int",
+        "defaultValue": 0
+      },
+      {
+		"name": "Max Value",
+        "kv": "max",
+        "type": "int",
+        "defaultValue": 2
+      },
+      {
+		"name": "Starting Value",
+        "kv": "startvalue",
+        "type": "int",
+        "defaultValue": 0
+      }
+    ],
+    "inputs": [
+      {
+        "name": "Add 1",
+        "trueInput": "add",
+        "trueArg": "1",
+        "falseInput": "subtract",
+        "falseArg": "1"
+      }
+    ],
+		"outputs": [
+			{
+				"name": "On Max Reached",
+				"trueOutput": "OnHitMax",
+				"falseOutput": "OnChangedFromMax"
+			},
+			{
+				"name": "On Min Reached",
+				"trueOutput": "OnHitMin",
+				"falseOutput": "OnChangedFromMin"
+			}
+		]
+  },
 	{
 		"type": "entity",
 		"name": "P1 Color Correction",

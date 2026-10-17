@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10903"
-	"mapversion" "7"
+	"mapversion" "8"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -15,7 +15,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "1"
-	"nGridSpacing" "32"
+	"nGridSpacing" "8"
 	"bShow3DGrid" "0"
 	"nInstanceVisibility" "2"
 	views
@@ -23,40 +23,40 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-411.091 -218.579 114.69)"
-			"angle" "[23.2 89.5992 0]"
+			"position" "(-15.9116 -154.982 44.251)"
+			"angle" "[9.20001 89.199 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(6.18205 4.65105 65536)"
+			"position" "(6.18205 4.65105 0)"
 			"zoom" "1.85752"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(65536 31.8032 -27.5878)"
+			"position" "(0 31.8032 -27.5878)"
 			"zoom" "1.85752"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(99.6625 -65536 8.22059)"
-			"zoom" "1.28995"
+			"position" "(-7.13927 -65536 -63.3357)"
+			"zoom" "102.547"
 		}
 	}
 }
 world
 {
 	"id" "1"
-	"mapversion" "7"
+	"mapversion" "8"
 	"classname" "worldspawn"
-	"skyname" "sky_black_nofog"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
 	"maxblobcount" "250"
 	"maxprojectedtextures" "8"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
 }
 entity
 {
@@ -68,17 +68,17 @@ entity
 		side
 		{
 			"id" "1"
-			"plane" "(-12 -56 -55.812) (-8 -56 -55.812) (-8 -56 56.188)"
+			"plane" "(-12 -56 -55.997) (-8 -56 -55.997) (-8 -56 56.003)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -12 -56 -55.812"
-				"point" "1 -8 -56 -55.812"
-				"point" "2 -8 -56 56.188"
-				"point" "3 -12 -56 56.188"
+				"point" "0 -12 -56 -55.997"
+				"point" "1 -8 -56 -55.997"
+				"point" "2 -8 -56 56.003"
+				"point" "3 -12 -56 56.003"
 			}
 			"material" "P1PBR/PLASTIC/PLASTICWALL001B"
-			"uaxis" "[0 0 -1 -226] 0.25"
+			"uaxis" "[0 0 -1 -226.74] 0.25"
 			"vaxis" "[-1 0 0 -224] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -87,18 +87,18 @@ entity
 		side
 		{
 			"id" "2"
-			"plane" "(-8 -64 64.188) (-12 -60 60.188) (-12 -56 56.188)"
+			"plane" "(-8 -64 64.003) (-12 -60 60.003) (-12 -56 56.003)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -8 -64 64.188"
-				"point" "1 -12 -60 60.188"
-				"point" "2 -12 -56 56.188"
-				"point" "3 -8 -56 56.187"
+				"point" "0 -8 -64 64.003"
+				"point" "1 -12 -60 60.003"
+				"point" "2 -12 -56 56.003"
+				"point" "3 -8 -56 56.002"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 -32] 0.25"
-			"vaxis" "[0 0.7071 -0.7071 29.1583] 0.25"
+			"vaxis" "[0 0.7071 -0.7071 28.6351] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -106,18 +106,18 @@ entity
 		side
 		{
 			"id" "3"
-			"plane" "(-8 -56 -55.812) (-12 -56 -55.812) (-12 -60 -59.812)"
+			"plane" "(-8 -56 -55.997) (-12 -56 -55.997) (-12 -60 -59.997)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -8 -56 -55.812"
-				"point" "1 -12 -56 -55.812"
-				"point" "2 -12 -60 -59.812"
-				"point" "3 -8 -64 -63.812"
+				"point" "0 -8 -56 -55.997"
+				"point" "1 -12 -56 -55.997"
+				"point" "2 -12 -60 -59.997"
+				"point" "3 -8 -64 -63.997"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 -32] 0.25"
-			"vaxis" "[0 -0.7071 -0.7071 -27.264] 0.25"
+			"vaxis" "[0 -0.7071 -0.7071 -27.7872] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -125,17 +125,17 @@ entity
 		side
 		{
 			"id" "4"
-			"plane" "(-8 -64 -63.813) (-12 -60 -59.813) (-12 -60 60.188)"
+			"plane" "(-8 -64 -63.998) (-12 -60 -59.998) (-12 -60 60.003)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -8 -64 -63.813"
-				"point" "1 -12 -60 -59.813"
-				"point" "2 -12 -60 60.188"
-				"point" "3 -8 -64 64.188"
+				"point" "0 -8 -64 -63.998"
+				"point" "1 -12 -60 -59.998"
+				"point" "2 -12 -60 60.003"
+				"point" "3 -8 -64 64.003"
 			}
 			"material" "P1PBR/PLASTIC/PLASTICWALL001B"
-			"uaxis" "[0 0 -1 -226] 0.25"
+			"uaxis" "[0 0 -1 -226.74] 0.25"
 			"vaxis" "[-1 0 0 -224] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -144,17 +144,17 @@ entity
 		side
 		{
 			"id" "5"
-			"plane" "(-12 -60 -59.813) (-12 -56 -55.812) (-12 -56 56.188)"
+			"plane" "(-12 -60 -59.998) (-12 -56 -55.997) (-12 -56 56.003)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -12 -60 -59.813"
-				"point" "1 -12 -56 -55.812"
-				"point" "2 -12 -56 56.188"
-				"point" "3 -12 -60 60.188"
+				"point" "0 -12 -60 -59.998"
+				"point" "1 -12 -56 -55.997"
+				"point" "2 -12 -56 56.003"
+				"point" "3 -12 -60 60.003"
 			}
 			"material" "P1PBR/PLASTIC/PLASTICWALL001B"
-			"uaxis" "[0 0 -1 -226] 0.25"
+			"uaxis" "[0 0 -1 -226.74] 0.25"
 			"vaxis" "[0 1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -163,18 +163,18 @@ entity
 		side
 		{
 			"id" "6"
-			"plane" "(-8 -64 64.188) (-8 -56 56.188) (-8 -56 -55.812)"
+			"plane" "(-8 -64 64.003) (-8 -56 56.003) (-8 -56 -55.997)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -8 -64 64.188"
-				"point" "1 -8 -56 56.188"
-				"point" "2 -8 -56 -55.812"
-				"point" "3 -8 -64 -63.813"
+				"point" "0 -8 -64 64.003"
+				"point" "1 -8 -56 56.003"
+				"point" "2 -8 -56 -55.997"
+				"point" "3 -8 -64 -63.998"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 -0.73999] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -812,14 +812,14 @@ entity
 		side
 		{
 			"id" "154"
-			"plane" "(-8 -56 -55.809) (-12 -56 -55.809) (-12 56 -55.809)"
+			"plane" "(-8 -56 -55.994) (-12 -56 -55.994) (-12 56 -55.994)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -8 -56 -55.809"
-				"point" "1 -12 -56 -55.809"
-				"point" "2 -12 56 -55.809"
-				"point" "3 -8 56 -55.809"
+				"point" "0 -8 -56 -55.994"
+				"point" "1 -12 -56 -55.994"
+				"point" "2 -12 56 -55.994"
+				"point" "3 -8 56 -55.994"
 			}
 			"material" "P1PBR/PLASTIC/PLASTICWALL001B"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -831,18 +831,18 @@ entity
 		side
 		{
 			"id" "153"
-			"plane" "(-8 -64 -63.812) (-12 -60 -59.812) (-12 -56 -55.809)"
+			"plane" "(-8 -64 -63.997) (-12 -60 -59.997) (-12 -56 -55.994)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -8 -64 -63.812"
-				"point" "1 -12 -60 -59.812"
-				"point" "2 -12 -56 -55.809"
-				"point" "3 -8 -56 -55.809"
+				"point" "0 -8 -64 -63.997"
+				"point" "1 -12 -60 -59.997"
+				"point" "2 -12 -56 -55.994"
+				"point" "3 -8 -56 -55.994"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 32] 0.25"
-			"vaxis" "[0 -0.7071 -0.7071 -27.264] 0.25"
+			"vaxis" "[0 -0.7071 -0.7071 -27.7872] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -850,14 +850,14 @@ entity
 		side
 		{
 			"id" "152"
-			"plane" "(-8 64 -63.812) (-12 60 -59.812) (-12 -60 -59.812)"
+			"plane" "(-8 64 -63.997) (-12 60 -59.997) (-12 -60 -59.997)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -8 64 -63.812"
-				"point" "1 -12 60 -59.812"
-				"point" "2 -12 -60 -59.812"
-				"point" "3 -8 -64 -63.812"
+				"point" "0 -8 64 -63.997"
+				"point" "1 -12 60 -59.997"
+				"point" "2 -12 -60 -59.997"
+				"point" "3 -8 -64 -63.997"
 			}
 			"material" "P1PBR/PLASTIC/PLASTICWALL001B"
 			"uaxis" "[0 -1 0 0] 0.25"
@@ -869,18 +869,18 @@ entity
 		side
 		{
 			"id" "151"
-			"plane" "(-8 56 -55.809) (-12 56 -55.809) (-12 60 -59.812)"
+			"plane" "(-8 56 -55.994) (-12 56 -55.994) (-12 60 -59.997)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -8 56 -55.809"
-				"point" "1 -12 56 -55.809"
-				"point" "2 -12 60 -59.812"
-				"point" "3 -8 64 -63.812"
+				"point" "0 -8 56 -55.994"
+				"point" "1 -12 56 -55.994"
+				"point" "2 -12 60 -59.997"
+				"point" "3 -8 64 -63.997"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 32] 0.25"
-			"vaxis" "[0 -0.7071 0.7071 -29.1583] 0.25"
+			"vaxis" "[0 -0.7071 0.7071 -28.6351] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -888,18 +888,18 @@ entity
 		side
 		{
 			"id" "150"
-			"plane" "(-12 56 -55.809) (-12 -56 -55.809) (-12 -60 -59.812)"
+			"plane" "(-12 56 -55.994) (-12 -56 -55.994) (-12 -60 -59.997)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -12 56 -55.809"
-				"point" "1 -12 -56 -55.809"
-				"point" "2 -12 -60 -59.812"
-				"point" "3 -12 60 -59.812"
+				"point" "0 -12 56 -55.994"
+				"point" "1 -12 -56 -55.994"
+				"point" "2 -12 -60 -59.997"
+				"point" "3 -12 60 -59.997"
 			}
 			"material" "P1PBR/PLASTIC/PLASTICWALL001B"
 			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 1 255] 0.25"
+			"vaxis" "[0 0 1 255.74] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -907,18 +907,18 @@ entity
 		side
 		{
 			"id" "149"
-			"plane" "(-8 64 -63.812) (-8 -64 -63.812) (-8 -56 -55.809)"
+			"plane" "(-8 64 -63.997) (-8 -64 -63.997) (-8 -56 -55.994)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -8 64 -63.812"
-				"point" "1 -8 -64 -63.812"
-				"point" "2 -8 -56 -55.809"
-				"point" "3 -8 56 -55.809"
+				"point" "0 -8 64 -63.997"
+				"point" "1 -8 -64 -63.997"
+				"point" "2 -8 -56 -55.994"
+				"point" "3 -8 56 -55.994"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 -0.73999] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -948,17 +948,17 @@ entity
 		side
 		{
 			"id" "160"
-			"plane" "(-12 60 60.189) (-12 60 -59.814) (-8 64 -63.815)"
+			"plane" "(-12 60 60.004) (-12 60 -59.999) (-8 64 -64)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -12 60 60.189"
-				"point" "1 -12 60 -59.814"
-				"point" "2 -8 64 -63.815"
-				"point" "3 -8 64 64.189"
+				"point" "0 -12 60 60.004"
+				"point" "1 -12 60 -59.999"
+				"point" "2 -8 64 -64"
+				"point" "3 -8 64 64.004"
 			}
 			"material" "P1PBR/PLASTIC/PLASTICWALL001B"
-			"uaxis" "[0 0 1 226] 0.25"
+			"uaxis" "[0 0 1 226.74] 0.25"
 			"vaxis" "[-1 0 0 -224] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -967,18 +967,18 @@ entity
 		side
 		{
 			"id" "159"
-			"plane" "(-12 56 56.187) (-12 56 -55.812) (-12 60 -59.815)"
+			"plane" "(-12 56 56.002) (-12 56 -55.997) (-12 60 -60)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -12 56 56.187"
-				"point" "1 -12 56 -55.812"
-				"point" "2 -12 60 -59.815"
-				"point" "3 -12 60 60.19"
+				"point" "0 -12 56 56.002"
+				"point" "1 -12 56 -55.997"
+				"point" "2 -12 60 -60"
+				"point" "3 -12 60 60.005"
 			}
 			"material" "P1PBR/PLASTIC/PLASTICWALL001B"
 			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[0 0 1 242] 0.25"
+			"vaxis" "[0 0 1 242.74] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -986,18 +986,18 @@ entity
 		side
 		{
 			"id" "158"
-			"plane" "(-8 64 64.19) (-8 64 -63.815) (-8 56 -55.812)"
+			"plane" "(-8 64 64.005) (-8 64 -64) (-8 56 -55.997)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -8 64 64.19"
-				"point" "1 -8 64 -63.815"
-				"point" "2 -8 56 -55.812"
-				"point" "3 -8 56 56.187"
+				"point" "0 -8 64 64.005"
+				"point" "1 -8 64 -64"
+				"point" "2 -8 56 -55.997"
+				"point" "3 -8 56 56.002"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 -0.73999] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1005,17 +1005,17 @@ entity
 		side
 		{
 			"id" "157"
-			"plane" "(-8 56 56.187) (-8 56 -55.812) (-12 56 -55.812)"
+			"plane" "(-8 56 56.002) (-8 56 -55.997) (-12 56 -55.997)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -8 56 56.187"
-				"point" "1 -8 56 -55.812"
-				"point" "2 -12 56 -55.812"
-				"point" "3 -12 56 56.187"
+				"point" "0 -8 56 56.002"
+				"point" "1 -8 56 -55.997"
+				"point" "2 -12 56 -55.997"
+				"point" "3 -12 56 56.002"
 			}
 			"material" "P1PBR/PLASTIC/PLASTICWALL001B"
-			"uaxis" "[0 0 1 226] 0.25"
+			"uaxis" "[0 0 1 226.74] 0.25"
 			"vaxis" "[-1 0 0 -224] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1024,18 +1024,18 @@ entity
 		side
 		{
 			"id" "156"
-			"plane" "(-8 56 -55.812) (-8 64 -63.814) (-12 60 -59.814)"
+			"plane" "(-8 56 -55.997) (-8 64 -63.999) (-12 60 -59.999)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -8 56 -55.812"
-				"point" "1 -8 64 -63.814"
-				"point" "2 -12 60 -59.814"
-				"point" "3 -12 56 -55.812"
+				"point" "0 -8 56 -55.997"
+				"point" "1 -8 64 -63.999"
+				"point" "2 -12 60 -59.999"
+				"point" "3 -12 56 -55.997"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 32] 0.25"
-			"vaxis" "[0 0.7071 -0.7071 29.1583] 0.25"
+			"vaxis" "[0 0.7071 -0.7071 28.6351] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1043,18 +1043,18 @@ entity
 		side
 		{
 			"id" "155"
-			"plane" "(-12 56 56.188) (-12 60 60.19) (-8 64 64.19)"
+			"plane" "(-12 56 56.003) (-12 60 60.005) (-8 64 64.005)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -12 56 56.188"
-				"point" "1 -12 60 60.19"
-				"point" "2 -8 64 64.19"
-				"point" "3 -8 56 56.188"
+				"point" "0 -12 56 56.003"
+				"point" "1 -12 60 60.005"
+				"point" "2 -8 64 64.005"
+				"point" "3 -8 56 56.003"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 32] 0.25"
-			"vaxis" "[0 -0.7071 -0.7071 -27.264] 0.25"
+			"vaxis" "[0 -0.7071 -0.7071 -27.7872] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1084,18 +1084,18 @@ entity
 		side
 		{
 			"id" "166"
-			"plane" "(-12 -60 60.189) (-12 -56 56.191) (-12 56 56.191)"
+			"plane" "(-12 -60 60.004) (-12 -56 56.006) (-12 56 56.006)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -12 -60 60.189"
-				"point" "1 -12 -56 56.191"
-				"point" "2 -12 56 56.191"
-				"point" "3 -12 60 60.189"
+				"point" "0 -12 -60 60.004"
+				"point" "1 -12 -56 56.006"
+				"point" "2 -12 56 56.006"
+				"point" "3 -12 60 60.004"
 			}
 			"material" "P1PBR/PLASTIC/PLASTICWALL001B"
 			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 -255] 0.25"
+			"vaxis" "[0 0 -1 -255.74] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1103,18 +1103,18 @@ entity
 		side
 		{
 			"id" "165"
-			"plane" "(-8 56 56.191) (-8 -56 56.191) (-8 -64 64.19)"
+			"plane" "(-8 56 56.006) (-8 -56 56.006) (-8 -64 64.005)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -8 56 56.191"
-				"point" "1 -8 -56 56.191"
-				"point" "2 -8 -64 64.19"
-				"point" "3 -8 64 64.19"
+				"point" "0 -8 56 56.006"
+				"point" "1 -8 -56 56.006"
+				"point" "2 -8 -64 64.005"
+				"point" "3 -8 64 64.005"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 -0.73999] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1122,14 +1122,14 @@ entity
 		side
 		{
 			"id" "164"
-			"plane" "(-12 56 56.191) (-12 -56 56.191) (-8 -56 56.191)"
+			"plane" "(-12 56 56.006) (-12 -56 56.006) (-8 -56 56.006)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -12 56 56.191"
-				"point" "1 -12 -56 56.191"
-				"point" "2 -8 -56 56.191"
-				"point" "3 -8 56 56.191"
+				"point" "0 -12 56 56.006"
+				"point" "1 -12 -56 56.006"
+				"point" "2 -8 -56 56.006"
+				"point" "3 -8 56 56.006"
 			}
 			"material" "P1PBR/PLASTIC/PLASTICWALL001B"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -1141,18 +1141,18 @@ entity
 		side
 		{
 			"id" "163"
-			"plane" "(-8 -64 64.19) (-8 -56 56.191) (-12 -56 56.191)"
+			"plane" "(-8 -64 64.005) (-8 -56 56.006) (-12 -56 56.006)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -8 -64 64.19"
-				"point" "1 -8 -56 56.191"
-				"point" "2 -12 -56 56.191"
-				"point" "3 -12 -60 60.189"
+				"point" "0 -8 -64 64.005"
+				"point" "1 -8 -56 56.006"
+				"point" "2 -12 -56 56.006"
+				"point" "3 -12 -60 60.004"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 32] 0.25"
-			"vaxis" "[0 0.7071 -0.7071 29.1583] 0.25"
+			"vaxis" "[0 0.7071 -0.7071 28.6351] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1160,14 +1160,14 @@ entity
 		side
 		{
 			"id" "162"
-			"plane" "(-12 -60 60.189) (-12 60 60.189) (-8 64 64.189)"
+			"plane" "(-12 -60 60.004) (-12 60 60.004) (-8 64 64.004)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -12 -60 60.189"
-				"point" "1 -12 60 60.189"
-				"point" "2 -8 64 64.189"
-				"point" "3 -8 -64 64.189"
+				"point" "0 -12 -60 60.004"
+				"point" "1 -12 60 60.004"
+				"point" "2 -8 64 64.004"
+				"point" "3 -8 -64 64.004"
 			}
 			"material" "P1PBR/PLASTIC/PLASTICWALL001B"
 			"uaxis" "[0 -1 0 0] 0.25"
@@ -1179,18 +1179,18 @@ entity
 		side
 		{
 			"id" "161"
-			"plane" "(-12 60 60.189) (-12 56 56.191) (-8 56 56.191)"
+			"plane" "(-12 60 60.004) (-12 56 56.006) (-8 56 56.006)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -12 60 60.189"
-				"point" "1 -12 56 56.191"
-				"point" "2 -8 56 56.191"
-				"point" "3 -8 64 64.19"
+				"point" "0 -12 60 60.004"
+				"point" "1 -12 56 56.006"
+				"point" "2 -8 56 56.006"
+				"point" "3 -8 64 64.005"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 -32] 0.25"
-			"vaxis" "[0 -0.7071 -0.7071 -27.264] 0.25"
+			"vaxis" "[0 -0.7071 -0.7071 -27.7872] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"

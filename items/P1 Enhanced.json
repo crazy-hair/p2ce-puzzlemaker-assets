@@ -92,7 +92,7 @@
 		"name": "P1 Energy Ball Catcher",
 		"model": "crazy/catcher.obj",
 		"mat": "crazy/laser-catcher.png",
-		"instance": "puzzlemakermaps/puzzlemakerinstances/catcher",
+		"instance": "puzzlemakermaps/puzzlemakerinstances/catcher-{extruded}",
 		"deleteIntersectingVoxelsEditor": false,
 		"bound1": [
 			-0.5,
@@ -143,6 +143,12 @@
 				"type": "float",
 				"defaultValue": 1
 			},
+		  {
+			"name": "Protruding",
+			"kv": "extruded",
+			"type": "bool",
+			"defaultValue": false
+		  },
 			{
 		  "name": "Frame Material",
 				"kv": "material",
@@ -154,6 +160,17 @@
 					"Concrete Ceiling": "puzzlemakermaps/puzzlemakerinstances/cat_c_ceil.vmf",
 					"Metal Wall": "puzzlemakermaps/puzzlemakerinstances/cat_m.vmf",
 					"Metal Floor": "puzzlemakermaps/puzzlemakerinstances/cat_m_f.vmf"
+				}
+			},
+			{
+		  "name": "Protrusion Material",
+				"kv": "extrudedMaterial",
+				"type": "drop-string",
+				"defaultValue": 0,
+				"options": {
+					"Concrete Wall": "puzzlemakermaps/puzzlemakerinstances/cat_ex_wall_c.vmf",
+					"Concrete Floor": "puzzlemakermaps/puzzlemakerinstances/cat_ex_floor_c.vmf",
+					"Concrete Ceiling": "puzzlemakermaps/puzzlemakerinstances/cat_ex_ceil_c.vmf"
 				}
 			},
 			{
@@ -200,7 +217,7 @@
 				0
 			],
 			"rotation": [
-				90,
+				-90,
 				0,
 				180
 			]
@@ -2370,6 +2387,61 @@
 	},
 	{
 		"type": "entity",
+		"name": "P1 Protruding Concrete Panel",
+		"model": "crazy/protruding_panel.obj",
+		"mat": "crazy/laser_catcher_mod.png",
+		"instance": "puzzlemakermaps/puzzlemakerinstances/extruded_conc_panel_{material}",
+		"bound1": [
+			-1,
+			-1,
+			0.000
+		],
+		"bound2": [
+			1,
+			1,
+			0.1
+		],
+		"editorTransform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				90.000,
+				0
+			]
+		},
+		"transform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			]
+		},
+		"keyvalues": [
+		  {
+			"name": "Material",
+			"kv": "material",
+			"type": "drop-int",
+			"defaultValue": 0,
+			"options": {
+			  "Concrete Wall": 0,
+			  "Concrete Floor": 1,
+			  "Concrete ceiling": 2
+			}
+		}
+		],
+		"snapMode": "mini-corner"
+	},
+	{
+		"type": "entity",
 		"name": "Protruding Metal Block 32x",
 		"model": "crazy/metal_block_32.obj",
 		"mat": "crazy/laser_catcher_mod.png",
@@ -2474,7 +2546,7 @@
     "name": "Small Metal Blocks",
 		"editorTexture": {
 			"filename": "blackMiniVoxel.png",
-			"size": 0.5,
+			"size": 1,
 			"alignment": "none"
 		},
     "textures": {

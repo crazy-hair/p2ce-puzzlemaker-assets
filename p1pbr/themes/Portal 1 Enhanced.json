@@ -1,0 +1,55 @@
+{
+  "voxel": {
+	"blackEditor": "__base__/blackVoxel.png",
+	"whiteEditor": "__base__/whiteVoxel.png",
+	"blackMiniEditor": "__base__/blackMiniVoxel.png",
+	"whiteMiniEditor": "__base__/whiteMiniVoxel.png",
+	"nodraw": "TOOLS/TOOLSNODRAW",
+	"backstage": "p1pbr/concrete/concrete_modular_wall001a",
+
+	"blackFloor": "p1pbr/metal/metal_modular_floor001",
+	"blackWall": "p1pbr/metal/metalwall048b_med",
+	"blackCeiling": "p1pbr/metal/metalwall048b_med",
+	"whiteFloor": "p1pbr/concrete/concrete_modular_floor001a",
+	"whiteWall": "p1pbr/concrete/concrete_modular_wall001a",
+	"whiteCeiling": "p1pbr/concrete/concrete_modular_ceiling001a",
+
+	"blackFloorMini": "p1pbr/metal/metal_modular_floor001",
+	"blackWallMini": "p1pbr/metal/metalwall048b",
+	"blackCeilingMini": "p1pbr/metal/metalwall048b",
+	"whiteFloorMini": "p1pbr/concrete/concrete_modular_floor001a",
+	"whiteWallMini": "p1pbr/concrete/concrete_modular_wall001a",
+	"whiteCeilingMini": "p1pbr/concrete/concrete_modular_ceiling001a"
+  },
+  "antline": {
+    "editorAntlineTex": "__base__/antline.png",
+	"editorAntlineActiveTex": "__base__/antline-active.png",
+	"editorCheckTex": "__base__/check.png",
+	"editorCheckActiveTex": "__base__/check-active.png",
+
+	"dotSize": 8,
+	"checkSize": 32,
+
+	"lineTex": "p1pbr/signage/indicator_lights/indicator_lights_wall",
+	"cornerTex": "p1pbr/signage/indicator_lights/indicator_lights_corner_wall",
+	"checkTex": "p1pbr/signage/signage_doorstate_decal",
+	"lineDotCountx": 4,
+	"lineDotCounty": 1,
+	"cornerDotCountx": 1,
+	"cornerDotCounty": 1
+ },
+ "postProcessing": [
+	  {
+		"name": "Portal 1 Testchamber",
+	    "maxExposure": 2,
+	    "minExposure": 0.5,
+	    "tonemapRate": 0.25,
+	    "brightPixelPercent": 5,
+	    "primaryFogColor": [40, 53, 64],
+	    "secondaryFogColor": [40, 53, 64],
+	    "fogStart": 128,
+	    "fogEnd": 5000,
+	    "fogDensity": 1
+	  }
+  ]
+}

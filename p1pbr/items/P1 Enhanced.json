@@ -2,8 +2,9 @@
 	{
 		"type": "entity",
 		"name": "P1 Energy Ball Launcher",
-		"model": "crazy/launcher.obj",
-		"mat": "crazy/laser-catcher.png",
+		"id": "p1pbr_launcher",
+		"model": "launcher.obj",
+		"mat": "laser-catcher.png",
 		"instance": "puzzlemakermaps/puzzlemakerinstances/launcher",
 		"bound1": [
 			-0.55,
@@ -90,8 +91,9 @@
 	{
 		"type": "entity",
 		"name": "P1 Energy Ball Catcher",
-		"model": "crazy/catcher.obj",
-		"mat": "crazy/laser-catcher.png",
+		"id": "p1pbr_catcher",
+		"model": "catcher.obj",
+		"mat": "laser-catcher.png",
 		"instance": "puzzlemakermaps/puzzlemakerinstances/catcher-{extruded}",
 		"deleteIntersectingVoxelsEditor": false,
 		"bound1": [
@@ -197,8 +199,9 @@
 	{
 		"type": "entity",
 		"name": "P1 Door",
-		"model": "crazy/p1_door.obj",
-		"mat": "crazy/laser_catcher_mod.png",
+		"id": "p1pbr_door",
+		"model": "p1_door.obj",
+		"mat": "laser_catcher_mod.png",
 		"instance": "puzzlemakermaps/puzzlemakerinstances/p1_door",
 		"bound1": [
 			0,
@@ -270,8 +273,9 @@
 	{
 		"type": "entity",
 		"name": "P1 Floor Button",
-		"model": "crazy/p1_button.obj",
-		"mat": "crazy/laser_catcher_mod.png",
+		"id": "p1pbr_button_floor",
+		"model": "p1_button.obj",
+		"mat": "laser_catcher_mod.png",
 		"instance": "puzzlemakermaps/puzzlemakerinstances/p1_button",
 		"bound1": [
 			-1,
@@ -321,8 +325,9 @@
 	{
 		"type": "entity",
 		"name": "P1 Pedestal Button",
-		"model": "crazy/p1_ped_button.obj",
-		"mat": "crazy/laser_catcher_mod.png",
+		"id": "p1pbr_button_ped",
+		"model": "p1_ped_button.obj",
+		"mat": "laser_catcher_mod.png",
 		"instance": "puzzlemakermaps/puzzlemakerinstances/p1_ped_button",
 		"snapMode": "mini-corner",
 		"bound1": [
@@ -400,8 +405,9 @@
 	{
 		"type": "entity",
 		"name": "P1 Cube Dropper",
-		"model": "crazy/p1_dropper_full.obj",
-		"mat": "crazy/dropper_full.png",
+		"id": "p1pbr_dropper_cube",
+		"model": "p1_dropper_full.obj",
+		"mat": "dropper_full.png",
 		"instance": "puzzlemakermaps/puzzlemakerinstances/p1_dropper",
 		"deleteIntersectingVoxels": true,
 		"snapMode": "mini-corner",
@@ -510,8 +516,9 @@
 	{
 		"type": "entity",
 		"name": "P1 Cube",
-		"model": "crazy/p1_cube.obj",
-		"mat": "crazy/laser_catcher_mod.png",
+		"id": "p1pbr_cube",
+		"model": "p1_cube.obj",
+		"mat": "laser_catcher_mod.png",
 		"entity": "prop_weighted_cube",
 		"transform": {
 			"position": [
@@ -562,7 +569,8 @@
 	{
     "type": "panel",
     "name": "P1 Fizzler",
-    "editorCenterTexture": "fizzler-center.png",
+		"id": "p1pbr_fizzler",
+    "editorCenterTexture": "__base__/fizzler-center.png",
     "centerTexture": {
       "filename": "EFFECTS/FIZZLER_CENTER",
       "size": 1024,
@@ -581,7 +589,7 @@
     "borders": [
       {
         "id": "left",
-        "editorTexture": "fizzler-left.png",
+        "editorTexture": "__base__/fizzler-left.png",
         "texture": {
           "filename": "EFFECTS/FIZZLER_L",
           "size": 1024,
@@ -592,7 +600,7 @@
       },
       {
         "id": "right",
-        "editorTexture": "fizzler-right.png",
+        "editorTexture": "__base__/fizzler-right.png",
         "texture": {
           "filename": "EFFECTS/FIZZLER_R",
           "size": 1024,
@@ -606,8 +614,8 @@
     "props": [
       {
         "id": "left",
-        "editorTexture": "crazy/laser_catcher_mod.png",
-        "editorModel": "crazy/cleanser.obj",
+        "editorTexture": "laser_catcher_mod.png",
+        "editorModel": "cleanser.obj",
         "model": "help",
         "editorTransform": {
           "rotation": [0, 90, 90]
@@ -615,8 +623,8 @@
       },
       {
         "id": "right",
-        "editorTexture": "crazy/laser_catcher_mod.png",
-        "editorModel": "crazy/cleanser.obj",
+        "editorTexture": "laser_catcher_mod.png",
+        "editorModel": "cleanser.obj",
         "model": "help",
         "editorTransform": {
           "rotation": [0, -90, -90]
@@ -654,7 +662,8 @@
 	{
     "type": "panel",
     "name": "P1 Gel Fizzler",
-    "editorCenterTexture": "fizzler-center.png",
+		"id": "p1pbr_fizzler_gel",
+    "editorCenterTexture": "__base__/fizzler-center.png",
 	"requiresPaint": true,
     "centerTexture": {
       "filename": "EFFECTS/FIZZLER_CENTER",
@@ -674,7 +683,7 @@
     "borders": [
       {
         "id": "left",
-        "editorTexture": "fizzler-left.png",
+        "editorTexture": "__base__/fizzler-left.png",
         "texture": {
           "filename": "EFFECTS/FIZZLER_L",
           "size": 1024,
@@ -685,7 +694,7 @@
       },
       {
         "id": "right",
-        "editorTexture": "fizzler-right.png",
+        "editorTexture": "__base__/fizzler-right.png",
         "texture": {
           "filename": "EFFECTS/FIZZLER_R",
           "size": 1024,
@@ -699,8 +708,8 @@
     "props": [
       {
         "id": "left",
-        "editorTexture": "crazy/laser_catcher_mod.png",
-        "editorModel": "crazy/cleanser.obj",
+        "editorTexture": "laser_catcher_mod.png",
+        "editorModel": "cleanser.obj",
         "model": "help",
         "editorTransform": {
           "rotation": [0, 90, 90]
@@ -708,8 +717,8 @@
       },
       {
         "id": "right",
-        "editorTexture": "crazy/laser_catcher_mod.png",
-        "editorModel": "crazy/cleanser.obj",
+        "editorTexture": "laser_catcher_mod.png",
+        "editorModel": "cleanser.obj",
         "model": "help",
         "editorTransform": {
           "rotation": [0, -90, -90]
@@ -747,8 +756,9 @@
 	{
 		"type": "entity",
 		"name": "P1 Autoportal",
-		"model": "crazy/autoportal.obj",
-		"mat": "crazy/laser_catcher_mod.png",
+		"id": "p1pbr_autoportal",
+		"model": "autoportal.obj",
+		"mat": "laser_catcher_mod.png",
 		"instance": "puzzlemakermaps/puzzlemakerinstances/p1_autoportal",
 		"bound1": [
 			-0.650,
@@ -819,8 +829,9 @@
 	{
 		"type": "entity",
 		"name": "P1 Piston Platform",
-		"model": "crazy/piston_panel.obj",
-		"mat": "crazy/laser_catcher_mod.png",
+		"id": "p1pbr_piston_platform",
+		"model": "piston_panel.obj",
+		"mat": "laser_catcher_mod.png",
 		"instance": "puzzlemakermaps/puzzlemakerinstances/piston",
 		"bound1": [
 			-0.8,
@@ -875,8 +886,9 @@
 	{
 		"type": "entity",
 		"name": "P1 Piston Stair",
-		"model": "crazy/p1_piston_stair.obj",
-		"mat": "crazy/laser_catcher_mod.png",
+		"id": "p1pbr_piston_stair",
+		"model": "p1_piston_stair.obj",
+		"mat": "laser_catcher_mod.png",
 		"instance": "puzzlemakermaps/puzzlemakerinstances/piston_stair",
 		"bound1": [
 			-1.05,
@@ -917,8 +929,9 @@
 	{
 		"type": "entity",
 		"name": "P1 Piston Pit",
-		"model": "crazy/piston_pit_full.obj",
-		"mat": "crazy/piston_pit_full.png",
+		"id": "p1pbr_piston_pit",
+		"model": "piston_pit_full.obj",
+		"mat": "piston_pit_full.png",
 		"instance": "puzzlemakermaps/puzzlemakerinstances/piston_pit",
 		"deleteIntersectingVoxels": true,
 		"genMissingVoxels": false,
@@ -961,8 +974,9 @@
 	{
 		"type": "entity",
 		"name": "P1 Victory Lift",
-		"model": "crazy/victory_lift.obj",
-		"mat": "crazy/laser_catcher_mod.png",
+		"id": "p1pbr_piston_lift",
+		"model": "victory_lift.obj",
+		"mat": "laser_catcher_mod.png",
 		"instance": "puzzlemakermaps/puzzlemakerinstances/victory_lift",
 		"bound1": [
 			-0.8,
@@ -981,8 +995,8 @@
 				-2
 			],
 			"rotation": [
-				90,
 				0,
+				90,
 				90
 			]
 		},
@@ -1040,8 +1054,9 @@
 	{
 		"type": "entity",
 		"name": "P1 Testchamber Sign",
-		"model": "crazy/testchamber_sign.obj",
-		"mat": "crazy/testchamber_sign_full.png",
+		"id": "p1pbr_sign_testchamber",
+		"model": "testchamber_sign.obj",
+		"mat": "testchamber_sign_full.png",
 		"instance": "puzzlemakermaps/puzzlemakerinstances/testchamber_sign",
 		"bound1": [
 			-0.75,
@@ -1459,8 +1474,10 @@
 	{
 		"type": "volume",
 		"name": "P1 Hazard Liquid",
+		"id": "p1pbr_goo",
+		"exportScript": "goo.lua",
 		"editorTexture": {
-			"filename": "crazy/hazard_liquid.png",
+			"filename": "hazard_liquid.png",
 			"size": 2,
 			"alignment": "none"
 		},
@@ -1496,8 +1513,9 @@
 	{
 		"type": "entity",
 		"name": "P1 Sentry Turret",
-		"model": "crazy/p1_turret.obj",
-		"mat": "crazy/laser_catcher_mod.png",
+		"id": "p1pbr_turret",
+		"model": "p1_turret.obj",
+		"mat": "laser_catcher_mod.png",
 		"entity": "npc_portal_turret_floor",
 		"exportScript": "turretSkin.lua",
 		"bound1": [
@@ -1570,9 +1588,10 @@
 	},
 	{
 		"type": "entity",
-		"name": "P1 Camera",
-		"model": "crazy/p1_camera.obj",
-		"mat": "crazy/laser_catcher_mod.png",
+		"name": "P1 Security Camera",
+		"id": "p1pbr_camera",
+		"model": "p1_camera.obj",
+		"mat": "laser_catcher_mod.png",
 		"entity": "npc_security_camera",
 		"bound1": [
 			-0.15,
@@ -1632,8 +1651,9 @@
 	{
 		"type": "entity",
 		"name": "P1 Exit Sign",
-		"model": "crazy/exit_sign.obj",
-		"mat": "crazy/exit_sign.png",
+		"id": "p1pbr_sign_exit",
+		"model": "exit_sign.obj",
+		"mat": "exit_sign.png",
 		"instance": "puzzlemakermaps/puzzlemakerinstances/exit_sign",
 		"bound1": [
 			-0.600,
@@ -1674,8 +1694,9 @@
 	{
 		"type": "entity",
 		"name": "P1 Doorstate Sign",
-		"model": "crazy/doorstate.obj",
-		"mat": "crazy/laser_catcher_mod.png",
+		"id": "p1pbr_sign_doorstate",
+		"model": "doorstate.obj",
+		"mat": "laser_catcher_mod.png",
 		"instance": "puzzlemakermaps/puzzlemakerinstances/doorstate",
 		"bound1": [
 			-0.300,
@@ -1723,8 +1744,9 @@
 	{
 		"type": "entity",
 		"name": "64x Observation Room",
-		"model": "crazy/obroom_64x_full.obj",
-		"mat": "crazy/obroom_64x_full.png",
+		"id": "p1pbr_obroom_64",
+		"model": "obroom_64x_full.obj",
+		"mat": "obroom_64x_full.png",
 		"instance": "puzzlemakermaps/puzzlemakerinstances/obroom",
 		"deleteIntersectingVoxels": true,
 		"genMissingVoxels": false,
@@ -1767,8 +1789,9 @@
 	{
 		"type": "entity",
 		"name": "128x Observation Room",
-		"model": "crazy/obroom_128x_full.obj",
-		"mat": "crazy/obroom_128x_full.png",
+		"id": "p1pbr_obroom_128",
+		"model": "obroom_128x_full.obj",
+		"mat": "obroom_128x_full.png",
 		"instance": "puzzlemakermaps/puzzlemakerinstances/obroom_128",
 		"deleteIntersectingVoxels": true,
 		"genMissingVoxels": false,
@@ -1811,8 +1834,9 @@
 	{
 		"type": "entity",
 		"name": "256x Observation Room",
-		"model": "crazy/obroom_256x_full.obj",
-		"mat": "crazy/obroom_256x_full.png",
+		"id": "p1pbr_obroom_256",
+		"model": "obroom_256x_full.obj",
+		"mat": "obroom_256x_full.png",
 		"instance": "puzzlemakermaps/puzzlemakerinstances/obroom_256",
 		"deleteIntersectingVoxels": true,
 		"genMissingVoxels": false,
@@ -1855,8 +1879,9 @@
 	{
 		"type": "entity",
 		"name": "128x Metal Recessed Light",
-		"model": "crazy/light_metal_128_full.obj",
-		"mat": "crazy/light_metal_128_full.png",
+		"id": "p1pbr_light_recessed_metal_128",
+		"model": "light_metal_128_full.obj",
+		"mat": "light_metal_128_full.png",
 		"instance": "puzzlemakermaps/puzzlemakerinstances/128x128_metal",
 		"deleteIntersectingVoxels": true,
 		"genMissingVoxels": false,
@@ -1929,8 +1954,9 @@
 	{
 		"type": "entity",
 		"name": "64x Metal Recessed Light",
-		"model": "crazy/light_metal_64_full.obj",
-		"mat": "crazy/light_metal_64_full.png",
+		"id": "p1pbr_light_recessed_metal_64",
+		"model": "light_metal_64_full.obj",
+		"mat": "light_metal_64_full.png",
 		"instance": "puzzlemakermaps/puzzlemakerinstances/64x64_metal",
 		"deleteIntersectingVoxels": true,
 		"genMissingVoxels": false,
@@ -2003,8 +2029,9 @@
 	{
 		"type": "entity",
 		"name": "32x Metal Recessed Light",
-		"model": "crazy/light_metal_32_full.obj",
-		"mat": "crazy/light_metal_32_full.png",
+		"id": "p1pbr_light_recessed_metal_32",
+		"model": "light_metal_32_full.obj",
+		"mat": "light_metal_32_full.png",
 		"instance": "puzzlemakermaps/puzzlemakerinstances/32x32_metal",
 		"deleteIntersectingVoxels": true,
 		"genMissingVoxels": false,
@@ -2077,8 +2104,9 @@
 	{
 		"type": "entity",
 		"name": "128x Concrete Recessed Light",
-		"model": "crazy/recessed_lighting_4.obj",
-		"mat": "crazy/laser_catcher_mod.png",
+		"id": "p1pbr_light_recessed_concrete_128",
+		"model": "recessed_lighting_4.obj",
+		"mat": "laser_catcher_mod.png",
 		"instance": "puzzlemakermaps/puzzlemakerinstances/recessed_lighting_4",
 		"deleteIntersectingVoxels": true,
 		"deleteIntersectingVoxelsEditor": false,
@@ -2134,8 +2162,9 @@
 	{
 		"type": "entity",
 		"name": "64x Concrete Recessed Light",
-		"model": "crazy/recessed_lighting_2.obj",
-		"mat": "crazy/laser_catcher_mod.png",
+		"id": "p1pbr_light_recessed_concrete_64",
+		"model": "recessed_lighting_2.obj",
+		"mat": "laser_catcher_mod.png",
 		"instance": "puzzlemakermaps/puzzlemakerinstances/recessed_lighting_2",
 		"deleteIntersectingVoxels": true,
 		"deleteIntersectingVoxelsEditor": false,
@@ -2190,9 +2219,10 @@
 	},
 	{
 		"type": "entity",
-		"name": "64x Concrete Recessed Light Corner",  
-		"model": "crazy/recessed_lighting_2_corner.obj",
-		"mat": "crazy/laser_catcher_mod.png",
+		"name": "64x Concrete Recessed Light Corner", 
+		"id": "p1pbr_light_recessed_concrete_64_corner",
+		"model": "recessed_lighting_2_corner.obj",
+		"mat": "laser_catcher_mod.png",
 		"instance": "puzzlemakermaps/puzzlemakerinstances/rec_light_corner",
 		"deleteIntersectingVoxels": true,
 		"deleteIntersectingVoxelsEditor": false,
@@ -2248,8 +2278,9 @@
 	{
 		"type": "entity",
 		"name": "P1 Entry Elevator",
-		"model": "crazy/elevator_shaft_entry.obj",
-		"mat": "crazy/elevator_shaft.png",
+		"id": "p1pbr_elevator_entry",
+		"model": "elevator_shaft_entry.obj",
+		"mat": "elevator_shaft.png",
 		"instance": "puzzlemakermaps/puzzlemakerinstances/p1_elevator_start",
 		"deleteIntersectingVoxels": true,
 		"genMissingVoxels": false,
@@ -2292,9 +2323,10 @@
 	{
 		"type": "entity",
 		"name": "P1 Middle Elevator",
-		"model": "crazy/elevator_shaft_exit.obj",
-		"mat": "crazy/elevator_shaft.png",
-		"instance": "puzzlemakermaps/puzzlemakerinstances/p1_elevator_mid_180",
+		"id": "p1pbr_elevator_middle",
+		"model": "elevator_shaft_exit.obj",
+		"mat": "elevator_shaft.png",
+		"instance": "puzzlemakermaps/puzzlemakerinstances/p1_elevator_mid",
 		"deleteIntersectingVoxels": true,
 		"genMissingVoxels": false,
 		"bound1": [
@@ -2336,8 +2368,9 @@
 	{
 		"type": "entity",
 		"name": "P1 Exit Elevator",
-		"model": "crazy/elevator_shaft_exit.obj",
-		"mat": "crazy/elevator_shaft.png",
+		"id": "p1pbr_elevator_exit",
+		"model": "elevator_shaft_exit.obj",
+		"mat": "elevator_shaft.png",
 		"instance": "puzzlemakermaps/puzzlemakerinstances/p1_elevator_end",
 		"deleteIntersectingVoxels": true,
 		"genMissingVoxels": false,
@@ -2388,8 +2421,9 @@
 	{
 		"type": "entity",
 		"name": "P1 Protruding Concrete Panel",
-		"model": "crazy/protruding_panel.obj",
-		"mat": "crazy/laser_catcher_mod.png",
+		"id": "p1pbr_panel_concrete",
+		"model": "protruding_panel.obj",
+		"mat": "laser_catcher_mod.png",
 		"instance": "puzzlemakermaps/puzzlemakerinstances/extruded_conc_panel_{material}",
 		"bound1": [
 			-1,
@@ -2443,8 +2477,9 @@
 	{
 		"type": "entity",
 		"name": "Protruding Metal Block 32x",
-		"model": "crazy/metal_block_32.obj",
-		"mat": "crazy/laser_catcher_mod.png",
+		"id": "p1pbr_panel_metal_32",
+		"model": "metal_block_32.obj",
+		"mat": "laser_catcher_mod.png",
 		"instance": "puzzlemakermaps/puzzlemakerinstances/protruding_metal_block_32",
 		"bound1": [
 			-0.25,
@@ -2485,8 +2520,10 @@
 	{
 		"type": "entity",
 		"name": "Protruding Metal Block 64x",
-		"model": "crazy/metal_block_64.obj",
-		"mat": "crazy/laser_catcher_mod.png",
+		"id": "p1pbr_panel_metal_64",
+		"model": "metal_block_64.obj",
+		"model": "metal_block_64.obj",
+		"mat": "laser_catcher_mod.png",
 		"instance": "puzzlemakermaps/puzzlemakerinstances/protruding_metal_block_64",
 		"bound1": [
 			-0.5,
@@ -2527,7 +2564,8 @@
   {
     "type": "volume",
     "name": "Concrete Wall",
-    "editorTexture": "whiteVoxel.png",
+	"id": "p1pbr_block_concrete",
+    "editorTexture": "__base__/whiteVoxel.png",
     "textures": {
       "top": "p1pbr/concrete/concrete_modular_floor001a",
       "bottom": "p1pbr/concrete/concrete_modular_ceiling001a",
@@ -2544,8 +2582,9 @@
 	{
     "type": "volume",
     "name": "Small Metal Blocks",
+		"id": "p1pbr_block_metal_32",
 		"editorTexture": {
-			"filename": "blackMiniVoxel.png",
+			"filename": "__base__/blackMiniVoxel.png",
 			"size": 1,
 			"alignment": "none"
 		},
@@ -2565,8 +2604,9 @@
   {
     "type": "volume",
     "name": "Medium Metal Blocks",
+	"id": "p1pbr_block_metal_64",
 		"editorTexture": {
-			"filename": "blackVoxel.png",
+			"filename": "__base__/blackVoxel.png",
 			"size": 1,
 			"alignment": "none"
 		},
@@ -2586,8 +2626,9 @@
   {
     "type": "volume",
     "name": "Large Metal Blocks",
+		"id": "p1pbr_block_metal_128",
 		"editorTexture": {
-			"filename": "blackVoxel.png",
+			"filename": "__base__/blackVoxel.png",
 			"size": 2,
 			"alignment": "none"
 		},

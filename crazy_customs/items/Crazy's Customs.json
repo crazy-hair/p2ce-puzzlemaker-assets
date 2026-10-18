@@ -2,8 +2,9 @@
   {
     "type": "entity",
     "name": "Cubemap",
-    "model": "crazy/cubemap.obj",
-    "mat": "crazy/cubemap.png",
+	"id": "crazy_cubemap",
+    "model": "cubemap.obj",
+    "mat": "cubemap.png",
     "entity": "env_cubemap",
     "bound1": [
       -0.15,
@@ -71,8 +72,9 @@
   {
     "type": "volume",
     "name": "Parallax Bounds",
+	"id": "crazy_parallax_obb",
 	"editorTexture": {
-		"filename": "crazy/parallax.png",
+		"filename": "parallax.png",
 		"size": 1,
 		"alignment": "none"
 	},
@@ -103,8 +105,9 @@
   {
     "type": "entity",
     "name": "Real-Time Spotlight",
-    "model": "crazy/spotlight.obj",
-    "mat": "crazy/laser_catcher_mod.png",
+	"id": "crazy_spotlight",
+    "model": "spotlight.obj",
+    "mat": "laser_catcher_mod.png",
     "instance": "puzzlemakermaps/puzzlemakerinstances/spotlight",
     "bound1": [
       -0.15,
@@ -236,7 +239,7 @@
 		  "name": "Volumetric Mode",
         "kv": "volumeMode",
         "type": "drop-int",
-        "defaultValue": 0,
+        "defaultValue": 1,
 				"options": {
 					"None": 0,
 					"Real-Time": 2
@@ -247,6 +250,12 @@
         "kv": "volumeDensity",
         "type": "float",
         "defaultValue": 0
+      },
+      {
+		  "name": "Volumetric Scale",
+        "kv": "volumeScale",
+        "type": "float",
+        "defaultValue": 1
       },
 	  {
 		  "name": "Shadow",
@@ -275,8 +284,9 @@
   {
     "type": "entity",
     "name": "Chell Start",
-    "model": "crazy/chell.obj",
-    "mat": "crazy/chell.png",
+	"id": "crazy_start",
+    "model": "chell.obj",
+    "mat": "chell.png",
     "entity": "info_player_start",
     "bound1": [
       -0.25,
@@ -316,8 +326,9 @@
   {
     "type": "entity",
     "name": "Portal Placement Helper",
-    "model": "crazy/placement_helper.obj",
-    "mat": "crazy/portal_grey.png",
+	"id": "crazy_placement_helper",
+    "model": "placement_helper.obj",
+    "mat": "portal_grey.png",
     "entity": "info_placement_helper",
     "bound1": [
       -0.5,
@@ -391,8 +402,9 @@
   {
     "type": "entity",
     "name": "Counter",
-    "model": "crazy/axis_helper.obj",
-    "mat": "crazy/axis_helper.png",
+	"id": "crazy_math_counter",
+    "model": "axis_helper.obj",
+    "mat": "axis_helper.png",
     "entity": "math_counter",
     "bound1": [
       -0.15,
@@ -474,8 +486,9 @@
 	{
 		"type": "entity",
 		"name": "P1 Color Correction",
-		"model": "crazy/axis_helper.obj",
-		"mat": "crazy/axis_helper.png",
+	"id": "crazy_color_correction",
+		"model": "axis_helper.obj",
+		"mat": "axis_helper.png",
 		"entity": "color_correction",
     "bound1": [
       -0.15,
@@ -511,8 +524,9 @@
   {
     "type": "entity",
     "name": "P1 Game Rules",
-    "model": "crazy/axis_helper.obj",
-    "mat": "crazy/axis_helper.png",
+	"id": "crazy_game_rules",
+    "model": "axis_helper.obj",
+    "mat": "axis_helper.png",
     "instance": "puzzlemakermaps/puzzlemakerinstances/p1_gamerules",
     "snapMode": "mini-corner",
     "bound1": [

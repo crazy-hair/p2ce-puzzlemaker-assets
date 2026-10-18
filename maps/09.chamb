@@ -7924,7 +7924,8 @@
 		}],
 	"items":	[{
 			"index":	0,
-			"id":	"P1 Entry Elevator",
+			"id":	"p1pbr_elevator_entry",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[1, 9, 12],
 			"rot":	[0, 90, 0],
@@ -7934,7 +7935,8 @@
 			}
 		}, {
 			"index":	1,
-			"id":	"P1 Piston Pit",
+			"id":	"p1pbr_piston_pit",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[14, 8, 10],
 			"rot":	[-90, 0, 0],
@@ -7944,7 +7946,8 @@
 			}
 		}, {
 			"index":	2,
-			"id":	"P1 Piston Platform",
+			"id":	"p1pbr_piston_platform",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[14, 10, 10],
 			"rot":	[-89.999992370605469, 1.4927851164393824e-13, 0],
@@ -7955,7 +7958,8 @@
 			}
 		}, {
 			"index":	3,
-			"id":	"P1 Cube Dropper",
+			"id":	"p1pbr_dropper_cube",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[16, 12, 13.5],
 			"rot":	[89.999992370605469, 0, 0],
@@ -7972,17 +7976,19 @@
 			}
 		}, {
 			"index":	4,
-			"id":	"64x Observation Room",
+			"id":	"p1pbr_obroom_64",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[10.5, 11, 9],
 			"rot":	[0, 0, 0],
-			"snapDir":	6,
+			"snapDir":	4,
 			"outputs":	[],
 			"kv":	{
 			}
 		}, {
 			"index":	5,
-			"id":	"Small Metal Blocks",
+			"id":	"p1pbr_block_metal_32",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[13, 8, 15],
 			"rot":	[-90, 0, 0],
@@ -7997,7 +8003,8 @@
 			}
 		}, {
 			"index":	6,
-			"id":	"Small Metal Blocks",
+			"id":	"p1pbr_block_metal_32",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[9, 8, 15],
 			"rot":	[-90, 0, 0],
@@ -8012,7 +8019,8 @@
 			}
 		}, {
 			"index":	7,
-			"id":	"Medium Metal Blocks",
+			"id":	"p1pbr_block_metal_64",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[9, 10, 15.5],
 			"rot":	[5.0089565775124356e-06, 90, 90],
@@ -8027,7 +8035,8 @@
 			}
 		}, {
 			"index":	8,
-			"id":	"Medium Metal Blocks",
+			"id":	"p1pbr_block_metal_64",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[15, 10, 15],
 			"rot":	[0, -90, 90],
@@ -8042,7 +8051,8 @@
 			}
 		}, {
 			"index":	9,
-			"id":	"Small Metal Blocks",
+			"id":	"p1pbr_block_metal_32",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[11, 10, 15],
 			"rot":	[-90, 0, 0],
@@ -8057,7 +8067,8 @@
 			}
 		}, {
 			"index":	10,
-			"id":	"Small Metal Blocks",
+			"id":	"p1pbr_block_metal_32",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[11, 10.5, 15],
 			"rot":	[-90, 0, 0],
@@ -8072,7 +8083,8 @@
 			}
 		}, {
 			"index":	11,
-			"id":	"Small Metal Blocks",
+			"id":	"p1pbr_block_metal_32",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[12.5, 10.5, 15],
 			"rot":	[-90, 0, 0],
@@ -8087,7 +8099,8 @@
 			}
 		}, {
 			"index":	12,
-			"id":	"Small Metal Blocks",
+			"id":	"p1pbr_block_metal_32",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[11, 11.5, 15],
 			"rot":	[-90, 0, 0],
@@ -8102,7 +8115,8 @@
 			}
 		}, {
 			"index":	13,
-			"id":	"P1 Autoportal",
+			"id":	"p1pbr_autoportal",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[15, 11, 10],
 			"rot":	[0, -90, 0],
@@ -8114,7 +8128,8 @@
 			}
 		}, {
 			"index":	14,
-			"id":	"P1 Floor Button",
+			"id":	"p1pbr_button_floor",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[12, 8, 18],
 			"rot":	[-90, 0, 0],
@@ -8138,18 +8153,20 @@
 			}
 		}, {
 			"index":	15,
-			"id":	"P1 Exit Elevator",
+			"id":	"p1pbr_elevator_exit",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[17, 9, 26],
 			"rot":	[0, -90, 0],
 			"snapDir":	6,
 			"outputs":	[],
 			"kv":	{
-				"next_map":	"06"
+				"next_map":	""
 			}
 		}, {
 			"index":	16,
-			"id":	"P1 Door",
+			"id":	"p1pbr_door",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[12, 8, 23.5],
 			"rot":	[-89.999992370605469, 90, 0],
@@ -8161,7 +8178,8 @@
 			}
 		}, {
 			"index":	17,
-			"id":	"64x Concrete Recessed Light Corner",
+			"id":	"p1pbr_light_recessed_concrete_64_corner",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[3.5, 8, 10.5],
 			"rot":	[-89.999992370605469, -89.999992370605469, 0],
@@ -8172,7 +8190,8 @@
 			}
 		}, {
 			"index":	18,
-			"id":	"64x Concrete Recessed Light Corner",
+			"id":	"p1pbr_light_recessed_concrete_64_corner",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[3.5, 8, 13.5],
 			"rot":	[-89.999992370605469, 2.9855702328787648e-13, 0],
@@ -8183,7 +8202,8 @@
 			}
 		}, {
 			"index":	19,
-			"id":	"128x Concrete Recessed Light",
+			"id":	"p1pbr_light_recessed_concrete_128",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[5, 8, 13.5],
 			"rot":	[-89.999992370605469, 89.999992370605469, 0],
@@ -8194,7 +8214,8 @@
 			}
 		}, {
 			"index":	20,
-			"id":	"64x Concrete Recessed Light Corner",
+			"id":	"p1pbr_light_recessed_concrete_64_corner",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[6.5, 8, 13.5],
 			"rot":	[-89.999992370605469, 89.999992370605469, 0],
@@ -8205,7 +8226,8 @@
 			}
 		}, {
 			"index":	21,
-			"id":	"64x Concrete Recessed Light Corner",
+			"id":	"p1pbr_light_recessed_concrete_64_corner",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[6.5, 8, 10.5],
 			"rot":	[-89.999992370605469, 180, 0],
@@ -8216,7 +8238,8 @@
 			}
 		}, {
 			"index":	22,
-			"id":	"128x Concrete Recessed Light",
+			"id":	"p1pbr_light_recessed_concrete_128",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[5, 8, 10.5],
 			"rot":	[-89.999992370605469, -89.999992370605469, 0],
@@ -8227,7 +8250,8 @@
 			}
 		}, {
 			"index":	23,
-			"id":	"128x Concrete Recessed Light",
+			"id":	"p1pbr_light_recessed_concrete_128",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[8, 8, 12.5],
 			"rot":	[-89.999992370605469, 89.999992370605469, 0],
@@ -8238,7 +8262,8 @@
 			}
 		}, {
 			"index":	24,
-			"id":	"128x Concrete Recessed Light",
+			"id":	"p1pbr_light_recessed_concrete_128",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[8, 8, 11.5],
 			"rot":	[-89.999992370605469, -89.999992370605469, 0],
@@ -8249,7 +8274,8 @@
 			}
 		}, {
 			"index":	25,
-			"id":	"64x Concrete Recessed Light Corner",
+			"id":	"p1pbr_light_recessed_concrete_64_corner",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[9.5, 8, 9.5],
 			"rot":	[-89.999992370605469, -89.999992370605469, 0],
@@ -8260,7 +8286,8 @@
 			}
 		}, {
 			"index":	26,
-			"id":	"64x Concrete Recessed Light",
+			"id":	"p1pbr_light_recessed_concrete_64",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[9.5, 8, 10.5],
 			"rot":	[-89.999992370605469, 2.9855702328787648e-13, 0],
@@ -8271,7 +8298,8 @@
 			}
 		}, {
 			"index":	27,
-			"id":	"128x Concrete Recessed Light",
+			"id":	"p1pbr_light_recessed_concrete_128",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[11, 8, 9.5],
 			"rot":	[-89.999992370605469, -89.999992370605469, 0],
@@ -8282,7 +8310,8 @@
 			}
 		}, {
 			"index":	28,
-			"id":	"64x Concrete Recessed Light Corner",
+			"id":	"p1pbr_light_recessed_concrete_64_corner",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[16.5, 8, 12.5],
 			"rot":	[-89.999992370605469, 180, 0],
@@ -8293,7 +8322,8 @@
 			}
 		}, {
 			"index":	29,
-			"id":	"64x Concrete Recessed Light Corner",
+			"id":	"p1pbr_light_recessed_concrete_64_corner",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[16.5, 8, 14.5],
 			"rot":	[-89.999992370605469, 90, 0],
@@ -8304,7 +8334,8 @@
 			}
 		}, {
 			"index":	30,
-			"id":	"64x Concrete Recessed Light",
+			"id":	"p1pbr_light_recessed_concrete_64",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[16.5, 8, 13.5],
 			"rot":	[-89.999992370605469, 180, 0],
@@ -8315,7 +8346,8 @@
 			}
 		}, {
 			"index":	31,
-			"id":	"64x Concrete Recessed Light",
+			"id":	"p1pbr_light_recessed_concrete_64",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[15.5, 8, 14.5],
 			"rot":	[-89.999992370605469, 89.999992370605469, 0],
@@ -8326,7 +8358,8 @@
 			}
 		}, {
 			"index":	32,
-			"id":	"64x Concrete Recessed Light",
+			"id":	"p1pbr_light_recessed_concrete_64",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[15.5, 8, 12.5],
 			"rot":	[-89.999992370605469, -89.999992370605469, 0],
@@ -8337,7 +8370,8 @@
 			}
 		}, {
 			"index":	33,
-			"id":	"128x Concrete Recessed Light",
+			"id":	"p1pbr_light_recessed_concrete_128",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[9.5, 8, 14],
 			"rot":	[-89.999992370605469, 2.4148366719600745e-06, 0],
@@ -8348,7 +8382,8 @@
 			}
 		}, {
 			"index":	34,
-			"id":	"128x Concrete Recessed Light",
+			"id":	"p1pbr_light_recessed_concrete_128",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[14.5, 12, 17],
 			"rot":	[89.999992370605469, 180, 0],
@@ -8359,7 +8394,8 @@
 			}
 		}, {
 			"index":	35,
-			"id":	"128x Concrete Recessed Light",
+			"id":	"p1pbr_light_recessed_concrete_128",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[14.5, 12, 19],
 			"rot":	[89.999992370605469, 180, 0],
@@ -8370,7 +8406,8 @@
 			}
 		}, {
 			"index":	36,
-			"id":	"128x Concrete Recessed Light",
+			"id":	"p1pbr_light_recessed_concrete_128",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[14.5, 12, 21],
 			"rot":	[89.999992370605469, 180, 0],
@@ -8381,7 +8418,8 @@
 			}
 		}, {
 			"index":	37,
-			"id":	"64x Concrete Recessed Light Corner",
+			"id":	"p1pbr_light_recessed_concrete_64_corner",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[14.5, 12, 22.5],
 			"rot":	[89.999992370605469, -179.99998474121094, 0],
@@ -8392,7 +8430,8 @@
 			}
 		}, {
 			"index":	38,
-			"id":	"128x Concrete Recessed Light",
+			"id":	"p1pbr_light_recessed_concrete_128",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[13, 12, 22.5],
 			"rot":	[89.999992370605469, 89.999992370605469, 0],
@@ -8403,7 +8442,8 @@
 			}
 		}, {
 			"index":	39,
-			"id":	"128x Concrete Recessed Light",
+			"id":	"p1pbr_light_recessed_concrete_128",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[11, 12, 22.5],
 			"rot":	[89.999992370605469, 89.999992370605469, 0],
@@ -8414,7 +8454,8 @@
 			}
 		}, {
 			"index":	40,
-			"id":	"64x Concrete Recessed Light Corner",
+			"id":	"p1pbr_light_recessed_concrete_64_corner",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[9.5, 12, 22.5],
 			"rot":	[89.999992370605469, 89.999992370605469, 0],
@@ -8425,7 +8466,8 @@
 			}
 		}, {
 			"index":	41,
-			"id":	"128x Concrete Recessed Light",
+			"id":	"p1pbr_light_recessed_concrete_128",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[9.5, 12, 21],
 			"rot":	[89.999992370605469, -4.8296724344254471e-06, 0],
@@ -8436,7 +8478,8 @@
 			}
 		}, {
 			"index":	42,
-			"id":	"128x Concrete Recessed Light",
+			"id":	"p1pbr_light_recessed_concrete_128",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[9.5, 12, 19],
 			"rot":	[90, 0, 0],
@@ -8447,7 +8490,8 @@
 			}
 		}, {
 			"index":	43,
-			"id":	"128x Concrete Recessed Light",
+			"id":	"p1pbr_light_recessed_concrete_128",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[9.5, 12, 17],
 			"rot":	[90, 0, 0],
@@ -8458,7 +8502,8 @@
 			}
 		}, {
 			"index":	44,
-			"id":	"P1 Exit Sign",
+			"id":	"p1pbr_sign_exit",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[12, 10.5, 23],
 			"rot":	[0, 180, 0],
@@ -8468,7 +8513,8 @@
 			}
 		}, {
 			"index":	45,
-			"id":	"128x Concrete Recessed Light",
+			"id":	"p1pbr_light_recessed_concrete_128",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[11.5, 8, 25],
 			"rot":	[-89.999992370605469, 2.9855702328787648e-13, 0],
@@ -8479,7 +8525,8 @@
 			}
 		}, {
 			"index":	46,
-			"id":	"64x Concrete Recessed Light Corner",
+			"id":	"p1pbr_light_recessed_concrete_64_corner",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[11.5, 8, 26.5],
 			"rot":	[-90, 0, 0],
@@ -8490,7 +8537,8 @@
 			}
 		}, {
 			"index":	47,
-			"id":	"128x Concrete Recessed Light",
+			"id":	"p1pbr_light_recessed_concrete_128",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[13, 8, 26.5],
 			"rot":	[-89.999992370605469, 90.000007629394531, 0],
@@ -8501,7 +8549,8 @@
 			}
 		}, {
 			"index":	48,
-			"id":	"128x Concrete Recessed Light",
+			"id":	"p1pbr_light_recessed_concrete_128",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[15, 8, 26.5],
 			"rot":	[-89.999992370605469, 89.999992370605469, 0],
@@ -8512,7 +8561,8 @@
 			}
 		}, {
 			"index":	49,
-			"id":	"128x Concrete Recessed Light",
+			"id":	"p1pbr_light_recessed_concrete_128",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[14, 8, 25.5],
 			"rot":	[-89.999992370605469, -89.999992370605469, 0],
@@ -8523,7 +8573,8 @@
 			}
 		}, {
 			"index":	50,
-			"id":	"64x Concrete Recessed Light",
+			"id":	"p1pbr_light_recessed_concrete_64",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[15.5, 8, 25.5],
 			"rot":	[-89.999992370605469, -89.999992370605469, 0],
@@ -8534,7 +8585,8 @@
 			}
 		}, {
 			"index":	51,
-			"id":	"64x Concrete Recessed Light",
+			"id":	"p1pbr_light_recessed_concrete_64",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[12.5, 8, 24.5],
 			"rot":	[-89.999992370605469, 180, 0],
@@ -8545,7 +8597,8 @@
 			}
 		}, {
 			"index":	52,
-			"id":	"Real-Time Spotlight",
+			"id":	"crazy_spotlight",
+			"group":	"Crazy's Customs",
 			"hidden":	false,
 			"pos":	[10.149999618530273, 11.760000228881836, 8.1999998092651367],
 			"rot":	[31.909999847412109, 20, -2.7000000476837158],
@@ -8566,13 +8619,15 @@
 				"specMode":	1,
 				"volumeMode":	0,
 				"volumeDensity":	0,
+				"volumeScale":	1,
 				"lightSpawnflags":	1,
 				"nearZ":	4,
 				"hardRadiusOverride":	1500
 			}
 		}, {
 			"index":	53,
-			"id":	"Real-Time Spotlight",
+			"id":	"crazy_spotlight",
+			"group":	"Crazy's Customs",
 			"hidden":	false,
 			"pos":	[8.56999969482422, 11.770000457763672, 17.479999542236328],
 			"rot":	[40.6500015258789, 58.110000610351562, 55.880001068115234],
@@ -8593,6 +8648,7 @@
 				"specMode":	1,
 				"volumeMode":	0,
 				"volumeDensity":	0,
+				"volumeScale":	1,
 				"lightSpawnflags":	1,
 				"nearZ":	4,
 				"hardRadiusOverride":	1500
@@ -8600,6 +8656,7 @@
 		}, {
 			"index":	54,
 			"id":	"trigger-once",
+			"group":	"logic",
 			"hidden":	false,
 			"pos":	[7, 8, 11],
 			"rot":	[-90, 0, 0],
@@ -8628,7 +8685,8 @@
 			}
 		}, {
 			"index":	55,
-			"id":	"Cubemap",
+			"id":	"crazy_cubemap",
+			"group":	"Crazy's Customs",
 			"hidden":	false,
 			"pos":	[5, 9, 12],
 			"rot":	[-89.999992370605469, 0, 0],
@@ -8640,7 +8698,8 @@
 			}
 		}, {
 			"index":	56,
-			"id":	"Cubemap",
+			"id":	"crazy_cubemap",
+			"group":	"Crazy's Customs",
 			"hidden":	false,
 			"pos":	[16, 11, 13.5],
 			"rot":	[0, 0, 0],
@@ -8652,7 +8711,8 @@
 			}
 		}, {
 			"index":	57,
-			"id":	"Cubemap",
+			"id":	"crazy_cubemap",
+			"group":	"Crazy's Customs",
 			"hidden":	false,
 			"pos":	[14, 10, 14],
 			"rot":	[0, 0, 0],
@@ -8664,7 +8724,8 @@
 			}
 		}, {
 			"index":	58,
-			"id":	"Parallax Bounds",
+			"id":	"crazy_parallax_obb",
+			"group":	"Crazy's Customs",
 			"hidden":	false,
 			"pos":	[9, 8, 9],
 			"rot":	[-90, 0, 0],
@@ -8679,7 +8740,8 @@
 			}
 		}, {
 			"index":	59,
-			"id":	"Parallax Bounds",
+			"id":	"crazy_parallax_obb",
+			"group":	"Crazy's Customs",
 			"hidden":	false,
 			"pos":	[9, 8, 15.5],
 			"rot":	[-90, 0, 0],
@@ -8694,7 +8756,8 @@
 			}
 		}, {
 			"index":	60,
-			"id":	"Cubemap",
+			"id":	"crazy_cubemap",
+			"group":	"Crazy's Customs",
 			"hidden":	false,
 			"pos":	[10, 10, 16.5],
 			"rot":	[0, 0, 0],
@@ -8706,7 +8769,8 @@
 			}
 		}, {
 			"index":	61,
-			"id":	"Parallax Bounds",
+			"id":	"crazy_parallax_obb",
+			"group":	"Crazy's Customs",
 			"hidden":	false,
 			"pos":	[11, 8, 23.5],
 			"rot":	[-89.999992370605469, 0, 0],
@@ -8721,7 +8785,8 @@
 			}
 		}, {
 			"index":	62,
-			"id":	"Cubemap",
+			"id":	"crazy_cubemap",
+			"group":	"Crazy's Customs",
 			"hidden":	false,
 			"pos":	[12, 9, 24],
 			"rot":	[0, 0, 0],
@@ -8733,7 +8798,8 @@
 			}
 		}, {
 			"index":	63,
-			"id":	"Cubemap",
+			"id":	"crazy_cubemap",
+			"group":	"Crazy's Customs",
 			"hidden":	false,
 			"pos":	[10, 10, 14],
 			"rot":	[0, 0, 0],
@@ -8745,7 +8811,8 @@
 			}
 		}, {
 			"index":	64,
-			"id":	"Cubemap",
+			"id":	"crazy_cubemap",
+			"group":	"Crazy's Customs",
 			"hidden":	false,
 			"pos":	[14, 10, 16.5],
 			"rot":	[0, 0, 0],
@@ -8757,7 +8824,8 @@
 			}
 		}, {
 			"index":	65,
-			"id":	"128x Observation Room",
+			"id":	"p1pbr_obroom_128",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[9, 11, 18],
 			"rot":	[0, 90, 0],
@@ -8767,7 +8835,8 @@
 			}
 		}, {
 			"index":	66,
-			"id":	"P1 Game Rules",
+			"id":	"crazy_game_rules",
+			"group":	"Crazy's Customs",
 			"hidden":	false,
 			"pos":	[11, 8, 12],
 			"rot":	[-90, 0, 0],
@@ -8780,7 +8849,8 @@
 			}
 		}, {
 			"index":	67,
-			"id":	"P1 Fizzler",
+			"id":	"p1pbr_fizzler",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[16.75, 8, 25],
 			"rot":	[-89.999992370605469, -89.999992370605469, 0],
@@ -8799,7 +8869,8 @@
 			}
 		}, {
 			"index":	68,
-			"id":	"P1 Fizzler",
+			"id":	"p1pbr_fizzler",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[13, 8, 15.25],
 			"rot":	[-89.999992370605469, -179.99998474121094, 0],
@@ -8818,7 +8889,8 @@
 			}
 		}, {
 			"index":	69,
-			"id":	"P1 Testchamber Sign",
+			"id":	"p1pbr_sign_testchamber",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[5, 10, 14],
 			"rot":	[0, 180, 0],
@@ -8844,7 +8916,8 @@
 			}
 		}, {
 			"index":	70,
-			"id":	"P1 Doorstate Sign",
+			"id":	"p1pbr_sign_doorstate",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[13.4399995803833, 9.52000045776367, 23],
 			"rot":	[0, -179.99998474121094, 0],
@@ -8854,7 +8927,8 @@
 			}
 		}, {
 			"index":	71,
-			"id":	"P1 Color Correction",
+			"id":	"crazy_color_correction",
+			"group":	"Crazy's Customs",
 			"hidden":	false,
 			"pos":	[12, 8, 12],
 			"rot":	[-90, 0, 0],
@@ -8864,31 +8938,34 @@
 			}
 		}, {
 			"index":	72,
-			"id":	"Protruding Metal Block 32x",
+			"id":	"p1pbr_panel_metal_32",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[14.25, 9.75, 15.0600004196167],
-			"rot":	[0, -179.99998474121094, 0],
-			"snapDir":	5,
+			"rot":	[1.2522388033175957e-06, -179.99998474121094, 0],
+			"snapDir":	6,
 			"outputs":	[],
 			"kv":	{
 			}
 		}, {
 			"index":	73,
-			"id":	"Protruding Metal Block 32x",
+			"id":	"p1pbr_panel_metal_32",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[10.25, 8.75, 15.0600004196167],
 			"rot":	[0, -179.99998474121094, 0],
-			"snapDir":	5,
+			"snapDir":	6,
 			"outputs":	[],
 			"kv":	{
 			}
 		}, {
 			"index":	74,
-			"id":	"Protruding Metal Block 32x",
+			"id":	"p1pbr_panel_metal_32",
+			"group":	"P1 Enhanced",
 			"hidden":	false,
 			"pos":	[9.75, 9.25, 15.4399995803833],
 			"rot":	[0, 2.5044778340088669e-06, 0],
-			"snapDir":	2,
+			"snapDir":	6,
 			"outputs":	[],
 			"kv":	{
 			}
@@ -8913,6 +8990,7 @@
 				}]
 		}],
 	"settings":	{
+		"theme":	"Portal 1 Enhanced",
 		"regen":	1,
 		"boots":	1,
 		"portalgun":	2,
@@ -8930,7 +9008,7 @@
 		"fogDensity":	1
 	},
 	"editor":	{
-		"cameraPos":	[10.540543556213379, 10.037555694580078, 13.583109855651855],
-		"cameraRot":	[-6.4300012588500977, 104.79753875732422, 0]
+		"cameraPos":	[6.6235251426696777, 16.032138824462891, 9.7936677932739258],
+		"cameraRot":	[-6.63399887084961, 136.26152038574219, 0]
 	}
 }

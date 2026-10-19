@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10903"
-	"mapversion" "8"
+	"mapversion" "10"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -23,33 +23,33 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-15.9116 -154.982 44.251)"
-			"angle" "[9.20001 89.199 0]"
+			"position" "(-413.019 -10.9458 4.6688)"
+			"angle" "[6.40001 -10.0002 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(6.18205 4.65105 0)"
-			"zoom" "1.85752"
+			"position" "(1015.45 41.8076 65536)"
+			"zoom" "0.746496"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(0 31.8032 -27.5878)"
-			"zoom" "1.85752"
+			"position" "(7552 6976 7264)"
+			"zoom" "0.25"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(-7.13927 -65536 -63.3357)"
-			"zoom" "102.547"
+			"position" "(7552 6976 7264)"
+			"zoom" "0.25"
 		}
 	}
 }
 world
 {
 	"id" "1"
-	"mapversion" "8"
+	"mapversion" "10"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -2453,51 +2453,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 1000]"
-	}
-}
-entity
-{
-	"id" "146"
-	"classname" "env_cubemap"
-	"cubemapsize" "0"
-	"sides" "142 141 140 139 138 137 136 135 134 133 132 131 130 129 128 127 126 125 124 123 122 121 120 119 118 117 116 115 180 179 178 177 176 175 174 173 172 171 170 169 168 167"
-	"origin" "-96 0 0"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1500]"
-	}
-}
-entity
-{
-	"id" "153"
-	"classname" "env_cubemap"
-	"cubemapsize" "0"
-	"sides" "194 193 192 191 190 189 188 187 186 185 184 183 182 181 208 207 206 205 204 203 202 201 200 199 198 197 196 195"
-	"origin" "-296 0 0"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1500]"
-	}
-}
-entity
-{
-	"id" "169"
-	"classname" "env_cubemap"
-	"cubemapsize" "0"
-	"sides" "222 221 220 219 218 217 216 215 214 213 212 211 210 209"
-	"origin" "-524 0 0"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1500]"
 	}
 }
 cameras

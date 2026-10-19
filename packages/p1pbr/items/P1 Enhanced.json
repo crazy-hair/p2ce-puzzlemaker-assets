@@ -570,7 +570,11 @@
 		"type": "panel",
 		"name": "P1 Fizzler",
 		"id": "p1pbr_fizzler",
-		"editorCenterTexture": "__base__/fizzler-center.png",
+		"editorCenterTexture": {
+			"filename": "fizzler_effect.png",
+			"size": 2,
+			"alignment": "none"
+		},
 		"centerTexture": {
 			"filename": "EFFECTS/FIZZLER_CENTER",
 			"size": 1024,
@@ -595,31 +599,6 @@
 		],
 		"vertTile": true,
 		"transparent": true,
-		"borders": [
-			{
-				"id": "left",
-				"editorTexture": "__base__/fizzler-left.png",
-				"texture": {
-					"filename": "EFFECTS/FIZZLER_L",
-					"size": 1024,
-					"alignment": "fit"
-				},
-				"minSize": 1,
-				"maxSize": 1
-			},
-			{
-				"id": "right",
-				"editorTexture": "__base__/fizzler-right.png",
-				"texture": {
-					"filename": "EFFECTS/FIZZLER_R",
-					"size": 1024,
-					"alignment": "fit"
-				},
-				"texSize": 1024,
-				"minSize": 1,
-				"maxSize": 1
-			}
-		],
 		"props": [
 			{
 				"id": "left",
@@ -680,7 +659,11 @@
 		"type": "panel",
 		"name": "P1 Gel Fizzler",
 		"id": "p1pbr_fizzler_gel",
-		"editorCenterTexture": "__base__/fizzler-center.png",
+		"editorCenterTexture": {
+			"filename": "fizzler_effect_red.png",
+			"size": 2,
+			"alignment": "none"
+		},
 		"requiresPaint": true,
 		"centerTexture": {
 			"filename": "EFFECTS/FIZZLER_CENTER",
@@ -706,36 +689,11 @@
 		],
 		"vertTile": true,
 		"transparent": true,
-		"borders": [
-			{
-				"id": "left",
-				"editorTexture": "__base__/fizzler-left.png",
-				"texture": {
-					"filename": "EFFECTS/FIZZLER_L",
-					"size": 1024,
-					"alignment": "fit"
-				},
-				"minSize": 1,
-				"maxSize": 1
-			},
-			{
-				"id": "right",
-				"editorTexture": "__base__/fizzler-right.png",
-				"texture": {
-					"filename": "EFFECTS/FIZZLER_R",
-					"size": 1024,
-					"alignment": "fit"
-				},
-				"texSize": 1024,
-				"minSize": 1,
-				"maxSize": 1
-			}
-		],
 		"props": [
 			{
 				"id": "left",
 				"editorTexture": "laser_catcher_mod.png",
-				"editorModel": "cleanser.obj",
+				"editorModel": "cleanser_red.obj",
 				"model": "help",
 				"editorTransform": {
 					"rotation": [
@@ -748,7 +706,7 @@
 			{
 				"id": "right",
 				"editorTexture": "laser_catcher_mod.png",
-				"editorModel": "cleanser.obj",
+				"editorModel": "cleanser_red.obj",
 				"model": "help",
 				"editorTransform": {
 					"rotation": [

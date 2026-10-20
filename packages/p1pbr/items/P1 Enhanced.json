@@ -5,7 +5,7 @@
 		"id": "p1pbr_launcher",
 		"model": "launcher.obj",
 		"mat": "laser-catcher.png",
-		"instance": "puzzlemakermaps/instances/p1pbr/launcher",
+		"instance": "launcher",
 		"bound1": [
 			-0.55,
 			-0.55,
@@ -94,7 +94,7 @@
 		"id": "p1pbr_catcher",
 		"model": "catcher.obj",
 		"mat": "laser-catcher.png",
-		"instance": "puzzlemakermaps/instances/p1pbr/catcher-{extruded}",
+		"instance": "catcher-{extruded}",
 		"deleteIntersectingVoxelsEditor": false,
 		"bound1": [
 			-0.5,
@@ -157,11 +157,11 @@
 				"type": "drop-string",
 				"defaultValue": 3,
 				"options": {
-					"Concrete Wall": "puzzlemakermaps/instances/p1pbr/cat_c_w.vmf",
-					"Concrete Floor": "puzzlemakermaps/instances/p1pbr/cat_c_f.vmf",
-					"Concrete Ceiling": "puzzlemakermaps/instances/p1pbr/cat_c_ceil.vmf",
-					"Metal Wall": "puzzlemakermaps/instances/p1pbr/cat_m.vmf",
-					"Metal Floor": "puzzlemakermaps/instances/p1pbr/cat_m_f.vmf"
+					"Concrete Wall": "pminstances/p1pbr/cat_c_w.vmf",
+					"Concrete Floor": "pminstances/p1pbr/cat_c_f.vmf",
+					"Concrete Ceiling": "pminstances/p1pbr/cat_c_ceil.vmf",
+					"Metal Wall": "pminstances/p1pbr/cat_m.vmf",
+					"Metal Floor": "pminstances/p1pbr/cat_m_f.vmf"
 				}
 			},
 			{
@@ -170,9 +170,9 @@
 				"type": "drop-string",
 				"defaultValue": 0,
 				"options": {
-					"Concrete Wall": "puzzlemakermaps/instances/p1pbr/cat_ex_wall_c.vmf",
-					"Concrete Floor": "puzzlemakermaps/instances/p1pbr/cat_ex_floor_c.vmf",
-					"Concrete Ceiling": "puzzlemakermaps/instances/p1pbr/cat_ex_ceil_c.vmf"
+					"Concrete Wall": "pminstances/p1pbr/cat_ex_wall_c.vmf",
+					"Concrete Floor": "pminstances/p1pbr/cat_ex_floor_c.vmf",
+					"Concrete Ceiling": "pminstances/p1pbr/cat_ex_ceil_c.vmf"
 				}
 			},
 			{
@@ -202,7 +202,7 @@
 		"id": "p1pbr_door",
 		"model": "p1_door.obj",
 		"mat": "laser_catcher_mod.png",
-		"instance": "puzzlemakermaps/instances/p1pbr/p1_door",
+		"instance": "p1_door",
 		"bound1": [
 			0,
 			-1,
@@ -251,9 +251,9 @@
 				"type": "drop-string",
 				"defaultValue": 1,
 				"options": {
-					"Concrete": "puzzlemakermaps/instances/p1pbr/p1_door_frame_conk.vmf",
-					"Metal": "puzzlemakermaps/instances/p1pbr/p1_door_frame_metal.vmf",
-					"Both": "puzzlemakermaps/instances/p1pbr/p1_door_frame_both.vmf"
+					"Concrete": "pminstances/p1pbr/p1_door_frame_conk.vmf",
+					"Metal": "pminstances/p1pbr/p1_door_frame_metal.vmf",
+					"Both": "pminstances/p1pbr/p1_door_frame_both.vmf"
 				}
 			}
 		],
@@ -276,7 +276,7 @@
 		"id": "p1pbr_button_floor",
 		"model": "p1_button.obj",
 		"mat": "laser_catcher_mod.png",
-		"instance": "puzzlemakermaps/instances/p1pbr/p1_button",
+		"instance": "p1_button",
 		"bound1": [
 			-1,
 			-1,
@@ -328,7 +328,7 @@
 		"id": "p1pbr_button_ped",
 		"model": "p1_ped_button.obj",
 		"mat": "laser_catcher_mod.png",
-		"instance": "puzzlemakermaps/instances/p1pbr/p1_ped_button",
+		"instance": "p1_ped_button",
 		"snapMode": "mini-corner",
 		"bound1": [
 			0.15,
@@ -408,7 +408,7 @@
 		"id": "p1pbr_dropper_cube",
 		"model": "p1_dropper_full.obj",
 		"mat": "dropper_full.png",
-		"instance": "puzzlemakermaps/instances/p1pbr/p1_dropper",
+		"instance": "p1_dropper",
 		"deleteIntersectingVoxels": true,
 		"snapMode": "mini-corner",
 		"genMissingVoxels": false,
@@ -751,7 +751,7 @@
 		"id": "p1pbr_autoportal",
 		"model": "autoportal.obj",
 		"mat": "laser_catcher_mod.png",
-		"instance": "puzzlemakermaps/instances/p1pbr/p1_autoportal",
+		"instance": "p1_autoportal",
 		"bound1": [
 			-0.65,
 			-0.95,
@@ -824,7 +824,7 @@
 		"id": "p1pbr_piston_platform",
 		"model": "piston_panel.obj",
 		"mat": "laser_catcher_mod.png",
-		"instance": "puzzlemakermaps/instances/p1pbr/piston",
+		"instance": "piston",
 		"bound1": [
 			-0.8,
 			-0.8,
@@ -867,10 +867,10 @@
 				"type": "drop-string",
 				"defaultValue": 0,
 				"options": {
-					"Concrete Wall": "puzzlemakermaps/instances/p1pbr/piston_crete_wall.vmf",
-					"Concrete Floor": "puzzlemakermaps/instances/p1pbr/piston_crete_floor.vmf",
-					"Concrete Floor Button": "puzzlemakermaps/instances/p1pbr/piston_crete_floor_butt.vmf",
-					"Concrete Ceiling": "puzzlemakermaps/instances/p1pbr/piston_crete_ceil.vmf"
+					"Concrete Wall": "pminstances/p1pbr/piston_crete_wall.vmf",
+					"Concrete Floor": "pminstances/p1pbr/piston_crete_floor.vmf",
+					"Concrete Floor Button": "pminstances/p1pbr/piston_crete_floor_butt.vmf",
+					"Concrete Ceiling": "pminstances/p1pbr/piston_crete_ceil.vmf"
 				}
 			}
 		]
@@ -881,7 +881,7 @@
 		"id": "p1pbr_piston_stair",
 		"model": "p1_piston_stair.obj",
 		"mat": "laser_catcher_mod.png",
-		"instance": "puzzlemakermaps/instances/p1pbr/piston_stair",
+		"instance": "piston_stair",
 		"bound1": [
 			-1.05,
 			-0.3,
@@ -924,7 +924,7 @@
 		"id": "p1pbr_piston_pit",
 		"model": "piston_pit_full.obj",
 		"mat": "piston_pit_full.png",
-		"instance": "puzzlemakermaps/instances/p1pbr/piston_pit",
+		"instance": "piston_pit",
 		"deleteIntersectingVoxels": true,
 		"genMissingVoxels": false,
 		"bound1": [
@@ -969,7 +969,7 @@
 		"id": "p1pbr_piston_lift",
 		"model": "victory_lift.obj",
 		"mat": "laser_catcher_mod.png",
-		"instance": "puzzlemakermaps/instances/p1pbr/victory_lift",
+		"instance": "victory_lift",
 		"bound1": [
 			-0.8,
 			-0.8,
@@ -1049,7 +1049,7 @@
 		"id": "p1pbr_sign_testchamber",
 		"model": "testchamber_sign.obj",
 		"mat": "testchamber_sign_full.png",
-		"instance": "puzzlemakermaps/instances/p1pbr/testchamber_sign",
+		"instance": "testchamber_sign",
 		"bound1": [
 			-0.75,
 			-1.675,
@@ -1646,7 +1646,7 @@
 		"id": "p1pbr_sign_exit",
 		"model": "exit_sign.obj",
 		"mat": "exit_sign.png",
-		"instance": "puzzlemakermaps/instances/p1pbr/exit_sign",
+		"instance": "exit_sign",
 		"bound1": [
 			-0.6,
 			-0.55,
@@ -1689,7 +1689,7 @@
 		"id": "p1pbr_sign_doorstate",
 		"model": "doorstate.obj",
 		"mat": "laser_catcher_mod.png",
-		"instance": "puzzlemakermaps/instances/p1pbr/doorstate",
+		"instance": "doorstate",
 		"bound1": [
 			-0.3,
 			-0.3,
@@ -1739,7 +1739,7 @@
 		"id": "p1pbr_obroom_64",
 		"model": "obroom_64x_full.obj",
 		"mat": "obroom_64x_full.png",
-		"instance": "puzzlemakermaps/instances/p1pbr/obroom",
+		"instance": "obroom",
 		"deleteIntersectingVoxels": true,
 		"genMissingVoxels": false,
 		"bound1": [
@@ -1784,7 +1784,7 @@
 		"id": "p1pbr_obroom_128",
 		"model": "obroom_128x_full.obj",
 		"mat": "obroom_128x_full.png",
-		"instance": "puzzlemakermaps/instances/p1pbr/obroom_128",
+		"instance": "obroom_128",
 		"deleteIntersectingVoxels": true,
 		"genMissingVoxels": false,
 		"bound1": [
@@ -1829,7 +1829,7 @@
 		"id": "p1pbr_obroom_256",
 		"model": "obroom_256x_full.obj",
 		"mat": "obroom_256x_full.png",
-		"instance": "puzzlemakermaps/instances/p1pbr/obroom_256",
+		"instance": "obroom_256",
 		"deleteIntersectingVoxels": true,
 		"genMissingVoxels": false,
 		"bound1": [
@@ -1874,7 +1874,7 @@
 		"id": "p1pbr_light_recessed_metal_128",
 		"model": "light_metal_128_full.obj",
 		"mat": "light_metal_128_full.png",
-		"instance": "puzzlemakermaps/instances/p1pbr/128x128_metal",
+		"instance": "128x128_metal",
 		"deleteIntersectingVoxels": true,
 		"genMissingVoxels": false,
 		"bound1": [
@@ -1949,7 +1949,7 @@
 		"id": "p1pbr_light_recessed_metal_64",
 		"model": "light_metal_64_full.obj",
 		"mat": "light_metal_64_full.png",
-		"instance": "puzzlemakermaps/instances/p1pbr/64x64_metal",
+		"instance": "64x64_metal",
 		"deleteIntersectingVoxels": true,
 		"genMissingVoxels": false,
 		"bound1": [
@@ -2024,7 +2024,7 @@
 		"id": "p1pbr_light_recessed_metal_32",
 		"model": "light_metal_32_full.obj",
 		"mat": "light_metal_32_full.png",
-		"instance": "puzzlemakermaps/instances/p1pbr/32x32_metal",
+		"instance": "32x32_metal",
 		"deleteIntersectingVoxels": true,
 		"genMissingVoxels": false,
 		"bound1": [
@@ -2099,7 +2099,7 @@
 		"id": "p1pbr_light_recessed_concrete_128",
 		"model": "recessed_lighting_4.obj",
 		"mat": "laser_catcher_mod.png",
-		"instance": "puzzlemakermaps/instances/p1pbr/recessed_lighting_4",
+		"instance": "recessed_lighting_4",
 		"deleteIntersectingVoxels": true,
 		"deleteIntersectingVoxelsEditor": false,
 		"genMissingVoxels": true,
@@ -2145,8 +2145,8 @@
 				"type": "drop-string",
 				"defaultValue": 0,
 				"options": {
-					"Floor": "puzzlemakermaps/instances/p1pbr/recessed_lighting_4_floor.vmf",
-					"Ceiling": "puzzlemakermaps/instances/p1pbr/recessed_lighting_4_ceiling.vmf"
+					"Floor": "pminstances/p1pbr/recessed_lighting_4_floor.vmf",
+					"Ceiling": "pminstances/p1pbr/recessed_lighting_4_ceiling.vmf"
 				}
 			}
 		]
@@ -2157,7 +2157,7 @@
 		"id": "p1pbr_light_recessed_concrete_64",
 		"model": "recessed_lighting_2.obj",
 		"mat": "laser_catcher_mod.png",
-		"instance": "puzzlemakermaps/instances/p1pbr/recessed_lighting_2",
+		"instance": "recessed_lighting_2",
 		"deleteIntersectingVoxels": true,
 		"deleteIntersectingVoxelsEditor": false,
 		"genMissingVoxels": true,
@@ -2203,8 +2203,8 @@
 				"type": "drop-string",
 				"defaultValue": 0,
 				"options": {
-					"Floor": "puzzlemakermaps/instances/p1pbr/recessed_lighting_2_floor.vmf",
-					"Ceiling": "puzzlemakermaps/instances/p1pbr/recessed_lighting_2_ceiling.vmf"
+					"Floor": "pminstances/p1pbr/recessed_lighting_2_floor.vmf",
+					"Ceiling": "pminstances/p1pbr/recessed_lighting_2_ceiling.vmf"
 				}
 			}
 		]
@@ -2215,7 +2215,7 @@
 		"id": "p1pbr_light_recessed_concrete_64_corner",
 		"model": "recessed_lighting_2_corner.obj",
 		"mat": "laser_catcher_mod.png",
-		"instance": "puzzlemakermaps/instances/p1pbr/rec_light_corner",
+		"instance": "rec_light_corner",
 		"deleteIntersectingVoxels": true,
 		"deleteIntersectingVoxelsEditor": false,
 		"genMissingVoxels": true,
@@ -2261,8 +2261,8 @@
 				"type": "drop-string",
 				"defaultValue": 0,
 				"options": {
-					"Floor": "puzzlemakermaps/instances/p1pbr/recessed_lighting_corner_floor.vmf",
-					"Ceiling": "puzzlemakermaps/instances/p1pbr/recessed_lighting_corner_ceiling.vmf"
+					"Floor": "pminstances/p1pbr/recessed_lighting_corner_floor.vmf",
+					"Ceiling": "pminstances/p1pbr/recessed_lighting_corner_ceiling.vmf"
 				}
 			}
 		]
@@ -2273,7 +2273,7 @@
 		"id": "p1pbr_elevator_entry",
 		"model": "elevator_shaft_entry.obj",
 		"mat": "elevator_shaft.png",
-		"instance": "puzzlemakermaps/instances/p1pbr/p1_elevator_start",
+		"instance": "p1_elevator_start",
 		"deleteIntersectingVoxels": true,
 		"genMissingVoxels": false,
 		"bound1": [
@@ -2318,7 +2318,7 @@
 		"id": "p1pbr_elevator_middle",
 		"model": "elevator_shaft_exit.obj",
 		"mat": "elevator_shaft.png",
-		"instance": "puzzlemakermaps/instances/p1pbr/p1_elevator_mid",
+		"instance": "p1_elevator_mid",
 		"deleteIntersectingVoxels": true,
 		"genMissingVoxels": false,
 		"bound1": [
@@ -2363,7 +2363,7 @@
 		"id": "p1pbr_elevator_exit",
 		"model": "elevator_shaft_exit.obj",
 		"mat": "elevator_shaft.png",
-		"instance": "puzzlemakermaps/instances/p1pbr/p1_elevator_end",
+		"instance": "p1_elevator_end",
 		"deleteIntersectingVoxels": true,
 		"genMissingVoxels": false,
 		"bound1": [
@@ -2416,7 +2416,7 @@
 		"id": "p1pbr_panel_concrete",
 		"model": "protruding_panel.obj",
 		"mat": "laser_catcher_mod.png",
-		"instance": "puzzlemakermaps/instances/p1pbr/extruded_conc_panel_{material}",
+		"instance": "extruded_conc_panel_{material}",
 		"bound1": [
 			-1,
 			-1,
@@ -2472,7 +2472,7 @@
 		"id": "p1pbr_panel_metal_32",
 		"model": "metal_block_32.obj",
 		"mat": "laser_catcher_mod.png",
-		"instance": "puzzlemakermaps/instances/p1pbr/protruding_metal_block_32",
+		"instance": "protruding_metal_block_32",
 		"bound1": [
 			-0.25,
 			-0.25,
@@ -2516,7 +2516,7 @@
 		"model": "metal_block_64.obj",
 		"model": "metal_block_64.obj",
 		"mat": "laser_catcher_mod.png",
-		"instance": "puzzlemakermaps/instances/p1pbr/protruding_metal_block_64",
+		"instance": "protruding_metal_block_64",
 		"bound1": [
 			-0.5,
 			-0.5,

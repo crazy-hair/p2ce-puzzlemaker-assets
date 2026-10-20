@@ -108,7 +108,7 @@
 		"id": "crazy_spotlight",
 		"model": "spotlight.obj",
 		"mat": "laser_catcher_mod.png",
-		"instance": "puzzlemakermaps/instances/crazy/spotlight",
+		"instance": "spotlight",
 		"bound1": [
 			-0.15,
 			-0.15,
@@ -527,7 +527,7 @@
 		"id": "crazy_game_rules",
 		"model": "axis_helper.obj",
 		"mat": "axis_helper.png",
-		"instance": "puzzlemakermaps/instances/crazy/p1_gamerules",
+		"instance": "p1_gamerules",
 		"snapMode": "mini-corner",
 		"bound1": [
 			-0.15,

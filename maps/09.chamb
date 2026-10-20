@@ -8969,6 +8969,58 @@
 			"outputs":	[],
 			"kv":	{
 			}
+		}, {
+			"index":	75,
+			"id":	"crazy_cubemap",
+			"group":	"Crazy's Customs",
+			"hidden":	false,
+			"pos":	[14, 9, 11],
+			"rot":	[-89.999992370605469, 0, 0],
+			"snapDir":	2,
+			"outputs":	[],
+			"kv":	{
+				"cubemapsize":	8,
+				"parallaxobb":	58
+			}
+		}, {
+			"index":	76,
+			"id":	"crazy_cubemap",
+			"group":	"Crazy's Customs",
+			"hidden":	false,
+			"pos":	[13, 9, 10],
+			"rot":	[-89.999992370605469, 0, 0],
+			"snapDir":	2,
+			"outputs":	[],
+			"kv":	{
+				"cubemapsize":	8,
+				"parallaxobb":	58
+			}
+		}, {
+			"index":	77,
+			"id":	"crazy_cubemap",
+			"group":	"Crazy's Customs",
+			"hidden":	false,
+			"pos":	[14, 9, 9.5],
+			"rot":	[0, 2.5044778340088669e-06, 0],
+			"snapDir":	4,
+			"outputs":	[],
+			"kv":	{
+				"cubemapsize":	8,
+				"parallaxobb":	58
+			}
+		}, {
+			"index":	78,
+			"id":	"crazy_cubemap",
+			"group":	"Crazy's Customs",
+			"hidden":	false,
+			"pos":	[14.5, 9, 10],
+			"rot":	[0, -89.999992370605469, 0],
+			"snapDir":	1,
+			"outputs":	[],
+			"kv":	{
+				"cubemapsize":	8,
+				"parallaxobb":	58
+			}
 		}],
 	"antlines":	[{
 			"id":	0,
@@ -9008,7 +9060,7 @@
 		"fogDensity":	1
 	},
 	"editor":	{
-		"cameraPos":	[6.6235251426696777, 16.032138824462891, 9.7936677932739258],
-		"cameraRot":	[-6.63399887084961, 136.26152038574219, 0]
+		"cameraPos":	[11.95994758605957, 9.52308654785156, 12.920690536499023],
+		"cameraRot":	[-6.472999095916748, 144.05050659179688, 0]
 	}
 }

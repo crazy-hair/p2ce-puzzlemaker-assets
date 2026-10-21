@@ -1,0 +1,145 @@
+[
+	{
+		"type": "entity",
+		"name": "P1 Entry Elevator",
+		"id": "p1pbr_elevator_entry",
+		"model": "elevator_shaft_entry.obj",
+		"mat": "elevator_shaft.png",
+		"instance": "p1_elevator_start",
+		"deleteIntersectingVoxels": true,
+		"genMissingVoxels": false,
+		"bound1": [
+			-2.25,
+			-1,
+			-5.25
+		],
+		"bound2": [
+			2.25,
+			2,
+			0
+		],
+		"editorTransform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				90,
+				0
+			]
+		},
+		"transform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			]
+		},
+		"snapMode": "corner"
+	},
+	{
+		"type": "entity",
+		"name": "P1 Middle Elevator",
+		"id": "p1pbr_elevator_middle",
+		"model": "elevator_shaft_exit.obj",
+		"mat": "elevator_shaft.png",
+		"instance": "p1_elevator_mid",
+		"deleteIntersectingVoxels": true,
+		"genMissingVoxels": false,
+		"bound1": [
+			-2.25,
+			-1,
+			-5.25
+		],
+		"bound2": [
+			2.25,
+			11.5,
+			0
+		],
+		"editorTransform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				90,
+				0
+			]
+		},
+		"transform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			]
+		},
+		"snapMode": "corner"
+	},
+	{
+		"type": "entity",
+		"name": "P1 Exit Elevator",
+		"id": "p1pbr_elevator_exit",
+		"model": "elevator_shaft_exit.obj",
+		"mat": "elevator_shaft.png",
+		"instance": "p1_elevator_end",
+		"deleteIntersectingVoxels": true,
+		"genMissingVoxels": false,
+		"bound1": [
+			-2.25,
+			-1,
+			-5.25
+		],
+		"bound2": [
+			2.25,
+			2,
+			0
+		],
+		"editorTransform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				90,
+				0
+			]
+		},
+		"transform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			]
+		},
+		"keyvalues": [
+			{
+				"name": "Next Map",
+				"kv": "next_map",
+				"type": "string",
+				"defaultValue": ""
+			}
+		],
+		"snapMode": "corner"
+	}
+]

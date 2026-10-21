@@ -1,0 +1,406 @@
+[
+	{
+		"type": "entity",
+		"name": "P1 Piston Platform",
+		"id": "p1pbr_piston_platform",
+		"model": "piston_panel.obj",
+		"mat": "laser_catcher_mod.png",
+		"instance": "piston",
+		"bound1": [
+			-0.8,
+			-0.8,
+			-9.9
+		],
+		"bound2": [
+			0.8,
+			0.8,
+			0
+		],
+		"editorTransform": {
+			"position": [
+				0,
+				0,
+				-0.1
+			],
+			"rotation": [
+				0,
+				90,
+				0
+			]
+		},
+		"transform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			]
+		},
+		"snapMode": "mini-corner",
+		"keyvalues": [
+			{
+				"name": "Material",
+				"kv": "material",
+				"type": "drop-string",
+				"defaultValue": 0,
+				"options": {
+					"Concrete Wall": "pminstances/p1pbr/piston_crete_wall.vmf",
+					"Concrete Floor": "pminstances/p1pbr/piston_crete_floor.vmf",
+					"Concrete Floor Button": "pminstances/p1pbr/piston_crete_floor_butt.vmf",
+					"Concrete Ceiling": "pminstances/p1pbr/piston_crete_ceil.vmf"
+				}
+			}
+		]
+	},
+	{
+		"type": "entity",
+		"name": "P1 Piston Stair",
+		"id": "p1pbr_piston_stair",
+		"model": "p1_piston_stair.obj",
+		"mat": "laser_catcher_mod.png",
+		"instance": "piston_stair",
+		"bound1": [
+			-1.05,
+			-0.3,
+			-9.9
+		],
+		"bound2": [
+			0.55,
+			0.3,
+			0
+		],
+		"editorTransform": {
+			"position": [
+				-0.25,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				90,
+				90
+			]
+		},
+		"transform": {
+			"position": [
+				0,
+				-16,
+				0
+			],
+			"rotation": [
+				90,
+				0,
+				0
+			]
+		},
+		"snapMode": "mini-center"
+	},
+	{
+		"type": "entity",
+		"name": "P1 Piston Pit",
+		"id": "p1pbr_piston_pit",
+		"model": "piston_pit_full.obj",
+		"mat": "piston_pit_full.png",
+		"instance": "piston_pit",
+		"deleteIntersectingVoxels": true,
+		"genMissingVoxels": false,
+		"bound1": [
+			-1,
+			-1,
+			-4
+		],
+		"bound2": [
+			1,
+			1,
+			0
+		],
+		"editorTransform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				90,
+				0,
+				0
+			]
+		},
+		"transform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				90,
+				90
+			]
+		},
+		"snapMode": "corner"
+	},
+	{
+		"type": "entity",
+		"name": "Protruding Concrete Panel",
+		"id": "p1pbr_panel_concrete",
+		"model": "protruding_panel.obj",
+		"mat": "laser_catcher_mod.png",
+		"instance": "extruded_conc_panel_{material}",
+		"bound1": [
+			-1,
+			-1,
+			0.0
+		],
+		"bound2": [
+			1,
+			1,
+			0.1
+		],
+		"editorTransform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				90.0,
+				0
+			]
+		},
+		"transform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			]
+		},
+		"keyvalues": [
+			{
+				"name": "Material",
+				"kv": "material",
+				"type": "drop-int",
+				"defaultValue": 0,
+				"options": {
+					"Concrete Wall": 0,
+					"Concrete Floor": 1,
+					"Concrete ceiling": 2
+				}
+			}
+		],
+		"snapMode": "mini-corner"
+	},
+	{
+		"type": "entity",
+		"name": "Protruding Metal Block 32x",
+		"id": "p1pbr_panel_metal_32",
+		"model": "metal_block_32.obj",
+		"mat": "laser_catcher_mod.png",
+		"instance": "protruding_metal_block_32",
+		"bound1": [
+			-0.25,
+			-0.25,
+			0.0
+		],
+		"bound2": [
+			0.25,
+			0.25,
+			0.125
+		],
+		"editorTransform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				90.0,
+				0
+			]
+		},
+		"transform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			]
+		},
+		"snapMode": "mini-center"
+	},
+	{
+		"type": "entity",
+		"name": "Protruding Metal Block 64x",
+		"id": "p1pbr_panel_metal_64",
+		"model": "metal_block_64.obj",
+		"model": "metal_block_64.obj",
+		"mat": "laser_catcher_mod.png",
+		"instance": "protruding_metal_block_64",
+		"bound1": [
+			-0.5,
+			-0.5,
+			0.0
+		],
+		"bound2": [
+			0.5,
+			0.5,
+			0.125
+		],
+		"editorTransform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				90.0,
+				0
+			]
+		},
+		"transform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			]
+		},
+		"snapMode": "center"
+	},
+	{
+		"type": "volume",
+		"name": "Concrete Wall",
+		"id": "p1pbr_block_concrete",
+		"editorTexture": "__base__/whiteVoxel.png",
+		"textures": {
+			"top": "p1pbr/concrete/concrete_modular_floor001a",
+			"bottom": "p1pbr/concrete/concrete_modular_ceiling001a",
+			"left": "p1pbr/concrete/concrete_modular_wall001a",
+			"right": "p1pbr/concrete/concrete_modular_wall001a",
+			"front": "p1pbr/concrete/concrete_modular_wall001a",
+			"back": "p1pbr/concrete/concrete_modular_wall001a"
+		},
+		"editorFit": false,
+		"minSize": [
+			0.5,
+			0.5,
+			0.5
+		],
+		"snapMode": "mini-corner",
+		"defaultSize": [
+			1,
+			1,
+			1
+		]
+	},
+	{
+		"type": "volume",
+		"name": "Small Metal Blocks",
+		"id": "p1pbr_block_metal_32",
+		"editorTexture": {
+			"filename": "__base__/blackMiniVoxel.png",
+			"size": 1,
+			"alignment": "none"
+		},
+		"textures": {
+			"top": "p1pbr/metal/metalwall048b",
+			"bottom": "p1pbr/metal/metalwall048b",
+			"left": "p1pbr/metal/metalwall048b",
+			"right": "p1pbr/metal/metalwall048b",
+			"front": "p1pbr/metal/metalwall048b",
+			"back": "p1pbr/metal/metalwall048b"
+		},
+		"editorFit": false,
+		"minSize": [
+			0.5,
+			0.5,
+			0.5
+		],
+		"snapMode": "mini-corner",
+		"defaultSize": [
+			0.5,
+			0.5,
+			0.5
+		]
+	},
+	{
+		"type": "volume",
+		"name": "Medium Metal Blocks",
+		"id": "p1pbr_block_metal_64",
+		"editorTexture": {
+			"filename": "__base__/blackVoxel.png",
+			"size": 1,
+			"alignment": "none"
+		},
+		"textures": {
+			"top": "p1pbr/metal/metalwall048b_med",
+			"bottom": "p1pbr/metal/metalwall048b_med",
+			"left": "p1pbr/metal/metalwall048b_med",
+			"right": "p1pbr/metal/metalwall048b_med",
+			"front": "p1pbr/metal/metalwall048b_med",
+			"back": "p1pbr/metal/metalwall048b_med"
+		},
+		"editorFit": false,
+		"minSize": [
+			0.5,
+			0.5,
+			0.5
+		],
+		"snapMode": "mini-corner",
+		"defaultSize": [
+			1,
+			1,
+			1
+		]
+	},
+	{
+		"type": "volume",
+		"name": "Large Metal Blocks",
+		"id": "p1pbr_block_metal_128",
+		"editorTexture": {
+			"filename": "__base__/blackVoxel.png",
+			"size": 2,
+			"alignment": "none"
+		},
+		"textures": {
+			"top": "p1pbr/metal/metalwall048b_lrg",
+			"bottom": "p1pbr/metal/metalwall048b_lrg",
+			"left": "p1pbr/metal/metalwall048b_lrg",
+			"right": "p1pbr/metal/metalwall048b_lrg",
+			"front": "p1pbr/metal/metalwall048b_lrg",
+			"back": "p1pbr/metal/metalwall048b_lrg"
+		},
+		"editorFit": false,
+		"minSize": [
+			0.5,
+			0.5,
+			0.5
+		],
+		"snapMode": "mini-corner",
+		"defaultSize": [
+			2,
+			2,
+			2
+		]
+	}
+]

@@ -1,0 +1,137 @@
+[
+	{
+		"type": "entity",
+		"name": "256x Observation Room",
+		"id": "p1pbr_obroom_256",
+		"model": "obroom_256x_full.obj",
+		"mat": "obroom_256x_full.png",
+		"instance": "obroom_256",
+		"deleteIntersectingVoxels": true,
+		"genMissingVoxels": false,
+		"bound1": [
+			-2,
+			-1,
+			-4
+		],
+		"bound2": [
+			2,
+			1,
+			0
+		],
+		"editorTransform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				90,
+				0
+			]
+		},
+		"transform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				90,
+				0
+			]
+		},
+		"snapMode": "mini-corner"
+	},
+	{
+		"type": "entity",
+		"name": "128x Observation Room",
+		"id": "p1pbr_obroom_128",
+		"model": "obroom_128x_full.obj",
+		"mat": "obroom_128x_full.png",
+		"instance": "obroom_128",
+		"deleteIntersectingVoxels": true,
+		"genMissingVoxels": false,
+		"bound1": [
+			-1,
+			-1,
+			-4
+		],
+		"bound2": [
+			1,
+			1,
+			0
+		],
+		"editorTransform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				90,
+				0
+			]
+		},
+		"transform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				-180,
+				0
+			]
+		},
+		"snapMode": "mini-corner"
+	},
+	{
+		"type": "entity",
+		"name": "64x Observation Room",
+		"id": "p1pbr_obroom_64",
+		"model": "obroom_64x_full.obj",
+		"mat": "obroom_64x_full.png",
+		"instance": "obroom",
+		"deleteIntersectingVoxels": true,
+		"genMissingVoxels": false,
+		"bound1": [
+			-0.5,
+			-1,
+			-4
+		],
+		"bound2": [
+			0.5,
+			1,
+			0
+		],
+		"editorTransform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				90,
+				0
+			]
+		},
+		"transform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				-90,
+				0
+			]
+		},
+		"snapMode": "mini-corner"
+	}
+]

@@ -24,7 +24,7 @@ trigger:markAsIO();
 
 local particleWidth = 3;
 local particleCount = math.floor(size[1] / particleWidth) + 1;
-print(particleCount);
+--print(particleCount);
 
 local leftProp = nil;
 local particle = nil;

@@ -9502,17 +9502,6 @@
 			}
 		}, {
 			"index":	57,
-			"id":	"crazy_color_correction",
-			"package":	"crazy_customs",
-			"hidden":	false,
-			"pos":	[125, 127, 137],
-			"rot":	[0, 0, 0],
-			"snapDir":	4,
-			"outputs":	[],
-			"kv":	{
-			}
-		}, {
-			"index":	58,
 			"id":	"p1pbr_panel_metal_64",
 			"package":	"p1pbr",
 			"hidden":	false,
@@ -9523,7 +9512,7 @@
 			"kv":	{
 			}
 		}, {
-			"index":	59,
+			"index":	58,
 			"id":	"p1pbr_panel_metal_64",
 			"package":	"p1pbr",
 			"hidden":	false,
@@ -9534,7 +9523,7 @@
 			"kv":	{
 			}
 		}, {
-			"index":	60,
+			"index":	59,
 			"id":	"p1pbr_panel_metal_32",
 			"package":	"p1pbr",
 			"hidden":	false,
@@ -9545,7 +9534,7 @@
 			"kv":	{
 			}
 		}, {
-			"index":	61,
+			"index":	60,
 			"id":	"p1pbr_panel_metal_32",
 			"package":	"p1pbr",
 			"hidden":	false,
@@ -9556,7 +9545,7 @@
 			"kv":	{
 			}
 		}, {
-			"index":	62,
+			"index":	61,
 			"id":	"p1pbr_panel_metal_32",
 			"package":	"p1pbr",
 			"hidden":	false,
@@ -9567,7 +9556,7 @@
 			"kv":	{
 			}
 		}, {
-			"index":	63,
+			"index":	62,
 			"id":	"p1pbr_panel_metal_32",
 			"package":	"p1pbr",
 			"hidden":	false,
@@ -9578,7 +9567,7 @@
 			"kv":	{
 			}
 		}, {
-			"index":	64,
+			"index":	63,
 			"id":	"p1pbr_panel_metal_64",
 			"package":	"p1pbr",
 			"hidden":	false,
@@ -9589,7 +9578,7 @@
 			"kv":	{
 			}
 		}, {
-			"index":	65,
+			"index":	64,
 			"id":	"p1pbr_panel_metal_32",
 			"package":	"p1pbr",
 			"hidden":	false,
@@ -9600,7 +9589,7 @@
 			"kv":	{
 			}
 		}, {
-			"index":	66,
+			"index":	65,
 			"id":	"p1pbr_panel_metal_32",
 			"package":	"p1pbr",
 			"hidden":	false,
@@ -9609,6 +9598,26 @@
 			"snapDir":	4,
 			"outputs":	[],
 			"kv":	{
+			}
+		}, {
+			"index":	66,
+			"id":	"p1pbr_fizzler",
+			"package":	"p1pbr",
+			"hidden":	false,
+			"pos":	[135.75, 128, 135],
+			"rot":	[-89.999992370605469, 90, 0],
+			"snapDir":	2,
+			"size":	{
+				"x":	2,
+				"y":	2
+			},
+			"tile":	{
+				"x":	1,
+				"y":	2
+			},
+			"outputs":	[],
+			"kv":	{
+				"startdisabled":	false
 			}
 		}],
 	"antlines":	[{
@@ -9642,18 +9651,24 @@
 		"paintgun":	0,
 		"gametype":	0,
 		"maxhealth":	100,
-		"maxExposure":	0,
-		"minExposure":	0,
-		"tonemapRate":	0,
-		"brightPixelPercent":	0,
-		"primaryFogColor":	[0, 0, 0],
-		"secondaryFogColor":	[0, 0, 0],
-		"fogStart":	0,
-		"fogEnd":	0,
-		"fogDensity":	0
+		"maxExposure":	2,
+		"minExposure":	0.5,
+		"tonemapRate":	0.25,
+		"brightPixelPercent":	5,
+		"primaryFogColor":	[0.15686275064945221, 0.20784313976764679, 0.250980406999588],
+		"secondaryFogColor":	[0.15686275064945221, 0.20784313976764679, 0.250980406999588],
+		"fogStart":	128,
+		"fogEnd":	5000,
+		"fogDensity":	0,
+		"minFalloff":	-1,
+		"maxFalloff":	-1,
+		"maxWeight":	1,
+		"fadeInDuration":	2,
+		"fadeOutDuration":	2,
+		"filename":	"scripts/colorcorrection/cc_testchamber.raw"
 	},
 	"editor":	{
-		"cameraPos":	[129.73281860351562, 128.86714172363281, 136.46591186523438],
-		"cameraRot":	[-0.19050008058547974, 72.511146545410156, 0]
+		"cameraPos":	[132.03004455566406, 129.35336303710938, 133.87181091308594],
+		"cameraRot":	[-0.0065003945492208, 111.45265197753906, 0]
 	}
 }

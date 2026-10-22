@@ -11108,14 +11108,14 @@
 					"input":	"Disable",
 					"output":	"On Ball Caught"
 				}, {
-					"ent":	87,
+					"ent":	86,
 					"antline":	1,
 					"inverted":	false,
 					"onlyPrimary":	false,
 					"input":	"Toggle",
 					"output":	"On Ball Caught"
 				}, {
-					"ent":	88,
+					"ent":	87,
 					"antline":	-1,
 					"inverted":	false,
 					"onlyPrimary":	false,
@@ -11147,14 +11147,14 @@
 					"input":	"Disable",
 					"output":	"On Ball Caught"
 				}, {
-					"ent":	86,
+					"ent":	85,
 					"antline":	0,
 					"inverted":	false,
 					"onlyPrimary":	false,
 					"input":	"Toggle",
 					"output":	"On Ball Caught"
 				}, {
-					"ent":	88,
+					"ent":	87,
 					"antline":	-1,
 					"inverted":	false,
 					"onlyPrimary":	false,
@@ -11690,17 +11690,6 @@
 			}
 		}, {
 			"index":	58,
-			"id":	"crazy_color_correction",
-			"package":	"crazy_customs",
-			"hidden":	false,
-			"pos":	[128, 126, 135],
-			"rot":	[-90, 0, 0],
-			"snapDir":	6,
-			"outputs":	[],
-			"kv":	{
-			}
-		}, {
-			"index":	59,
 			"id":	"crazy_game_rules",
 			"package":	"crazy_customs",
 			"hidden":	false,
@@ -11714,7 +11703,7 @@
 				"duckJump":	true
 			}
 		}, {
-			"index":	60,
+			"index":	59,
 			"id":	"crazy_cubemap",
 			"package":	"crazy_customs",
 			"hidden":	false,
@@ -11727,10 +11716,10 @@
 				"parallaxobb":	-1
 			}
 		}, {
-			"index":	61,
+			"index":	60,
 			"id":	"crazy_parallax_obb",
 			"package":	"crazy_customs",
-			"hidden":	true,
+			"hidden":	false,
 			"pos":	[120, 126, 131],
 			"rot":	[-90, 0, 0],
 			"snapDir":	6,
@@ -11743,7 +11732,7 @@
 			"kv":	{
 			}
 		}, {
-			"index":	62,
+			"index":	61,
 			"id":	"crazy_cubemap",
 			"package":	"crazy_customs",
 			"hidden":	false,
@@ -11753,10 +11742,10 @@
 			"outputs":	[],
 			"kv":	{
 				"cubemapsize":	8,
-				"parallaxobb":	61
+				"parallaxobb":	60
 			}
 		}, {
-			"index":	63,
+			"index":	62,
 			"id":	"crazy_cubemap",
 			"package":	"crazy_customs",
 			"hidden":	false,
@@ -11766,10 +11755,10 @@
 			"outputs":	[],
 			"kv":	{
 				"cubemapsize":	8,
-				"parallaxobb":	82
+				"parallaxobb":	81
 			}
 		}, {
-			"index":	64,
+			"index":	63,
 			"id":	"crazy_cubemap",
 			"package":	"crazy_customs",
 			"hidden":	false,
@@ -11779,10 +11768,10 @@
 			"outputs":	[],
 			"kv":	{
 				"cubemapsize":	8,
-				"parallaxobb":	61
+				"parallaxobb":	60
 			}
 		}, {
-			"index":	65,
+			"index":	64,
 			"id":	"crazy_cubemap",
 			"package":	"crazy_customs",
 			"hidden":	false,
@@ -11792,10 +11781,10 @@
 			"outputs":	[],
 			"kv":	{
 				"cubemapsize":	8,
-				"parallaxobb":	61
+				"parallaxobb":	60
 			}
 		}, {
-			"index":	66,
+			"index":	65,
 			"id":	"crazy_cubemap",
 			"package":	"crazy_customs",
 			"hidden":	false,
@@ -11805,10 +11794,10 @@
 			"outputs":	[],
 			"kv":	{
 				"cubemapsize":	8,
-				"parallaxobb":	81
+				"parallaxobb":	80
 			}
 		}, {
-			"index":	67,
+			"index":	66,
 			"id":	"crazy_parallax_obb",
 			"package":	"crazy_customs",
 			"hidden":	false,
@@ -11824,7 +11813,7 @@
 			"kv":	{
 			}
 		}, {
-			"index":	68,
+			"index":	67,
 			"id":	"crazy_cubemap",
 			"package":	"crazy_customs",
 			"hidden":	false,
@@ -11834,10 +11823,10 @@
 			"outputs":	[],
 			"kv":	{
 				"cubemapsize":	8,
-				"parallaxobb":	67
+				"parallaxobb":	66
 			}
 		}, {
-			"index":	69,
+			"index":	68,
 			"id":	"crazy_cubemap",
 			"package":	"crazy_customs",
 			"hidden":	false,
@@ -11847,10 +11836,10 @@
 			"outputs":	[],
 			"kv":	{
 				"cubemapsize":	8,
-				"parallaxobb":	67
+				"parallaxobb":	66
 			}
 		}, {
-			"index":	70,
+			"index":	69,
 			"id":	"crazy_cubemap",
 			"package":	"crazy_customs",
 			"hidden":	false,
@@ -11860,10 +11849,10 @@
 			"outputs":	[],
 			"kv":	{
 				"cubemapsize":	8,
-				"parallaxobb":	67
+				"parallaxobb":	66
 			}
 		}, {
-			"index":	71,
+			"index":	70,
 			"id":	"crazy_cubemap",
 			"package":	"crazy_customs",
 			"hidden":	false,
@@ -11873,10 +11862,10 @@
 			"outputs":	[],
 			"kv":	{
 				"cubemapsize":	8,
-				"parallaxobb":	67
+				"parallaxobb":	66
 			}
 		}, {
-			"index":	72,
+			"index":	71,
 			"id":	"crazy_cubemap",
 			"package":	"crazy_customs",
 			"hidden":	false,
@@ -11886,10 +11875,10 @@
 			"outputs":	[],
 			"kv":	{
 				"cubemapsize":	8,
-				"parallaxobb":	67
+				"parallaxobb":	66
 			}
 		}, {
-			"index":	73,
+			"index":	72,
 			"id":	"crazy_cubemap",
 			"package":	"crazy_customs",
 			"hidden":	false,
@@ -11899,10 +11888,10 @@
 			"outputs":	[],
 			"kv":	{
 				"cubemapsize":	8,
-				"parallaxobb":	67
+				"parallaxobb":	66
 			}
 		}, {
-			"index":	74,
+			"index":	73,
 			"id":	"crazy_cubemap",
 			"package":	"crazy_customs",
 			"hidden":	false,
@@ -11912,10 +11901,10 @@
 			"outputs":	[],
 			"kv":	{
 				"cubemapsize":	8,
-				"parallaxobb":	67
+				"parallaxobb":	66
 			}
 		}, {
-			"index":	75,
+			"index":	74,
 			"id":	"crazy_cubemap",
 			"package":	"crazy_customs",
 			"hidden":	false,
@@ -11925,10 +11914,10 @@
 			"outputs":	[],
 			"kv":	{
 				"cubemapsize":	8,
-				"parallaxobb":	67
+				"parallaxobb":	66
 			}
 		}, {
-			"index":	76,
+			"index":	75,
 			"id":	"crazy_cubemap",
 			"package":	"crazy_customs",
 			"hidden":	false,
@@ -11938,10 +11927,10 @@
 			"outputs":	[],
 			"kv":	{
 				"cubemapsize":	8,
-				"parallaxobb":	67
+				"parallaxobb":	66
 			}
 		}, {
-			"index":	77,
+			"index":	76,
 			"id":	"crazy_cubemap",
 			"package":	"crazy_customs",
 			"hidden":	false,
@@ -11951,10 +11940,10 @@
 			"outputs":	[],
 			"kv":	{
 				"cubemapsize":	8,
-				"parallaxobb":	61
+				"parallaxobb":	60
 			}
 		}, {
-			"index":	78,
+			"index":	77,
 			"id":	"crazy_cubemap",
 			"package":	"crazy_customs",
 			"hidden":	false,
@@ -11964,10 +11953,10 @@
 			"outputs":	[],
 			"kv":	{
 				"cubemapsize":	8,
-				"parallaxobb":	80
+				"parallaxobb":	79
 			}
 		}, {
-			"index":	79,
+			"index":	78,
 			"id":	"crazy_cubemap",
 			"package":	"crazy_customs",
 			"hidden":	false,
@@ -11977,10 +11966,10 @@
 			"outputs":	[],
 			"kv":	{
 				"cubemapsize":	8,
-				"parallaxobb":	61
+				"parallaxobb":	60
 			}
 		}, {
-			"index":	80,
+			"index":	79,
 			"id":	"crazy_parallax_obb",
 			"package":	"crazy_customs",
 			"hidden":	false,
@@ -11996,7 +11985,7 @@
 			"kv":	{
 			}
 		}, {
-			"index":	81,
+			"index":	80,
 			"id":	"crazy_parallax_obb",
 			"package":	"crazy_customs",
 			"hidden":	false,
@@ -12012,7 +12001,7 @@
 			"kv":	{
 			}
 		}, {
-			"index":	82,
+			"index":	81,
 			"id":	"crazy_parallax_obb",
 			"package":	"crazy_customs",
 			"hidden":	false,
@@ -12022,13 +12011,13 @@
 			"size":	{
 				"x":	6,
 				"y":	6,
-				"z":	10
+				"z":	12
 			},
 			"outputs":	[],
 			"kv":	{
 			}
 		}, {
-			"index":	83,
+			"index":	82,
 			"id":	"crazy_cubemap",
 			"package":	"crazy_customs",
 			"hidden":	false,
@@ -12038,10 +12027,10 @@
 			"outputs":	[],
 			"kv":	{
 				"cubemapsize":	8,
-				"parallaxobb":	82
+				"parallaxobb":	81
 			}
 		}, {
-			"index":	84,
+			"index":	83,
 			"id":	"p1pbr_camera",
 			"package":	"p1pbr",
 			"hidden":	false,
@@ -12052,7 +12041,7 @@
 			"kv":	{
 			}
 		}, {
-			"index":	85,
+			"index":	84,
 			"id":	"p1pbr_sign_exit",
 			"package":	"p1pbr",
 			"hidden":	false,
@@ -12063,7 +12052,7 @@
 			"kv":	{
 			}
 		}, {
-			"index":	86,
+			"index":	85,
 			"id":	"p1pbr_sign_doorstate",
 			"package":	"p1pbr",
 			"hidden":	false,
@@ -12074,7 +12063,7 @@
 			"kv":	{
 			}
 		}, {
-			"index":	87,
+			"index":	86,
 			"id":	"p1pbr_sign_doorstate",
 			"package":	"p1pbr",
 			"hidden":	false,
@@ -12085,7 +12074,7 @@
 			"kv":	{
 			}
 		}, {
-			"index":	88,
+			"index":	87,
 			"id":	"crazy_math_counter",
 			"package":	"crazy_customs",
 			"hidden":	false,
@@ -12106,7 +12095,7 @@
 				"startvalue":	0
 			}
 		}, {
-			"index":	89,
+			"index":	88,
 			"id":	"crazy_placement_helper",
 			"package":	"crazy_customs",
 			"hidden":	false,
@@ -12121,7 +12110,7 @@
 				"startdisabled":	false
 			}
 		}, {
-			"index":	90,
+			"index":	89,
 			"id":	"crazy_placement_helper",
 			"package":	"crazy_customs",
 			"hidden":	false,
@@ -12136,7 +12125,7 @@
 				"startdisabled":	false
 			}
 		}, {
-			"index":	91,
+			"index":	90,
 			"id":	"trigger-once",
 			"package":	"logic",
 			"hidden":	false,
@@ -12154,14 +12143,14 @@
 					"inverted":	true,
 					"onlyPrimary":	false,
 					"input":	"Disable",
-					"output":	"onTrigger"
+					"output":	"On Trigger"
 				}, {
 					"ent":	12,
 					"antline":	-1,
 					"inverted":	true,
 					"onlyPrimary":	false,
 					"input":	"Disable",
-					"output":	"onTrigger"
+					"output":	"On Trigger"
 				}],
 			"kv":	{
 			}
@@ -12227,10 +12216,16 @@
 		"secondaryFogColor":	[0.15686275064945221, 0.20784313976764679, 0.250980406999588],
 		"fogStart":	128,
 		"fogEnd":	5000,
-		"fogDensity":	1
+		"fogDensity":	0,
+		"minFalloff":	-1,
+		"maxFalloff":	-1,
+		"maxWeight":	1,
+		"fadeInDuration":	2,
+		"fadeOutDuration":	2,
+		"filename":	"scripts/colorcorrection/cc_testchamber.raw"
 	},
 	"editor":	{
-		"cameraPos":	[133.61558532714844, 133.63397216796875, 142.09904479980469],
-		"cameraRot":	[-0.630998969078064, 113.80360412597656, 0]
+		"cameraPos":	[129.87657165527344, 134.99629211425781, 146.74160766601562],
+		"cameraRot":	[-0.596996009349823, 125.87925720214844, 0]
 	}
 }

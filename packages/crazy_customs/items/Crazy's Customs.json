@@ -329,6 +329,7 @@
 		"id": "crazy_placement_helper",
 		"model": "placement_helper.obj",
 		"mat": "portal_grey.png",
+		"transparent": true,
 		"entity": "info_placement_helper",
 		"bound1": [
 			-0.5,
@@ -482,44 +483,6 @@
 				"falseOutput": "OnChangedFromMin"
 			}
 		]
-	},
-	{
-		"type": "entity",
-		"name": "P1 Color Correction",
-		"id": "crazy_color_correction",
-		"model": "axis_helper.obj",
-		"mat": "axis_helper.png",
-		"entity": "color_correction",
-		"bound1": [
-			-0.15,
-			-0.15,
-			-0.15
-		],
-		"bound2": [
-			0.15,
-			0.15,
-			0.15
-		],
-		"snapMode": "mini-corner",
-		"editorTransform": {
-			"position": [
-				0,
-				0,
-				0
-			],
-			"rotation": [
-				-90,
-				0,
-				180
-			]
-		},
-		"statickvs": {
-			"fadeInDuration": "2",
-			"fadeOoutDuration": "2",
-			"filename": "scripts/colorcorrection/cc_testchamber.raw",
-			"minfalloff": "-1",
-			"maxfalloff": "-1"
-		}
 	},
 	{
 		"type": "entity",

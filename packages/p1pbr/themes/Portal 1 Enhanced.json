@@ -37,23 +37,35 @@
 	"postProcessing": [
 		{
 			"name": "Portal 1 Testchamber",
-			"maxExposure": 2,
-			"minExposure": 0.5,
-			"tonemapRate": 0.25,
-			"brightPixelPercent": 5,
-			"primaryFogColor": [
-				40,
-				53,
-				64
-			],
-			"secondaryFogColor": [
-				40,
-				53,
-				64
-			],
-			"fogStart": 128,
-			"fogEnd": 5000,
-			"fogDensity": 1
+			"tonemap": {
+				"maxExposure": 2,
+				"minExposure": 0.5,
+				"tonemapRate": 0.25,
+				"brightPixelPercent": 5
+			},
+			"fog": {
+				"primaryColor": [
+					40,
+					53,
+					64
+				],
+				"secondaryColor": [
+					40,
+					53,
+					64
+				],
+				"start": 128,
+				"end": 5000,
+				"density": 0
+			},
+			"colorCorrection": {
+				"minFalloff": -1,
+				"maxFalloff": -1,
+				"maxWeight": 1,
+				"fadeInDuration": 2,
+				"fadeOutDuration": 2,
+				"filename": "scripts/colorcorrection/cc_testchamber.raw"
+			}
 		}
 	]
 }

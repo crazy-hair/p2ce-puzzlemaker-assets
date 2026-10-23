@@ -200,7 +200,7 @@
 		"type": "entity",
 		"name": "P1 Door",
 		"id": "p1pbr_door",
-		"model": "p1_door.obj",
+		"model": "door.obj",
 		"mat": "laser_catcher_mod.png",
 		"instance": "p1_door",
 		"bound1": [
@@ -274,7 +274,7 @@
 		"type": "entity",
 		"name": "P1 Floor Button",
 		"id": "p1pbr_button_floor",
-		"model": "p1_button.obj",
+		"model": "button_floor.obj",
 		"mat": "laser_catcher_mod.png",
 		"instance": "p1_button",
 		"bound1": [
@@ -326,7 +326,7 @@
 		"type": "entity",
 		"name": "P1 Pedestal Button",
 		"id": "p1pbr_button_ped",
-		"model": "p1_ped_button.obj",
+		"model": "button_ped.obj",
 		"mat": "laser_catcher_mod.png",
 		"instance": "p1_ped_button",
 		"snapMode": "mini-corner",
@@ -406,7 +406,7 @@
 		"type": "entity",
 		"name": "P1 Cube Dropper",
 		"id": "p1pbr_dropper_cube",
-		"model": "p1_dropper_full.obj",
+		"model": "dropper.obj",
 		"mat": "dropper_full.png",
 		"instance": "p1_dropper",
 		"deleteIntersectingVoxels": true,
@@ -517,7 +517,7 @@
 		"type": "entity",
 		"name": "P1 Cube",
 		"id": "p1pbr_cube",
-		"model": "p1_cube.obj",
+		"model": "cube.obj",
 		"mat": "laser_catcher_mod.png",
 		"entity": "prop_weighted_cube",
 		"transform": {
@@ -820,154 +820,9 @@
 	},
 	{
 		"type": "entity",
-		"name": "P1 Piston Platform",
-		"id": "p1pbr_piston_platform",
-		"model": "piston_panel.obj",
-		"mat": "laser_catcher_mod.png",
-		"instance": "piston",
-		"bound1": [
-			-0.8,
-			-0.8,
-			-9.9
-		],
-		"bound2": [
-			0.8,
-			0.8,
-			0
-		],
-		"editorTransform": {
-			"position": [
-				0,
-				0,
-				-0.1
-			],
-			"rotation": [
-				0,
-				90,
-				0
-			]
-		},
-		"transform": {
-			"position": [
-				0,
-				0,
-				0
-			],
-			"rotation": [
-				0,
-				0,
-				0
-			]
-		},
-		"snapMode": "mini-corner",
-		"keyvalues": [
-			{
-				"name": "Material",
-				"kv": "material",
-				"type": "drop-string",
-				"defaultValue": 0,
-				"options": {
-					"Concrete Wall": "pminstances/p1pbr/piston_crete_wall.vmf",
-					"Concrete Floor": "pminstances/p1pbr/piston_crete_floor.vmf",
-					"Concrete Floor Button": "pminstances/p1pbr/piston_crete_floor_butt.vmf",
-					"Concrete Ceiling": "pminstances/p1pbr/piston_crete_ceil.vmf"
-				}
-			}
-		]
-	},
-	{
-		"type": "entity",
-		"name": "P1 Piston Stair",
-		"id": "p1pbr_piston_stair",
-		"model": "p1_piston_stair.obj",
-		"mat": "laser_catcher_mod.png",
-		"instance": "piston_stair",
-		"bound1": [
-			-1.05,
-			-0.3,
-			-9.9
-		],
-		"bound2": [
-			0.55,
-			0.3,
-			0
-		],
-		"editorTransform": {
-			"position": [
-				-0.25,
-				0,
-				0
-			],
-			"rotation": [
-				0,
-				90,
-				90
-			]
-		},
-		"transform": {
-			"position": [
-				0,
-				-16,
-				0
-			],
-			"rotation": [
-				90,
-				0,
-				0
-			]
-		},
-		"snapMode": "mini-center"
-	},
-	{
-		"type": "entity",
-		"name": "P1 Piston Pit",
-		"id": "p1pbr_piston_pit",
-		"model": "piston_pit_full.obj",
-		"mat": "piston_pit_full.png",
-		"instance": "piston_pit",
-		"deleteIntersectingVoxels": true,
-		"genMissingVoxels": false,
-		"bound1": [
-			-1,
-			-1,
-			-4
-		],
-		"bound2": [
-			1,
-			1,
-			0
-		],
-		"editorTransform": {
-			"position": [
-				0,
-				0,
-				0
-			],
-			"rotation": [
-				90,
-				0,
-				0
-			]
-		},
-		"transform": {
-			"position": [
-				0,
-				0,
-				0
-			],
-			"rotation": [
-				0,
-				90,
-				90
-			]
-		},
-		"snapMode": "corner"
-	},
-	{
-		"type": "entity",
 		"name": "P1 Victory Lift",
 		"id": "p1pbr_piston_lift",
-		"model": "victory_lift.obj",
+		"model": "piston_lift.obj",
 		"mat": "laser_catcher_mod.png",
 		"instance": "victory_lift",
 		"bound1": [
@@ -1086,7 +941,7 @@
 		"type": "entity",
 		"name": "P1 Sentry Turret",
 		"id": "p1pbr_turret",
-		"model": "p1_turret.obj",
+		"model": "turret.obj",
 		"mat": "laser_catcher_mod.png",
 		"entity": "npc_portal_turret_floor",
 		"exportScript": "turretSkin.lua",
@@ -1162,7 +1017,7 @@
 		"type": "entity",
 		"name": "P1 Security Camera",
 		"id": "p1pbr_camera",
-		"model": "p1_camera.obj",
+		"model": "security_camera.obj",
 		"mat": "laser_catcher_mod.png",
 		"entity": "npc_security_camera",
 		"bound1": [

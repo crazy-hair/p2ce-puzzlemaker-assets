@@ -3,7 +3,7 @@
 		"type": "entity",
 		"name": "P1 Piston Platform",
 		"id": "p1pbr_piston_platform",
-		"model": "piston_panel.obj",
+		"model": "piston_platform.obj",
 		"mat": "laser_catcher_mod.png",
 		"instance": "piston",
 		"bound1": [
@@ -60,7 +60,7 @@
 		"type": "entity",
 		"name": "P1 Piston Stair",
 		"id": "p1pbr_piston_stair",
-		"model": "p1_piston_stair.obj",
+		"model": "piston_stair.obj",
 		"mat": "laser_catcher_mod.png",
 		"instance": "piston_stair",
 		"bound1": [
@@ -103,7 +103,7 @@
 		"type": "entity",
 		"name": "P1 Piston Pit",
 		"id": "p1pbr_piston_pit",
-		"model": "piston_pit_full.obj",
+		"model": "piston_pit.obj",
 		"mat": "piston_pit_full.png",
 		"instance": "piston_pit",
 		"deleteIntersectingVoxels": true,
@@ -148,7 +148,7 @@
 		"type": "entity",
 		"name": "Protruding Concrete Panel",
 		"id": "p1pbr_panel_concrete",
-		"model": "protruding_panel.obj",
+		"model": "concrete_panel.obj",
 		"mat": "laser_catcher_mod.png",
 		"instance": "extruded_conc_panel_{material}",
 		"bound1": [

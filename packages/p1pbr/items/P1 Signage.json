@@ -3,7 +3,7 @@
 		"type": "entity",
 		"name": "P1 Testchamber Sign",
 		"id": "p1pbr_sign_testchamber",
-		"model": "testchamber_sign.obj",
+		"model": "sign_testchamber.obj",
 		"mat": "testchamber_sign_full.png",
 		"instance": "testchamber_sign",
 		"bound1": [
@@ -423,7 +423,7 @@
 		"type": "entity",
 		"name": "P1 Exit Sign",
 		"id": "p1pbr_sign_exit",
-		"model": "exit_sign.obj",
+		"model": "sign_exit.obj",
 		"mat": "exit_sign.png",
 		"instance": "exit_sign",
 		"bound1": [
@@ -466,7 +466,7 @@
 		"type": "entity",
 		"name": "P1 Doorstate Sign",
 		"id": "p1pbr_sign_doorstate",
-		"model": "doorstate.obj",
+		"model": "sign_doorstate.obj",
 		"mat": "laser_catcher_mod.png",
 		"instance": "doorstate",
 		"bound1": [

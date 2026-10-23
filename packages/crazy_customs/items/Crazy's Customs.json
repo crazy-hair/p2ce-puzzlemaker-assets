@@ -6,6 +6,7 @@
 		"model": "cubemap.obj",
 		"mat": "cubemap.png",
 		"entity": "env_cubemap",
+		"rotationRestriction": "xyz",
 		"bound1": [
 			-0.15,
 			-0.15,
@@ -23,7 +24,7 @@
 				0
 			],
 			"rotation": [
-				90,
+				0,
 				0,
 				0
 			]
@@ -35,7 +36,7 @@
 				0
 			],
 			"rotation": [
-				90,
+				0,
 				0,
 				0
 			]

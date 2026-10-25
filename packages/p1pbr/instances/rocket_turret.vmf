@@ -1,0 +1,1156 @@
+versioninfo
+{
+	"editorextension" "strata"
+	"editorversion" "400"
+	"editorbuild" "10903"
+	"mapversion" "9"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "1"
+	"nGridSpacing" "32"
+	"bShow3DGrid" "0"
+	"nInstanceVisibility" "2"
+	views
+	{
+		v0
+		{
+			"3d" "1"
+			"position" "(59.6489 -85.1016 62.1059)"
+			"angle" "[32.3999 118 0]"
+		}
+		v1
+		{
+			"3d" "0"
+			"position" "(-64 128 73216)"
+			"zoom" "0.0280392"
+		}
+		v2
+		{
+			"3d" "0"
+			"position" "(72384 128 0)"
+			"zoom" "0.25"
+		}
+		v3
+		{
+			"3d" "0"
+			"position" "(-64 -58112 0)"
+			"zoom" "0.25"
+		}
+	}
+}
+world
+{
+	"id" "1"
+	"mapversion" "9"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxprojectedtextures" "8"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+	solid
+	{
+		"id" "421"
+		side
+		{
+			"id" "168"
+			"plane" "(64 64 0) (64 64 8) (12 12 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 64 0"
+				"point" "1 64 64 8"
+				"point" "2 12 12 8"
+				"point" "3 12 12 0"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "167"
+			"plane" "(64 64 8) (64 0 8) (16 0 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 64 8"
+				"point" "1 64 0 8"
+				"point" "2 16 0 8"
+				"point" "3 12 12 8"
+			}
+			"material" "P1PBR/CONCRETE/CONCRETE_MODULAR_FLOOR001B_BUTTON"
+			"uaxis" "[1 0 0 256] 0.25"
+			"vaxis" "[0 -1 0 256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "166"
+			"plane" "(16 0 0) (64 0 0) (64 64 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 16 0 0"
+				"point" "1 64 0 0"
+				"point" "2 64 64 0"
+				"point" "3 12 12 0"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "165"
+			"plane" "(64 64 0) (64 0 0) (64 0 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 64 0"
+				"point" "1 64 0 0"
+				"point" "2 64 0 8"
+				"point" "3 64 64 8"
+			}
+			"material" "P1PBR/SIGNAGE/HAZARD_ORANGE_03B"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "164"
+			"plane" "(16 0 0) (16 0 8) (64 0 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 16 0 0"
+				"point" "1 16 0 8"
+				"point" "2 64 0 8"
+				"point" "3 64 0 0"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "204"
+			"plane" "(16 0 8) (16 0 0) (12 12 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 16 0 8"
+				"point" "1 16 0 0"
+				"point" "2 12 12 0"
+				"point" "3 12 12 8"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 192 157"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "422"
+		side
+		{
+			"id" "173"
+			"plane" "(0 -16 0) (0 -16 8) (0 -64 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 -16 0"
+				"point" "1 0 -16 8"
+				"point" "2 0 -64 8"
+				"point" "3 0 -64 0"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "172"
+			"plane" "(12 -12 8) (64 -64 8) (0 -64 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 12 -12 8"
+				"point" "1 64 -64 8"
+				"point" "2 0 -64 8"
+				"point" "3 0 -16 8"
+			}
+			"material" "P1PBR/CONCRETE/CONCRETE_MODULAR_FLOOR001B_BUTTON"
+			"uaxis" "[1 0 0 256] 0.25"
+			"vaxis" "[0 -1 0 256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "171"
+			"plane" "(64 -64 0) (12 -12 0) (0 -16 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 -64 0"
+				"point" "1 12 -12 0"
+				"point" "2 0 -16 0"
+				"point" "3 0 -64 0"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "170"
+			"plane" "(0 -64 0) (0 -64 8) (64 -64 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 -64 0"
+				"point" "1 0 -64 8"
+				"point" "2 64 -64 8"
+				"point" "3 64 -64 0"
+			}
+			"material" "P1PBR/SIGNAGE/HAZARD_ORANGE_03B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "169"
+			"plane" "(0 -16 8) (0 -16 0) (12 -12 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 -16 8"
+				"point" "1 0 -16 0"
+				"point" "2 12 -12 0"
+				"point" "3 12 -12 8"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "205"
+			"plane" "(64 -64 0) (64 -64 8) (12 -12 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 -64 0"
+				"point" "1 64 -64 8"
+				"point" "2 12 -12 8"
+				"point" "3 12 -12 0"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 192 157"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "423"
+		side
+		{
+			"id" "178"
+			"plane" "(64 -64 8) (12 -12 8) (16 0 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 -64 8"
+				"point" "1 12 -12 8"
+				"point" "2 16 0 8"
+				"point" "3 64 0 8"
+			}
+			"material" "P1PBR/CONCRETE/CONCRETE_MODULAR_FLOOR001B_BUTTON"
+			"uaxis" "[1 0 0 256] 0.25"
+			"vaxis" "[0 -1 0 256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "177"
+			"plane" "(64 -64 0) (64 0 0) (16 0 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 -64 0"
+				"point" "1 64 0 0"
+				"point" "2 16 0 0"
+				"point" "3 12 -12 0"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "176"
+			"plane" "(64 -64 0) (64 -64 8) (64 0 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 -64 0"
+				"point" "1 64 -64 8"
+				"point" "2 64 0 8"
+				"point" "3 64 0 0"
+			}
+			"material" "P1PBR/SIGNAGE/HAZARD_ORANGE_03B"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "175"
+			"plane" "(16 0 0) (64 0 0) (64 0 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 16 0 0"
+				"point" "1 64 0 0"
+				"point" "2 64 0 8"
+				"point" "3 16 0 8"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "174"
+			"plane" "(64 -64 8) (64 -64 0) (12 -12 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 -64 8"
+				"point" "1 64 -64 0"
+				"point" "2 12 -12 0"
+				"point" "3 12 -12 8"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "206"
+			"plane" "(16 0 0) (16 0 8) (12 -12 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 16 0 0"
+				"point" "1 16 0 8"
+				"point" "2 12 -12 8"
+				"point" "3 12 -12 0"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 192 157"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "424"
+		side
+		{
+			"id" "183"
+			"plane" "(0 -16 0) (0 -16 8) (-12 -12 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 -16 0"
+				"point" "1 0 -16 8"
+				"point" "2 -12 -12 8"
+				"point" "3 -12 -12 0"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "182"
+			"plane" "(0 -16 0) (0 -64 0) (0 -64 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 -16 0"
+				"point" "1 0 -64 0"
+				"point" "2 0 -64 8"
+				"point" "3 0 -16 8"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "181"
+			"plane" "(0 -16 8) (0 -64 8) (-64 -64 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 -16 8"
+				"point" "1 0 -64 8"
+				"point" "2 -64 -64 8"
+				"point" "3 -12 -12 8"
+			}
+			"material" "P1PBR/CONCRETE/CONCRETE_MODULAR_FLOOR001B_BUTTON"
+			"uaxis" "[1 0 0 256] 0.25"
+			"vaxis" "[0 -1 0 256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "180"
+			"plane" "(-64 -64 0) (0 -64 0) (0 -16 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 -64 0"
+				"point" "1 0 -64 0"
+				"point" "2 0 -16 0"
+				"point" "3 -12 -12 0"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "179"
+			"plane" "(0 -64 0) (-64 -64 0) (-64 -64 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 -64 0"
+				"point" "1 -64 -64 0"
+				"point" "2 -64 -64 8"
+				"point" "3 0 -64 8"
+			}
+			"material" "P1PBR/SIGNAGE/HAZARD_ORANGE_03B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "207"
+			"plane" "(-64 -64 8) (-64 -64 0) (-12 -12 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 -64 8"
+				"point" "1 -64 -64 0"
+				"point" "2 -12 -12 0"
+				"point" "3 -12 -12 8"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 192 157"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "425"
+		side
+		{
+			"id" "188"
+			"plane" "(-12 12 8) (-16 0 8) (-64 0 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -12 12 8"
+				"point" "1 -16 0 8"
+				"point" "2 -64 0 8"
+				"point" "3 -64 64 8"
+			}
+			"material" "P1PBR/CONCRETE/CONCRETE_MODULAR_FLOOR001B_BUTTON"
+			"uaxis" "[1 0 0 256] 0.25"
+			"vaxis" "[0 -1 0 256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "187"
+			"plane" "(-16 0 0) (-12 12 0) (-64 64 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -16 0 0"
+				"point" "1 -12 12 0"
+				"point" "2 -64 64 0"
+				"point" "3 -64 0 0"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "186"
+			"plane" "(-64 64 0) (-64 64 8) (-64 0 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 64 0"
+				"point" "1 -64 64 8"
+				"point" "2 -64 0 8"
+				"point" "3 -64 0 0"
+			}
+			"material" "P1PBR/SIGNAGE/HAZARD_ORANGE_03B"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "185"
+			"plane" "(-16 0 0) (-64 0 0) (-64 0 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -16 0 0"
+				"point" "1 -64 0 0"
+				"point" "2 -64 0 8"
+				"point" "3 -16 0 8"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "184"
+			"plane" "(-64 64 8) (-64 64 0) (-12 12 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 64 8"
+				"point" "1 -64 64 0"
+				"point" "2 -12 12 0"
+				"point" "3 -12 12 8"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "208"
+			"plane" "(-16 0 0) (-16 0 8) (-12 12 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -16 0 0"
+				"point" "1 -16 0 8"
+				"point" "2 -12 12 8"
+				"point" "3 -12 12 0"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 192 157"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "426"
+		side
+		{
+			"id" "193"
+			"plane" "(0 16 0) (0 16 8) (0 64 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 16 0"
+				"point" "1 0 16 8"
+				"point" "2 0 64 8"
+				"point" "3 0 64 0"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "192"
+			"plane" "(0 16 8) (-12 12 8) (-64 64 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 16 8"
+				"point" "1 -12 12 8"
+				"point" "2 -64 64 8"
+				"point" "3 0 64 8"
+			}
+			"material" "P1PBR/CONCRETE/CONCRETE_MODULAR_FLOOR001B_BUTTON"
+			"uaxis" "[1 0 0 256] 0.25"
+			"vaxis" "[0 -1 0 256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "191"
+			"plane" "(0 16 0) (0 64 0) (-64 64 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 16 0"
+				"point" "1 0 64 0"
+				"point" "2 -64 64 0"
+				"point" "3 -12 12 0"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "190"
+			"plane" "(0 64 0) (0 64 8) (-64 64 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 64 0"
+				"point" "1 0 64 8"
+				"point" "2 -64 64 8"
+				"point" "3 -64 64 0"
+			}
+			"material" "P1PBR/SIGNAGE/HAZARD_ORANGE_03B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "189"
+			"plane" "(0 16 8) (0 16 0) (-12 12 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 16 8"
+				"point" "1 0 16 0"
+				"point" "2 -12 12 0"
+				"point" "3 -12 12 8"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "209"
+			"plane" "(-64 64 0) (-64 64 8) (-12 12 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 64 0"
+				"point" "1 -64 64 8"
+				"point" "2 -12 12 8"
+				"point" "3 -12 12 0"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 192 157"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "427"
+		side
+		{
+			"id" "198"
+			"plane" "(0 16 0) (0 16 8) (12 12 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 16 0"
+				"point" "1 0 16 8"
+				"point" "2 12 12 8"
+				"point" "3 12 12 0"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "197"
+			"plane" "(0 16 0) (0 64 0) (0 64 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 16 0"
+				"point" "1 0 64 0"
+				"point" "2 0 64 8"
+				"point" "3 0 16 8"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "196"
+			"plane" "(0 16 8) (0 64 8) (64 64 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 16 8"
+				"point" "1 0 64 8"
+				"point" "2 64 64 8"
+				"point" "3 12 12 8"
+			}
+			"material" "P1PBR/CONCRETE/CONCRETE_MODULAR_FLOOR001B_BUTTON"
+			"uaxis" "[1 0 0 256] 0.25"
+			"vaxis" "[0 -1 0 256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "195"
+			"plane" "(12 12 0) (64 64 0) (0 64 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 12 12 0"
+				"point" "1 64 64 0"
+				"point" "2 0 64 0"
+				"point" "3 0 16 0"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "194"
+			"plane" "(0 64 0) (64 64 0) (64 64 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 64 0"
+				"point" "1 64 64 0"
+				"point" "2 64 64 8"
+				"point" "3 0 64 8"
+			}
+			"material" "P1PBR/SIGNAGE/HAZARD_ORANGE_03B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "210"
+			"plane" "(64 64 8) (64 64 0) (12 12 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 64 8"
+				"point" "1 64 64 0"
+				"point" "2 12 12 0"
+				"point" "3 12 12 8"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 192 157"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "428"
+		side
+		{
+			"id" "203"
+			"plane" "(-64 -64 0) (-64 -64 8) (-12 -12 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 -64 0"
+				"point" "1 -64 -64 8"
+				"point" "2 -12 -12 8"
+				"point" "3 -12 -12 0"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "202"
+			"plane" "(-64 -64 8) (-64 0 8) (-16 0 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 -64 8"
+				"point" "1 -64 0 8"
+				"point" "2 -16 0 8"
+				"point" "3 -12 -12 8"
+			}
+			"material" "P1PBR/CONCRETE/CONCRETE_MODULAR_FLOOR001B_BUTTON"
+			"uaxis" "[1 0 0 256] 0.25"
+			"vaxis" "[0 -1 0 256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "201"
+			"plane" "(-12 -12 0) (-16 0 0) (-64 0 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -12 -12 0"
+				"point" "1 -16 0 0"
+				"point" "2 -64 0 0"
+				"point" "3 -64 -64 0"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "200"
+			"plane" "(-64 -64 0) (-64 0 0) (-64 0 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 -64 0"
+				"point" "1 -64 0 0"
+				"point" "2 -64 0 8"
+				"point" "3 -64 -64 8"
+			}
+			"material" "P1PBR/SIGNAGE/HAZARD_ORANGE_03B"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "199"
+			"plane" "(-16 0 0) (-16 0 8) (-64 0 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -16 0 0"
+				"point" "1 -16 0 8"
+				"point" "2 -64 0 8"
+				"point" "3 -64 0 0"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "211"
+			"plane" "(-16 0 8) (-16 0 0) (-12 -12 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -16 0 8"
+				"point" "1 -16 0 0"
+				"point" "2 -12 -12 0"
+				"point" "3 -12 -12 8"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 192 157"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "450"
+	"classname" "func_instance_io_proxy"
+	"targetname" "proxy"
+	connections
+	{
+		"OnProxyRelay" "turret_rocketToggle0-1"
+		"OnProxyRelay" "turret_rocketEnable0-1"
+		"OnProxyRelay" "turret_rocketDisable0-1"
+	}
+	"origin" "32 32 9"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "455"
+	"classname" "func_instance_parms"
+	"parm1" "$spawnflags string"
+	"origin" "32 -32 9"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "4"
+	"classname" "npc_rocket_turret"
+	"AcquireEnemies" "0"
+	"additionalequipment" "0"
+	"AllowShootThroughPortals" "2"
+	"AllowSilentDissolve" "1"
+	"angles" "0 270 0"
+	"beamcolor" "100 100 255 100"
+	"beammaterial" "effects/bluelaser1.vmt"
+	"body" "0"
+	"comp_custom_model_type" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"DontUseSpeechSemaphore" "0"
+	"drawinfastreflection" "0"
+	"effects" "0"
+	"fadescale" "1"
+	"FireCooldown" "4"
+	"glowcolor" "255 255 255"
+	"glowdist" "1024"
+	"glowenabled" "0"
+	"glowmaterial" "sprites/light_glow03.vmt"
+	"glowstyle" "0"
+	"health" "0"
+	"hintlimiting" "0"
+	"ignoreunseenenemies" "0"
+	"LockonSound" "NPC_FloorTurret.LockedBeep"
+	"LockonTime" "1.5"
+	"max_health" "0"
+	"model" "models/props_bts/rocket_sentry.mdl"
+	"physdamagescale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"rocketlifetime" "20"
+	"rocketspeed" "450"
+	"setbodygroup" "0"
+	"shadowdepthnocache" "0"
+	"sleepstate" "0"
+	"solid" "6"
+	"spawnflags" "$spawnflags"
+	"targetname" "turret_rocket"
+	"texframeindex" "0"
+	"TripwireMode" "0"
+	"turretrange" "8192"
+	"viewhideflags" "0"
+	"wakeradius" "0"
+	"wakesquad" "0"
+	"waterlevel" "0"
+	"origin" "0 0 8"
+	editor
+	{
+		"color" "0 200 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

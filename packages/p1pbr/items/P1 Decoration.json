@@ -3,12 +3,37 @@
 		"type": "panel",
 		"id": "p1pbr_window",
 		"name": "P1 Window",
-		"editorCenterTexture": "glass.png",
+		"editorCenterTexture": "glassframecenter.png",
 		"centerTexture": "GLASS/GLASSWINDOW_FROSTED_002",
 		"zTexture": "ANIM_WP/FRAMEWORK/BACKPANELS",
 		"exportScript": "p1Window.lua",
 		"texSize": 512,
 		"thickness": 2,
+    "borders": [
+      {
+        "id": "left",
+        "editorTexture": "glassframeleft.png",
+        "texture": {
+          "filename": "EFFECTS/FIZZLER_L",
+          "size": 1024,
+          "alignment": "fit"
+        },
+        "minSize": 1,
+        "maxSize": 1
+      },
+      {
+        "id": "right",
+        "editorTexture": "glassframeright.png",
+        "texture": {
+          "filename": "EFFECTS/FIZZLER_R",
+          "size": 1024,
+          "alignment": "fit"
+        },
+        "texSize": 1024,
+        "minSize": 1,
+        "maxSize": 1
+      }
+    ],
 		"minSize": [
 			0.5,
 			0.5
@@ -28,12 +53,37 @@
 		"type": "panel",
 		"id": "p1pbr_doorframe",
 		"name": "P1 Door Frame",
-		"editorCenterTexture": "glass.png",
+		"editorCenterTexture": "framecenter.png",
 		"centerTexture": "GLASS/GLASSWINDOW_FROSTED_002",
 		"zTexture": "ANIM_WP/FRAMEWORK/BACKPANELS",
 		"exportScript": "p1DoorFrame.lua",
 		"texSize": 512,
 		"thickness": 2,
+    "borders": [
+      {
+        "id": "left",
+        "editorTexture": "frameleft.png",
+        "texture": {
+          "filename": "EFFECTS/FIZZLER_L",
+          "size": 1024,
+          "alignment": "fit"
+        },
+        "minSize": 1,
+        "maxSize": 1
+      },
+      {
+        "id": "right",
+        "editorTexture": "frameright.png",
+        "texture": {
+          "filename": "EFFECTS/FIZZLER_R",
+          "size": 1024,
+          "alignment": "fit"
+        },
+        "texSize": 1024,
+        "minSize": 1,
+        "maxSize": 1
+      }
+    ],
 		"minSize": [
 			0.5,
 			0.5

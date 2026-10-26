@@ -6,7 +6,6 @@
 		"editorCenterTexture": "glass.png",
 		"centerTexture": "GLASS/GLASSWINDOW_FROSTED_002",
 		"zTexture": "ANIM_WP/FRAMEWORK/BACKPANELS",
-		"rotationRestriction": "xyz",
 		"exportScript": "p1Window.lua",
 		"texSize": 512,
 		"thickness": 2,
@@ -32,7 +31,6 @@
 		"editorCenterTexture": "glass.png",
 		"centerTexture": "GLASS/GLASSWINDOW_FROSTED_002",
 		"zTexture": "ANIM_WP/FRAMEWORK/BACKPANELS",
-		"rotationRestriction": "xyz",
 		"exportScript": "p1DoorFrame.lua",
 		"texSize": 512,
 		"thickness": 2,
@@ -198,7 +196,69 @@
 	},
 	{
 		"type": "entity",
-		"name": "Protruding Concrete Panel",
+		"name": "P1 Security Camera",
+		"id": "p1pbr_camera",
+		"model": "security_camera.obj",
+		"mat": "laser_catcher_mod.png",
+		"entity": "npc_security_camera",
+		"bound1": [
+			-0.15,
+			-0.15,
+			0
+		],
+		"bound2": [
+			0.15,
+			0.5,
+			0.65
+		],
+		"snapMode": "mini-corner",
+		"editorTransform": {
+			"position": [
+				0,
+				0.25,
+				0
+			],
+			"rotation": [
+				0,
+				90,
+				0
+			]
+		},
+		"transform": {
+			"position": [
+				0,
+				0,
+				16
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			]
+		},
+		"outputs": [
+			{
+				"name": "On Detached From Wall",
+				"trueOutput": "OnDetach",
+				"falseOutput": "none"
+			}
+		],
+		"inputs": [
+			{
+				"name": "Detach",
+				"trueInput": "ragdoll",
+				"falseInput": "none"
+			}
+		],
+		"statickvs": {
+			"enableropes": "1",
+			"model": "models/p1pbr/props/security_camera.mdl",
+			"spawnflags": "32"
+		}
+	},
+	{
+		"type": "entity",
+		"name": "P1 Protruding Concrete Panel",
 		"id": "p1pbr_panel_concrete",
 		"model": "concrete_panel.obj",
 		"mat": "laser_catcher_mod.png",
@@ -254,7 +314,7 @@
 	},
 	{
 		"type": "entity",
-		"name": "Protruding Metal Block 32x",
+		"name": "P1 Protruding Metal Block 32x",
 		"id": "p1pbr_panel_metal_32",
 		"model": "metal_block_32.obj",
 		"mat": "laser_catcher_mod.png",
@@ -297,9 +357,8 @@
 	},
 	{
 		"type": "entity",
-		"name": "Protruding Metal Block 64x",
+		"name": "P1 Protruding Metal Block 64x",
 		"id": "p1pbr_panel_metal_64",
-		"model": "metal_block_64.obj",
 		"model": "metal_block_64.obj",
 		"mat": "laser_catcher_mod.png",
 		"instance": "protruding_metal_block_64",
@@ -341,7 +400,7 @@
 	},
 	{
 		"type": "volume",
-		"name": "Concrete Wall",
+		"name": "P1 Concrete Wall",
 		"id": "p1pbr_block_concrete",
 		"rotationRestriction": "xyz",
 		"editorTexture": "__base__/whiteVoxel.png",
@@ -368,7 +427,7 @@
 	},
 	{
 		"type": "volume",
-		"name": "Small Metal Blocks",
+		"name": "P1 Small Metal Blocks",
 		"id": "p1pbr_block_metal_32",
 		"rotationRestriction": "xyz",
 		"editorTexture": {
@@ -399,7 +458,7 @@
 	},
 	{
 		"type": "volume",
-		"name": "Medium Metal Blocks",
+		"name": "P1 Medium Metal Blocks",
 		"id": "p1pbr_block_metal_64",
 		"rotationRestriction": "xyz",
 		"editorTexture": {
@@ -430,7 +489,7 @@
 	},
 	{
 		"type": "volume",
-		"name": "Large Metal Blocks",
+		"name": "P1 Large Metal Blocks",
 		"id": "p1pbr_block_metal_128",
 		"rotationRestriction": "xyz",
 		"editorTexture": {

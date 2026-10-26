@@ -1,5 +1,57 @@
 [
 	{
+		"type": "panel",
+		"id": "p1pbr_window",
+		"name": "P1 Window",
+		"editorCenterTexture": "glass.png",
+		"centerTexture": "GLASS/GLASSWINDOW_FROSTED_002",
+		"zTexture": "ANIM_WP/FRAMEWORK/BACKPANELS",
+		"rotationRestriction": "xyz",
+		"exportScript": "p1Window.lua",
+		"texSize": 512,
+		"thickness": 2,
+		"minSize": [
+			0.5,
+			0.5
+		],
+		"maxSize": [
+			99999,
+			99999
+		],
+		"snapMode": "mini-center",
+		"defaultSize": [
+			2,
+			2
+		],
+		"transparent": true
+	},
+	{
+		"type": "panel",
+		"id": "p1pbr_doorframe",
+		"name": "P1 Door Frame",
+		"editorCenterTexture": "glass.png",
+		"centerTexture": "GLASS/GLASSWINDOW_FROSTED_002",
+		"zTexture": "ANIM_WP/FRAMEWORK/BACKPANELS",
+		"rotationRestriction": "xyz",
+		"exportScript": "p1DoorFrame.lua",
+		"texSize": 512,
+		"thickness": 2,
+		"minSize": [
+			0.5,
+			0.5
+		],
+		"maxSize": [
+			99999,
+			99999
+		],
+		"snapMode": "mini-center",
+		"defaultSize": [
+			2,
+			2
+		],
+		"transparent": true
+	},
+	{
 		"type": "entity",
 		"name": "P1 Piston Platform",
 		"id": "p1pbr_piston_platform",
@@ -291,10 +343,11 @@
 		"type": "volume",
 		"name": "Concrete Wall",
 		"id": "p1pbr_block_concrete",
+		"rotationRestriction": "xyz",
 		"editorTexture": "__base__/whiteVoxel.png",
 		"textures": {
-			"top": "p1pbr/concrete/concrete_modular_floor001a",
-			"bottom": "p1pbr/concrete/concrete_modular_ceiling001a",
+			"top": "p1pbr/concrete/concrete_modular_wall001a",
+			"bottom": "p1pbr/concrete/concrete_modular_wall001a",
 			"left": "p1pbr/concrete/concrete_modular_wall001a",
 			"right": "p1pbr/concrete/concrete_modular_wall001a",
 			"front": "p1pbr/concrete/concrete_modular_wall001a",
@@ -317,6 +370,7 @@
 		"type": "volume",
 		"name": "Small Metal Blocks",
 		"id": "p1pbr_block_metal_32",
+		"rotationRestriction": "xyz",
 		"editorTexture": {
 			"filename": "__base__/blackMiniVoxel.png",
 			"size": 1,
@@ -347,6 +401,7 @@
 		"type": "volume",
 		"name": "Medium Metal Blocks",
 		"id": "p1pbr_block_metal_64",
+		"rotationRestriction": "xyz",
 		"editorTexture": {
 			"filename": "__base__/blackVoxel.png",
 			"size": 1,
@@ -377,6 +432,7 @@
 		"type": "volume",
 		"name": "Large Metal Blocks",
 		"id": "p1pbr_block_metal_128",
+		"rotationRestriction": "xyz",
 		"editorTexture": {
 			"filename": "__base__/blackVoxel.png",
 			"size": 2,

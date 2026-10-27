@@ -9,9 +9,9 @@ Certain instances like the recessed lighting and piston pit require my `lights.r
 Included is an example `.chamb` file that recreates Portal 1's Testchamber 09:
 |Puzzlemaker|In-Game|
 |-|-|
-|![alt](screenshots/puzzlemaker_DCKFDqGhD3.png)|![alt text](screenshots/20261026225436_1_crop.jpg)|
-|![alt](screenshots/puzzlemaker_w3oWQPOQoE.png)|![alt text](screenshots/20261026225447_1_crop.jpg)|
-|![alt](screenshots/puzzlemaker_rqvHLID7gx.png)|![alt text](screenshots/20261026225512_1_crop.jpg)|
-|![alt](screenshots/puzzlemaker_zQVF3T9qPH.png)|![alt text](screenshots/20261026225522_1_crop.jpg)|
-|![alt](screenshots/puzzlemaker_F0uU7cTcFM.png)|![alt text](screenshots/20261026225532_1_crop.jpg)|
-|![alt](screenshots/puzzlemaker_4gDCLxzIj2.png)|![alt text](screenshots/20261026225553_1_crop.jpg)|
+|![alt](screenshots/puzzlemaker_EqL76DA52Y.png)|![alt text](screenshots/20261026225436_1_crop.jpg)|
+|![alt](screenshots/puzzlemaker_EVNZWNmltc.png)|![alt text](screenshots/20261026225447_1_crop.jpg)|
+|![alt](screenshots/puzzlemaker_Fdaqtbrevp.png)|![alt text](screenshots/20261026225512_1_crop.jpg)|
+|![alt](screenshots/puzzlemaker_z5gpEpO7y2.png)|![alt text](screenshots/20261026225522_1_crop.jpg)|
+|![alt](screenshots/puzzlemaker_lNySUAVuYD.png)|![alt text](screenshots/20261026225532_1_crop.jpg)|
+|![alt](screenshots/puzzlemaker_q5rxbqXNUT.png)|![alt text](screenshots/20261026225553_1_crop.jpg)|

@@ -511,5 +511,46 @@
 			}
 		],
 		"snapMode": "mini-corner"
+	},
+	{
+		"type": "overlay",
+		"id": "p1pbr_signage",
+		"name": "P1 Signage Overlay",
+		"editorTexture": "__base__/exitSign.png",
+		"size": [
+			32,
+			32
+		],
+		"texture": "signage/{texture}",
+		"snapMode": "mini-center",
+		"keyvalues": [
+			{
+				"type": "drop-string",
+				"kv": "texture",
+				"defaultValue": 0,
+				"options": {
+					"Arrow": "signage_overlay_arrow",
+					"Cube Droper": "signage_overlay_boxdispenser",
+					"Cube Hurt": "signage_overlay_boxhurt",
+					"Cake": "signage_overlay_cake",
+					"Energy Ball Catcher": "signage_overlay_catcher",
+					"Companion Cube": "signage_overlay_companioncube",
+					"Companion Cube Broken": "signage_overlay_companioncube_broken",
+					"Dots 1": "signage_overlay_dots1",
+					"Dots 2": "signage_overlay_dots2",
+					"Dots 3": "signage_overlay_dots3",
+					"Dots 4": "signage_overlay_dots4",
+					"Energy Ball": "signage_overlay_energyball",
+					"Fling 1": "signage_overlay_fling1",
+					"Fling 2": "signage_overlay_fling2",
+					"Fountain": "signage_overlay_fountain",
+					"Incinerator": "signage_overlay_incinerator",
+					"Midair Fling 1": "signage_overlay_midair1",
+					"Midair Fling 2": "signage_overlay_midair2",
+					"Goo": "signage_overlay_toxic",
+					"Turret": "signage_overlay_turret"
+				}
+			}
+		]
 	}
 ]

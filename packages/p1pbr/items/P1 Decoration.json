@@ -9,31 +9,31 @@
 		"exportScript": "p1Window.lua",
 		"texSize": 512,
 		"thickness": 2,
-    "borders": [
-      {
-        "id": "left",
-        "editorTexture": "glassframeleft.png",
-        "texture": {
-          "filename": "EFFECTS/FIZZLER_L",
-          "size": 1024,
-          "alignment": "fit"
-        },
-        "minSize": 1,
-        "maxSize": 1
-      },
-      {
-        "id": "right",
-        "editorTexture": "glassframeright.png",
-        "texture": {
-          "filename": "EFFECTS/FIZZLER_R",
-          "size": 1024,
-          "alignment": "fit"
-        },
-        "texSize": 1024,
-        "minSize": 1,
-        "maxSize": 1
-      }
-    ],
+		"borders": [
+			{
+				"id": "left",
+				"editorTexture": "glassframeleft.png",
+				"texture": {
+					"filename": "EFFECTS/FIZZLER_L",
+					"size": 1024,
+					"alignment": "fit"
+				},
+				"minSize": 1,
+				"maxSize": 1
+			},
+			{
+				"id": "right",
+				"editorTexture": "glassframeright.png",
+				"texture": {
+					"filename": "EFFECTS/FIZZLER_R",
+					"size": 1024,
+					"alignment": "fit"
+				},
+				"texSize": 1024,
+				"minSize": 1,
+				"maxSize": 1
+			}
+		],
 		"minSize": [
 			0.5,
 			0.5
@@ -59,31 +59,31 @@
 		"exportScript": "p1DoorFrame.lua",
 		"texSize": 512,
 		"thickness": 2,
-    "borders": [
-      {
-        "id": "left",
-        "editorTexture": "frameleft.png",
-        "texture": {
-          "filename": "EFFECTS/FIZZLER_L",
-          "size": 1024,
-          "alignment": "fit"
-        },
-        "minSize": 1,
-        "maxSize": 1
-      },
-      {
-        "id": "right",
-        "editorTexture": "frameright.png",
-        "texture": {
-          "filename": "EFFECTS/FIZZLER_R",
-          "size": 1024,
-          "alignment": "fit"
-        },
-        "texSize": 1024,
-        "minSize": 1,
-        "maxSize": 1
-      }
-    ],
+		"borders": [
+			{
+				"id": "left",
+				"editorTexture": "frameleft.png",
+				"texture": {
+					"filename": "EFFECTS/FIZZLER_L",
+					"size": 1024,
+					"alignment": "fit"
+				},
+				"minSize": 1,
+				"maxSize": 1
+			},
+			{
+				"id": "right",
+				"editorTexture": "frameright.png",
+				"texture": {
+					"filename": "EFFECTS/FIZZLER_R",
+					"size": 1024,
+					"alignment": "fit"
+				},
+				"texSize": 1024,
+				"minSize": 1,
+				"maxSize": 1
+			}
+		],
 		"minSize": [
 			0.5,
 			0.5

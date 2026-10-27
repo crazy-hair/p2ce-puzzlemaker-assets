@@ -12154,6 +12154,30 @@
 				}],
 			"kv":	{
 			}
+		}, {
+			"index":	91,
+			"id":	"p1pbr_signage",
+			"package":	"p1pbr",
+			"hidden":	false,
+			"pos":	[124.25, 126, 132.25],
+			"rot":	[-90, 0, 0],
+			"snapDir":	2,
+			"outputs":	[],
+			"kv":	{
+				"texture":	4
+			}
+		}, {
+			"index":	92,
+			"id":	"p1pbr_signage",
+			"package":	"p1pbr",
+			"hidden":	false,
+			"pos":	[126.75, 132, 139.25],
+			"rot":	[89.999992370605469, -89.999992370605469, 0],
+			"snapDir":	3,
+			"outputs":	[],
+			"kv":	{
+				"texture":	4
+			}
 		}],
 	"antlines":	[{
 			"id":	0,
@@ -12225,7 +12249,7 @@
 		"filename":	"scripts/colorcorrection/cc_testchamber.raw"
 	},
 	"editor":	{
-		"cameraPos":	[129.87657165527344, 134.99629211425781, 146.74160766601562],
-		"cameraRot":	[-0.596996009349823, 125.87925720214844, 0]
+		"cameraPos":	[126.32277679443359, 130.05108642578125, 138.71676635742188],
+		"cameraRot":	[0.097004100680351257, 143.60137939453125, 0]
 	}
 }

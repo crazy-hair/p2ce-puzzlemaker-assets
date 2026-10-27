@@ -897,5 +897,79 @@
 			}
 		],
 		"snapMode": "corner"
+	},
+	{
+		"type": "entity",
+		"name": "P1 Incinerator",
+		"id": "p1pbr_incinerator",
+		"model": "incinerator.obj",
+		"mat": "laser-catcher.png",
+		"instance": "incinerator",
+		"deleteIntersectingVoxels": true,
+		"genMissingVoxels": false,
+		"snapMode": "mini-corner",
+		"bound1": [
+			-1,
+			-1,
+			-3.75
+		],
+		"bound2": [
+			1,
+			1,
+			1
+		],
+		"transform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				90,
+				0,
+				0
+			]
+		},
+		"editorTransform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				90,
+				90
+			]
+		},
+		"inputs": [
+			{
+				"name": "Open",
+				"trueInput": "instance:relay_open;Trigger",
+				"falseInput": "instance:relay_close;Trigger"
+			}
+		],
+		"outputs": [
+			{
+				"name": "On Cube Incinerated",
+				"trueOutput": "instance:relay_any_cube;OnTrigger",
+				"falseOutput": "none"
+			},
+			{
+				"name": "On Standard Cube Incinerated",
+				"trueOutput": "instance:trigger_standard;OnStartTouch",
+				"falseOutput": "none"
+			},
+			{
+				"name": "On Companion Cube Incinerated",
+				"trueOutput": "instance:trigger_companion;OnStartTouch",
+				"falseOutput": "none"
+			},
+			{
+				"name": "On Skull Cube Incinerated",
+				"trueOutput": "instance:trigger_skull;OnStartTouch",
+				"falseOutput": "none"
+			}
+		]
 	}
 ]

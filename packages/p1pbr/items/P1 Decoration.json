@@ -100,6 +100,56 @@
 		"transparent": true
 	},
 	{
+		"type": "panel",
+		"id": "p1pbr_window",
+		"name": "P1 Grating",
+		"editorCenterTexture": "glassframecenter.png",
+		"centerTexture": "GLASS/GLASSWINDOW_FROSTED_002",
+		"zTexture": "ANIM_WP/FRAMEWORK/BACKPANELS",
+		"exportScript": "p1Grating.lua",
+		"texSize": 512,
+		"thickness": 2,
+		"borders": [
+			{
+				"id": "left",
+				"editorTexture": "glassframeleft.png",
+				"texture": {
+					"filename": "EFFECTS/FIZZLER_L",
+					"size": 1024,
+					"alignment": "fit"
+				},
+				"minSize": 1,
+				"maxSize": 1
+			},
+			{
+				"id": "right",
+				"editorTexture": "glassframeright.png",
+				"texture": {
+					"filename": "EFFECTS/FIZZLER_R",
+					"size": 1024,
+					"alignment": "fit"
+				},
+				"texSize": 1024,
+				"minSize": 1,
+				"maxSize": 1
+			}
+		],
+		"minSize": [
+			0.5,
+			0.5
+		],
+		"maxSize": [
+			99999,
+			99999
+		],
+		"snapMode": "mini-center",
+		"defaultSize": [
+			2,
+			2
+		],
+		"transparent": true
+	},
+	{
 		"type": "entity",
 		"name": "P1 Piston Platform",
 		"id": "p1pbr_piston_platform",

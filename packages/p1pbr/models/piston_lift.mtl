@@ -1,15 +1,15 @@
-# Blender 5.1.0 MTL File: 'puzzlemaker_assets_009.blend'
+# Blender 5.1.0 MTL File: 'puzzlemaker_assets_012.blend'
 # www.blender.org
 
 newmtl glass
-Ns 10.000005
+Ns 1000.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
-Ks 0.100000 0.100000 0.100000
+Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.500000
-illum 2
+illum 9
 map_Kd glass.png
+map_d glass.png
 
 newmtl laser_catcher
 Ns 250.000000

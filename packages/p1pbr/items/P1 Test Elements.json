@@ -820,6 +820,132 @@
 	},
 	{
 		"type": "entity",
+		"name": "P1 Rotating Portalgun",
+		"id": "p1pbr_pgun_ped",
+		"model": "pgun_ped.obj",
+		"mat": "laser_catcher_mod.png",
+		"instance": "rotating_portalgun",
+		"deleteIntersectingVoxels": true,
+		"deleteIntersectingVoxelsEditor": false,
+		"snapMode": "mini-corner",
+		"bound1": [
+			-0.25,
+			-0.25,
+			-0.25
+		],
+		"bound2": [
+			0.25,
+			0.25,
+			1
+		],
+		"transform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				90,
+				0,
+				0
+			]
+		},
+		"editorTransform": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				90,
+				90
+			]
+		},
+		"keyvalues": [
+			{
+				"name": "Autoportal Color",
+				"kv": "portalColor",
+				"type": "drop-int",
+				"defaultValue": 0,
+				"options": {
+					"Blue": 0,
+					"Orange": 1
+				}
+			},
+			{
+				"name": "Rotation Direction",
+				"kv": "rotationDistance",
+				"type": "drop-int",
+				"defaultValue": 0,
+				"options": {
+					"Counter Clockwise": 90,
+					"Clockwise": -90
+				}
+			},
+			{
+				"name": "Can Fire Blue Portals",
+				"kv": "blueEnabled",
+				"type": "bool",
+				"defaultValue": true
+			},
+			{
+				"name": "Can Fire Orange Portals",
+				"kv": "orangeEnabled",
+				"type": "bool",
+				"defaultValue": false
+			},
+			{
+				"name": "Travel Mode",
+				"kv": "travelMode",
+				"type": "drop-int",
+				"defaultValue": 1,
+				"options": {
+					"Instant": 1,
+					"Projectile": 2
+				}
+			},
+			{
+				"name": "Use Custom Colors",
+				"kv": "customEnabled",
+				"type": "bool",
+				"defaultValue": true
+			},
+			{
+				"name": "Blue Portal Custom Color",
+				"kv": "blueColor",
+				"type": "string",
+				"defaultValue": "64 160 255"
+			},
+			{
+				"name": "Orange Portal Custom Color",
+				"kv": "orangeColor",
+				"type": "string",
+				"defaultValue": "255 160 32"
+			},
+			{
+				"name": "Autostart",
+				"kv": "autoStart",
+				"type": "bool",
+				"defaultValue": true
+			},
+			{
+				"name": "Auto Rotate",
+				"kv": "autoRotate",
+				"type": "bool",
+				"defaultValue": true
+			}
+		],
+		"inputs": [
+			{
+				"name": "Rotate",
+				"trueInput": "instance:pedestal_rotating_door;Open",
+				"falseInput": "none"
+			}
+		]
+	},
+	{
+		"type": "entity",
 		"name": "P1 Victory Lift",
 		"id": "p1pbr_piston_lift",
 		"model": "piston_lift.obj",

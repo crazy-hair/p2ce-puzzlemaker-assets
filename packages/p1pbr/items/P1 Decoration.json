@@ -502,7 +502,6 @@
 		"type": "volume",
 		"name": "P1 Concrete Wall",
 		"id": "p1pbr_block_concrete",
-		"rotationRestriction": "xyz",
 		"editorTexture": "__base__/whiteVoxel.png",
 		"textures": {
 			"top": "p1pbr/concrete/concrete_modular_wall001a",
@@ -529,7 +528,6 @@
 		"type": "volume",
 		"name": "P1 Small Metal Blocks",
 		"id": "p1pbr_block_metal_32",
-		"rotationRestriction": "xyz",
 		"editorTexture": {
 			"filename": "__base__/blackMiniVoxel.png",
 			"size": 1,
@@ -560,7 +558,6 @@
 		"type": "volume",
 		"name": "P1 Medium Metal Blocks",
 		"id": "p1pbr_block_metal_64",
-		"rotationRestriction": "xyz",
 		"editorTexture": {
 			"filename": "__base__/blackVoxel.png",
 			"size": 1,
@@ -591,7 +588,6 @@
 		"type": "volume",
 		"name": "P1 Large Metal Blocks",
 		"id": "p1pbr_block_metal_128",
-		"rotationRestriction": "xyz",
 		"editorTexture": {
 			"filename": "__base__/blackVoxel.png",
 			"size": 2,

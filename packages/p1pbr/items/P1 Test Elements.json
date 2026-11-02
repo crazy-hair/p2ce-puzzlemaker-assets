@@ -942,6 +942,13 @@
 				"trueInput": "instance:pedestal_rotating_door;Open",
 				"falseInput": "none"
 			}
+		],
+		"outputs": [
+			{
+				"name": "On Picked Up",
+				"trueOutput": "instance:pedestal_gun;OnPlayerPickup",
+				"falseOutput": "none"
+			}
 		]
 	},
 	{

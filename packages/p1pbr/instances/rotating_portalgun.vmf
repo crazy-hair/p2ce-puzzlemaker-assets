@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10903"
-	"mapversion" "42"
+	"mapversion" "43"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -23,8 +23,8 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(4.53689 -12.3722 60.1301)"
-			"angle" "[41.9998 74.3993 0]"
+			"position" "(37.1662 -38.9967 81.5701)"
+			"angle" "[23.1998 109.199 0]"
 		}
 		v1
 		{
@@ -49,7 +49,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "42"
+	"mapversion" "43"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1955,7 +1955,7 @@ entity
 	"targetname" "branch_autorotate"
 	connections
 	{
-		"OnTrue" "pedestal_rotating_doorAddOutputOnFullyClosed !self:Open::40-1"
+		"OnTrue" "pedestal_rotating_doorAddOutputOnFullyClosed !self:Open::30-1"
 	}
 	"origin" "16 0 55"
 	editor

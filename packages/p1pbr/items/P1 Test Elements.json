@@ -909,7 +909,7 @@
 				"name": "Use Custom Colors",
 				"kv": "customEnabled",
 				"type": "bool",
-				"defaultValue": true
+				"defaultValue": false
 			},
 			{
 				"name": "Blue Portal Custom Color",

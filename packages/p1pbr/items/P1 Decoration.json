@@ -101,6 +101,56 @@
 	},
 	{
 		"type": "panel",
+		"id": "p1pbr_frame",
+		"name": "P1 Frame",
+		"editorCenterTexture": "framecenter.png",
+		"centerTexture": "GLASS/GLASSWINDOW_FROSTED_002",
+		"zTexture": "ANIM_WP/FRAMEWORK/BACKPANELS",
+		"exportScript": "p1Frame.lua",
+		"texSize": 512,
+		"thickness": 2,
+		"borders": [
+			{
+				"id": "left",
+				"editorTexture": "frameleft.png",
+				"texture": {
+					"filename": "EFFECTS/FIZZLER_L",
+					"size": 1024,
+					"alignment": "fit"
+				},
+				"minSize": 0.25,
+				"maxSize": 0.25
+			},
+			{
+				"id": "right",
+				"editorTexture": "frameright.png",
+				"texture": {
+					"filename": "EFFECTS/FIZZLER_R",
+					"size": 1024,
+					"alignment": "fit"
+				},
+				"texSize": 1024,
+				"minSize": 0.25,
+				"maxSize": 0.25
+			}
+		],
+		"minSize": [
+			0.25,
+			0.25
+		],
+		"maxSize": [
+			99999,
+			99999
+		],
+		"snapMode": "mini-center",
+		"defaultSize": [
+			0.5,
+			0.5
+		],
+		"transparent": true
+	},
+	{
+		"type": "panel",
 		"id": "p1pbr_window",
 		"name": "P1 Grating",
 		"editorCenterTexture": "glassframecenter.png",
@@ -504,8 +554,8 @@
 		"id": "p1pbr_block_concrete",
 		"editorTexture": "__base__/whiteVoxel.png",
 		"textures": {
-			"top": "p1pbr/concrete/concrete_modular_wall001a",
-			"bottom": "p1pbr/concrete/concrete_modular_wall001a",
+			"top": "p1pbr/concrete/concrete_modular_floor001a",
+			"bottom": "p1pbr/concrete/concrete_modular_ceiling001a",
 			"left": "p1pbr/concrete/concrete_modular_wall001a",
 			"right": "p1pbr/concrete/concrete_modular_wall001a",
 			"front": "p1pbr/concrete/concrete_modular_wall001a",

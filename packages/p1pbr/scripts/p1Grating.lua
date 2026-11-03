@@ -14,6 +14,14 @@ local rightBrush = Brush.new({ 0, 0, 0 }, { 4 / 64, size[2], 4 / 64});
 local topBrush = Brush.new({ 0, 0, 0 }, { size[1] - (8 / 64), 4 / 64, 4 / 64 });
 local bottomBrush = Brush.new({ 0, 0, 0 }, { size[1] - (8 / 64), 4 / 64, 4 / 64 });
 
+local vertOps = {
+  alignment = TextureAlignment.BottomLeft,
+  rotation = 90
+};
+local horizOps = {
+  alignment = TextureAlignment.BottomLeft,
+};
+
 for i = 0, 5 do
   grateBrush:setTexture(i, "p1pbr/metal/metalgrate018");
 end
@@ -22,29 +30,29 @@ leftBrush:setTexture(0, "p1pbr/plastic/plasticwall001a");
 leftBrush:setTexture(1, "p1pbr/plastic/plasticwall001a");
 leftBrush:setTexture(2, "p1pbr/plastic/plasticwall001a");
 leftBrush:setTexture(3, "p1pbr/plastic/plasticwall001a");
-leftBrush:setTexture(4, "p1pbr/plastic/plasticwall004a");
-leftBrush:setTexture(5, "p1pbr/plastic/plasticwall004a");
+leftBrush:setTexture(4, "p1pbr/plastic/plasticwall004a", vertOps);
+leftBrush:setTexture(5, "p1pbr/plastic/plasticwall004a", vertOps);
 
 rightBrush:setTexture(0, "p1pbr/plastic/plasticwall001a");
 rightBrush:setTexture(1, "p1pbr/plastic/plasticwall001a");
 rightBrush:setTexture(2, "p1pbr/plastic/plasticwall001a");
 rightBrush:setTexture(3, "p1pbr/plastic/plasticwall001a");
-rightBrush:setTexture(4, "p1pbr/plastic/plasticwall004a");
-rightBrush:setTexture(5, "p1pbr/plastic/plasticwall004a");
+rightBrush:setTexture(4, "p1pbr/plastic/plasticwall004a", vertOps);
+rightBrush:setTexture(5, "p1pbr/plastic/plasticwall004a", vertOps);
 
 topBrush:setTexture(0, "p1pbr/plastic/plasticwall001a");
 topBrush:setTexture(1, "p1pbr/plastic/plasticwall001a");
 topBrush:setTexture(2, "p1pbr/plastic/plasticwall001a");
 topBrush:setTexture(3, "p1pbr/plastic/plasticwall001a");
-topBrush:setTexture(4, "p1pbr/plastic/plasticwall004a");
-topBrush:setTexture(5, "p1pbr/plastic/plasticwall004a");
+topBrush:setTexture(4, "p1pbr/plastic/plasticwall004a", horizOps);
+topBrush:setTexture(5, "p1pbr/plastic/plasticwall004a", horizOps);
 
 bottomBrush:setTexture(0, "p1pbr/plastic/plasticwall001a");
 bottomBrush:setTexture(1, "p1pbr/plastic/plasticwall001a");
 bottomBrush:setTexture(2, "p1pbr/plastic/plasticwall001a");
 bottomBrush:setTexture(3, "p1pbr/plastic/plasticwall001a");
-bottomBrush:setTexture(4, "p1pbr/plastic/plasticwall004a");
-bottomBrush:setTexture(5, "p1pbr/plastic/plasticwall004a");
+bottomBrush:setTexture(4, "p1pbr/plastic/plasticwall004a", horizOps);
+bottomBrush:setTexture(5, "p1pbr/plastic/plasticwall004a", horizOps);
 
 grateBrush:transform({ 4 / 64, -2 / 64, 4 / 64 }, { 90, 0, 0 });
 grateBrush:transform(pos, rot);

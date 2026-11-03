@@ -9201,7 +9201,7 @@
 			"package":	"p1pbr",
 			"hidden":	false,
 			"pos":	[13, 8, 15],
-			"rot":	[-90, 0, 0],
+			"rot":	[0, 0, 0],
 			"snapDir":	6,
 			"size":	{
 				"x":	2,
@@ -9217,7 +9217,7 @@
 			"package":	"p1pbr",
 			"hidden":	false,
 			"pos":	[9, 8, 15],
-			"rot":	[-90, 0, 0],
+			"rot":	[0, 0, 0],
 			"snapDir":	6,
 			"size":	{
 				"x":	2,
@@ -9232,9 +9232,9 @@
 			"id":	"p1pbr_block_metal_64",
 			"package":	"p1pbr",
 			"hidden":	false,
-			"pos":	[9, 10, 15.5],
-			"rot":	[5.0089565775124356e-06, 90, 90],
-			"snapDir":	6,
+			"pos":	[9, 10, 15],
+			"rot":	[0, 0, 0],
+			"snapDir":	0,
 			"size":	{
 				"x":	2,
 				"y":	2,
@@ -9248,9 +9248,9 @@
 			"id":	"p1pbr_block_metal_64",
 			"package":	"p1pbr",
 			"hidden":	false,
-			"pos":	[15, 10, 15],
-			"rot":	[0, -90, 90],
-			"snapDir":	6,
+			"pos":	[13, 10, 15],
+			"rot":	[0, 0, 0],
+			"snapDir":	1,
 			"size":	{
 				"x":	2,
 				"y":	2,
@@ -9265,7 +9265,7 @@
 			"package":	"p1pbr",
 			"hidden":	false,
 			"pos":	[11, 10, 15],
-			"rot":	[-90, 0, 0],
+			"rot":	[0, 0, 0],
 			"snapDir":	6,
 			"size":	{
 				"x":	2,
@@ -9281,7 +9281,7 @@
 			"package":	"p1pbr",
 			"hidden":	false,
 			"pos":	[11, 10.5, 15],
-			"rot":	[-90, 0, 0],
+			"rot":	[0, 0, 0],
 			"snapDir":	6,
 			"size":	{
 				"x":	0.5,
@@ -9297,7 +9297,7 @@
 			"package":	"p1pbr",
 			"hidden":	false,
 			"pos":	[12.5, 10.5, 15],
-			"rot":	[-90, 0, 0],
+			"rot":	[0, 0, 0],
 			"snapDir":	6,
 			"size":	{
 				"x":	0.5,
@@ -9313,7 +9313,7 @@
 			"package":	"p1pbr",
 			"hidden":	false,
 			"pos":	[11, 11.5, 15],
-			"rot":	[-90, 0, 0],
+			"rot":	[0, 0, 0],
 			"snapDir":	6,
 			"size":	{
 				"x":	2,
@@ -9869,7 +9869,7 @@
 			"package":	"logic",
 			"hidden":	false,
 			"pos":	[7, 8, 11],
-			"rot":	[-90, 0, 0],
+			"rot":	[0, 0, 0],
 			"snapDir":	6,
 			"size":	{
 				"x":	1,
@@ -9938,7 +9938,7 @@
 			"package":	"crazy_customs",
 			"hidden":	false,
 			"pos":	[9, 8, 9],
-			"rot":	[-90, 0, 0],
+			"rot":	[0, 0, 0],
 			"snapDir":	6,
 			"size":	{
 				"x":	8,
@@ -9954,7 +9954,7 @@
 			"package":	"crazy_customs",
 			"hidden":	false,
 			"pos":	[9, 8, 15.5],
-			"rot":	[-90, 0, 0],
+			"rot":	[0, 0, 0],
 			"snapDir":	6,
 			"size":	{
 				"x":	6,
@@ -9983,7 +9983,7 @@
 			"package":	"crazy_customs",
 			"hidden":	false,
 			"pos":	[11, 8, 23.5],
-			"rot":	[-89.999992370605469, 0, 0],
+			"rot":	[0, 0, 0],
 			"snapDir":	6,
 			"size":	{
 				"x":	2,
@@ -10253,15 +10253,18 @@
 			"segments":	[{
 					"pos":	[13.0625, 8, 18.0625],
 					"rot":	[-89.999992370605469, -89.999992370605469, 0],
-					"length":	4
+					"length":	4,
+					"cornerMode":	0
 				}, {
 					"pos":	[13.4375, 8, 18.1875],
 					"rot":	[-89.999992370605469, 180, 0],
-					"length":	39
+					"length":	39,
+					"cornerMode":	0
 				}, {
 					"pos":	[13.4375, 8.0625, 23],
 					"rot":	[0, 180, 0],
-					"length":	10
+					"length":	10,
+					"cornerMode":	0
 				}]
 		}],
 	"settings":	{
@@ -10289,7 +10292,7 @@
 		"filename":	"scripts/colorcorrection/cc_testchamber.raw"
 	},
 	"editor":	{
-		"cameraPos":	[11.30382251739502, 10.482648849487305, 12.505270004272461],
-		"cameraRot":	[-6.988987922668457, 155.49981689453125, 0]
+		"cameraPos":	[1.8644809722900391, 14.556790351867676, 21.242544174194336],
+		"cameraRot":	[-6.745030403137207, 256.90228271484375, 0]
 	}
 }

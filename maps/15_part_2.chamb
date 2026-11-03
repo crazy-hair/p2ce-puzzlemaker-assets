@@ -8745,7 +8745,7 @@
 			"package":	"p1pbr",
 			"hidden":	false,
 			"pos":	[125, 126, 136],
-			"rot":	[-90, 0, 0],
+			"rot":	[0, 0, 0],
 			"snapDir":	2,
 			"size":	{
 				"x":	0.5,
@@ -9307,9 +9307,9 @@
 			"index":	43,
 			"id":	"crazy_parallax_obb",
 			"package":	"crazy_customs",
-			"hidden":	false,
+			"hidden":	true,
 			"pos":	[119, 126, 132],
-			"rot":	[-90, 0, 0],
+			"rot":	[0, 0, 0],
 			"snapDir":	2,
 			"size":	{
 				"x":	12,
@@ -9323,9 +9323,9 @@
 			"index":	44,
 			"id":	"crazy_parallax_obb",
 			"package":	"crazy_customs",
-			"hidden":	false,
+			"hidden":	true,
 			"pos":	[119, 126, 137],
-			"rot":	[-90, 0, 0],
+			"rot":	[0, 0, 0],
 			"snapDir":	2,
 			"size":	{
 				"x":	12,
@@ -9339,9 +9339,9 @@
 			"index":	45,
 			"id":	"crazy_parallax_obb",
 			"package":	"crazy_customs",
-			"hidden":	false,
+			"hidden":	true,
 			"pos":	[125.5, 126, 142],
-			"rot":	[-89.999992370605469, 89.999992370605469, 0],
+			"rot":	[0, 89.999992370605469, 0],
 			"snapDir":	2,
 			"size":	{
 				"x":	10,
@@ -9355,9 +9355,9 @@
 			"index":	46,
 			"id":	"crazy_parallax_obb",
 			"package":	"crazy_customs",
-			"hidden":	false,
+			"hidden":	true,
 			"pos":	[134, 126, 133],
-			"rot":	[-89.999992370605469, -89.999992370605469, 0],
+			"rot":	[0, -89.999992370605469, 0],
 			"snapDir":	2,
 			"size":	{
 				"x":	2,
@@ -9372,13 +9372,13 @@
 			"id":	"crazy_parallax_obb",
 			"package":	"crazy_customs",
 			"hidden":	false,
-			"pos":	[136, 128, 133],
-			"rot":	[-89.999992370605469, -89.999992370605469, 0],
+			"pos":	[137, 128, 133],
+			"rot":	[0, -89.999992370605469, 0],
 			"snapDir":	2,
 			"size":	{
 				"x":	2,
 				"y":	2,
-				"z":	4
+				"z":	5
 			},
 			"outputs":	[],
 			"kv":	{
@@ -9652,19 +9652,23 @@
 			"segments":	[{
 					"pos":	[122.5625, 126, 135.0625],
 					"rot":	[-89.999992370605469, -89.999992370605469, 0],
-					"length":	64
+					"length":	64,
+					"cornerMode":	0
 				}, {
 					"pos":	[130.5625, 126, 135.0625],
 					"rot":	[-90, 0, 0],
-					"length":	8
+					"length":	8,
+					"cornerMode":	0
 				}, {
 					"pos":	[130.5625, 126, 134.0625],
 					"rot":	[-89.999992370605469, -89.999992370605469, 0],
-					"length":	11
+					"length":	11,
+					"cornerMode":	0
 				}, {
 					"pos":	[131.9375, 126, 134.0625],
 					"rot":	[-90, 0, 0],
-					"length":	1
+					"length":	1,
+					"cornerMode":	0
 				}]
 		}],
 	"settings":	{
@@ -9692,7 +9696,7 @@
 		"filename":	"scripts/colorcorrection/cc_testchamber.raw"
 	},
 	"editor":	{
-		"cameraPos":	[118.71929931640625, 138.63236999511719, 140.86148071289062],
-		"cameraRot":	[-0.8945048451423645, 130.83671569824219, 0]
+		"cameraPos":	[132.51560974121094, 132.59065246582031, 138.458984375],
+		"cameraRot":	[-0.68250828981399536, 145.00689697265625, 0]
 	}
 }

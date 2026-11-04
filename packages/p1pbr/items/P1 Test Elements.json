@@ -134,17 +134,17 @@
 		},
 		"keyvalues": [
 			{
-				"name": "Spotlight Outer Angle",
-				"kv": "spotlight_outer_angle",
-				"type": "float",
-				"defaultValue": 5
+				"name": "Is NOT Timer",
+				"kv": "isNotTimer",
+				"type": "bool",
+				"defaultValue": true
 			},
 			{
-				"name": "Spotlight Inner Angle",
-				"kv": "spotlight_inner_angle",
+				"name": "Timer Reset Time",
+				"kv": "resetTime",
 				"type": "float",
-				"defaultValue": 1
-			},
+				"defaultValue": 3.9
+			},	
 			{
 				"name": "Protruding",
 				"kv": "extruded",
@@ -176,7 +176,19 @@
 				}
 			},
 			{
-				"name": "Spotlight Brightness",
+				"name": "Spotlight Outer Angle",
+				"kv": "spotlight_outer_angle",
+				"type": "float",
+				"defaultValue": 5
+			},
+			{
+				"name": "Spotlight Inner Angle",
+				"kv": "spotlight_inner_angle",
+				"type": "float",
+				"defaultValue": 1
+			},
+			{
+				"name": "Spotlight Color",
 				"kv": "spotlight_rt_brightness",
 				"type": "string",
 				"defaultValue": "255 255 255 2000"
@@ -186,13 +198,26 @@
 				"kv": "hard_radius_override",
 				"type": "int",
 				"defaultValue": 1000
+			},
+			{
+				"name": "Effect Color",
+				"kv": "spotlightColor",
+				"type": "string",
+				"defaultValue": "218 76 26 0"
+			}
+		],
+		"inputs": [
+			{
+				"name": "Reset",
+				"trueInput": "instance:relay_reset;Trigger",
+				"falseInput": "none"
 			}
 		],
 		"outputs": [
 			{
 				"name": "On Ball Caught",
 				"trueOutput": "instance:ball_trap;OnTrigger",
-				"falseOutput": "none"
+				"falseOutput": "instance:relay_reset;OnTrigger"
 			}
 		]
 	},
@@ -1016,7 +1041,7 @@
 			{
 				"name": "Enable",
 				"trueInput": "instance:relay_lift_enable;Trigger",
-				"falseInput": "none"
+				"falseInput": "instance:relay_lift_disable_top;Trigger"
 			},
 			{
 				"name": "Disable, Return to Bottom",

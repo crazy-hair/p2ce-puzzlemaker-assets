@@ -151,7 +151,7 @@
 	},
 	{
 		"type": "panel",
-		"id": "p1pbr_window",
+		"id": "p1pbr_grate",
 		"name": "P1 Grating",
 		"editorCenterTexture": "glassframecenter.png",
 		"centerTexture": "GLASS/GLASSWINDOW_FROSTED_002",

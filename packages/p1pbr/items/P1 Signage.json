@@ -521,7 +521,7 @@
 			32,
 			32
 		],
-		"texture": "signage/{texture}",
+		"texture": "p1pbr/signage/{texture}",
 		"snapMode": "mini-center",
 		"keyvalues": [
 			{
